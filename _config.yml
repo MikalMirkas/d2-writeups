@@ -1,3 +1,4 @@
-theme: jekyll-theme-midnight
 title: vidya writeups
 description: long writeups for games that someone else will probably find useful
+permalink: /:categories/:title:output_ext
+theme: jekyll-theme-midnight
