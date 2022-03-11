@@ -118,7 +118,7 @@ Decoded instructions:
 
 ---
 
-# Acquisition ![Unstoppable Champion](/vidya-writeups/assets/images/Unstoppable_Champion_icon.png){:height="20px" width="20px"} {#acquisition} 
+# Acquisition ![Unstoppable Champions]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="20px" width="20px"} {#acquisition} 
 
 Acquisition is an introductory encounter to the raid, teaching the main bulk of the mechanics while racing the clock. The encounter starts when you open the doors using the control mechanism in the north part of the room.
 
@@ -162,7 +162,7 @@ One is in front of each obelisk, for a total of three of them in the raid.
 
 : Inside each room that is shown by the glyph board, there are two Glyphkeepers, one on each side of the room. Each side of the room has a symbol that corresponds with a display - it will always be light or dark. Killing the GK that:
 - Corresponds to the called side: Spawns an additional glyph on each obelisk.
-- Does not correspond: Spawns an ![Unstoppable Champion](/vidya-writeups/assets/images/Unstoppable_Champion_icon.png){:height="12px" width="12px"} abomination outside for each obelisk, these spawn locations are static.
+- Does not correspond: Spawns an ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} abomination outside for each obelisk, these spawn locations are static.
 
 : Regardless of which is killed, they will drop a glyph pillar (empty, glyph, empty) and reveal 1 glyph on each obelisk. The pillar from the GK of the called side needs to be relayed to the team for the obelisk offering section. **You must kill both**, and presumably killing both partially empties their respective obelisk.
 
@@ -271,7 +271,7 @@ This is where your flawlesses will die; Warlocks in particular want practice wit
 
 ---
 
-# Exhibition ![Overload Champions](/vidya-writeups/assets/images/Overload_Champion_icon.png){:height="20px" width="20px"} {#exhibition}
+# Exhibition ![Overload Champions]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="20px" width="20px"} {#exhibition}
 Exhibition is a mob-heavy encounter where you juggle artifacts (known as relics) to deal with weapon-immune enemies and cleansing debuffs while racing the clock. Encounter starts by taking the Resonant Shard from its terminal / pedestal.
 
 ![Exhibition Encounter Map](https://cdn.discordapp.com/attachments/948006022306463804/951287013506707466/IMG_7825.webp)
@@ -308,7 +308,7 @@ Deposit all three relics on the fifth and final series of terminals.
 ### Mechanically Relevant Enemies
 **Glyphkeepers**
 : A new Glyphkeeper type is introduced in this encounter, the Resonant Glyphkeeper - an Ultra Taken Phalanx.
-: Glyphkeepers spawn when all the Taken Hobgoblins on their side have been slain, presumably including the ![Overload Champion](/vidya-writeups/assets/images/Overload_Champion_icon.png){:height="12px" width="12px"}s. A text line will appear: "Glyphkeepers approach..."
+: Glyphkeepers spawn when all the Taken Hobgoblins on their side have been slain, presumably including the ![Overload Champion]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"}s. A text line will appear: "Glyphkeepers approach..."
 : Glyphkeepers spawn in sets of 2, 1 Scorn and 1 Taken. Every room that doesn't have a terminal in it will have 2 sets, 1 otherwise.
 : Killing either of these Glyphkeepers will drop a glyph totem. The totem from the Taken GK can **only be read by a relic holder** and vice-versa. Killing both of them will spawn a Disciple's Hourglass at the chokepoint of the current non-terminal room. Additionally, if it is the first set of each non-terminal room, their deaths will spawn more Taken Hobgoblins.
 
