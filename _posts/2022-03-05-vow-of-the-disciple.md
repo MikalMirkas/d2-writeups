@@ -11,7 +11,7 @@ tags: raids
 # Prereading
 
 - This isn't a guide, this is a mechanic explanation. There's many ways to handle these mechanics - do whatever's best for your raid team.
-- Must have completed the TWQ campaign quest to access the raid, per character.
+- Must have access to the Throne World region to access the raid.
 - Light for final encounter is {{power}}.
 - 2 hidden chests (gives shader triumph), 1 bonus chest on boss from raid secret.
 - Brief overview on mechanics: obtain or protect mechanic eligibility by either killing named enemies, getting and using buffs with glyph callouts or calling out floating glyphs.
