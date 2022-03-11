@@ -8,6 +8,9 @@ tags: raids
 {% else %}
 {% assign power = 1550 %}
 {% endif %}
+
+Vow of the Disciple is the end result of blending encounters from Last Wish, Leviathan, Vault of Glass, Crown of Sorrow and Risk of Rain 2's final boss.
+
 # Prereading
 
 - This isn't a guide, this is a mechanic explanation. There's many ways to handle these mechanics - do whatever's best for your raid team.
@@ -525,3 +528,4 @@ One weapon with Deepsight Resonance can be purchased per week, per account.
 - 2022-03-06: Cleared the raid, started compiling information
 - 2022-03-08: Finished initial guide on Discord
 - 2022-03-10: Migrated guide to Jekyll for better shareability, cleaned up descriptions and added embedded pictures.
+- 2022-03-10: Added several corrections and a preamble.
