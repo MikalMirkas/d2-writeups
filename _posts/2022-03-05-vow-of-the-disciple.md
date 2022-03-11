@@ -20,7 +20,7 @@ tags: raids
 ## Ammo Generation
 This section is for you, Lucent Finisher and Aeon users.
 - No Hive Lightbearers are in the raid. Only Scorn and Taken enemies appear (no Taken bosses, sorry Taken Spec fans).
-- Champions are in E2 and E4.
+- Champions are in E1 and E3.
 - Ultras are in every encounter, but they are far away from allies (E1, E2, E3 kind of) or functionally unkillable (E2) in every encounter but E4.
 
 Realistically, you won't need to use either outside of Master or Contest mode.
