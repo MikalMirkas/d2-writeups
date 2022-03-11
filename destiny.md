@@ -1,5 +1,6 @@
 ---
-layout: page
-title: "Destiny 2"
+title: "Destiny"
 permalink: /destiny/
 ---
+
+{% include list_posts.md name="destiny" %}
