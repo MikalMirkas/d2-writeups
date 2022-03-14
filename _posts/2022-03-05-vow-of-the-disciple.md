@@ -154,10 +154,9 @@ One is in front of each obelisk, for a total of three of them in the raid.
 **Obelisks**
 ![Obelisk](https://cdn.discordapp.com/attachments/937646044714504222/949739827258085456/Destiny_2_Screenshot_2022.03.05_-_13.45.30.12.png)
 : The obelisk is the primary wipe mechanic of the first couple of fights. It starts out black and fills up orange. It fills up over time and fills up faster when shot by enemies, acting as a raid clock. When it fills up, the raid wipes. It presumably gets emptied by killing Glyphkeepers.
-
 : There are 9 glyph locations on the obelisks that can be interacted by shooting them. When a Glyphkeeper dies, each obelisk gets 1 glyph, presumably shooting the one that matches the bottom glyph board symbol spawns 2 each.
-
-: The glyphs on obelisks become relevant when all obelisks are fully populated with 9 glyphs - a text prompt will appear, saying "The obelisk awaits your offering..." and resets all obelisk timers. One **and only one** obelisk has all glyphs from all 3 correct GKs. Shooting the correct glyph will partially illuminate the obelisk. Keeping the obelisk fully lit by shooting all 3 glyphs multiple times will cause the obelisk to accept the offering and progress the encounter. Failure to shoot all 3 in rapid succession or failing to shoot the correct 3 within roughly 10 seconds will increment the obelisk by 1/3rd and post the text "The obelisk rejects your offering...". Failing it 3 times will cause the obelisk to fully fill, wiping the raid.
+- When all 9 glyph locations fill, a text prompt in the kill feed will appear with the text, "The obelisk awaits your offering..." and resets all obelisk timers. One **and only one** obelisk has all glyphs from all 3 correct GKs and will only be the correct obelisk **once** per encounter.
+- Shooting the correct glyph will partially illuminate the obelisk. Keeping the obelisk fully lit by shooting all 3 glyphs multiple times will cause the obelisk to accept the offering and progress the encounter. Failure to shoot all 3 in rapid succession or failing to shoot the correct 3 within roughly 10 seconds will increment the obelisk by 1/3rd and post the text "The obelisk rejects your offering...".
 
 ### Mechanically Relevant Enemies
 **Glyphkeepers**
@@ -167,12 +166,15 @@ One is in front of each obelisk, for a total of three of them in the raid.
 - Corresponds to the called side: Spawns an additional glyph on each obelisk.
 - Does not correspond: Spawns an ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} abomination outside for each obelisk, these spawn locations are static.
 
-: Regardless of which is killed, they will drop a glyph pillar (empty, glyph, empty) and reveal 1 glyph on each obelisk. The pillar from the GK of the called side needs to be relayed to the team for the obelisk offering section. **You must kill both**, and presumably killing both partially empties their respective obelisk.
+: Regardless of which is killed, they will reveal a glyph pillar located at their spawn location (empty, glyph, empty) and reveal 1 glyph on each obelisk. The pillar from the GK of the called side needs to be relayed to the team for the obelisk offering section. **You must kill both**, and presumably killing both partially empties their respective obelisk.
 
 **Disciple's Compass**
 : The compass is a major Taken Knight that will appear in one of 10 spots (refer to the map).
 
 : On death, reveals the second glyph on its relevant glyph board and the first glyph on an empty glyph board, if applicable. Out of its spawn locations, the top portion of the glyph board designates which side of the map it has spawned on. It may partially empty the respective obelisk on death.
+
+**Abored Adherent**
+: Abored Adherents are major Scorn Lurkers that accompany spawn sets. In E1, it accompanies every normal spawn in a set of 2. They are able to target the obelisk in addition to players. AAs deal large damage to obelisks, roughly 1/18th of its health per hit.
 
 ## Rewards
 One of the following:
@@ -522,10 +524,3 @@ Collective Obligation, unknown drop chance
 ## Spoils Chest
 One weapon with Deepsight Resonance can be purchased per week, per account.
 
----
-
-# Changelog
-- 2022-03-06: Cleared the raid, started compiling information
-- 2022-03-08: Finished initial guide on Discord
-- 2022-03-10: Migrated guide to Jekyll for better shareability, cleaned up descriptions and added embedded pictures.
-- 2022-03-10: Added several corrections and a preamble.
