@@ -90,7 +90,7 @@ When you first enter the pyramid, a glyph totem/board spawns with 3 glyphs on it
 - Light: Floor after Caretaker that has the first fragment for the platforming segment. Door is on the wall, shard is hidden in the ceiling.
 - Stop: Third fragment for the platforming segment. Directly beneath the hidden chest room.
 - Guardian: After Exhibition, take the left staircase up one level then turn left and go to the edge. Shard is floating in the air. Door is hidden above the stairs, behind a pillar.
-- Kill: On the third floor after Exhibition, there are rooms with 2 Taken Centurions. Shard is floating on the wall facing final encounter. Room is in one of the Centurion arenas.
+- Kill: On the third floor after Exhibition, there are rooms with 2 Taken Centurions. Shard is floating on the back wall. Door is in one of the right-side rooms.
 
 ## Glyph Room {#glyphs}
 There are 27 interactables that each have a glyph. Walking near it will change the radar location to the name of the corresponding glyph - these need to be memorized for callouts. There is a 28th glyph which is just an empty circle with an ordinary black background, which denotes a lack of a glyph.
@@ -153,28 +153,31 @@ One is in front of each obelisk, for a total of three of them in the raid.
 
 **Obelisks**
 ![Obelisk](https://cdn.discordapp.com/attachments/937646044714504222/949739827258085456/Destiny_2_Screenshot_2022.03.05_-_13.45.30.12.png)
-: The obelisk is the primary wipe mechanic of the first couple of fights. It starts out black and fills up orange. It fills up over time and fills up faster when shot by enemies, acting as a raid clock. When it fills up, the raid wipes. It presumably gets emptied by killing Glyphkeepers.
+: The obelisk is the primary wipe mechanic of the first couple of fights. It starts out black and fills up orange. It fills up over time and fills up faster when shot by enemies, acting as a raid clock. When it fills up, the raid wipes. It gets emptied by progressing the Glyph board.
 : There are 9 glyph locations on the obelisks that can be interacted by shooting them. When a Glyphkeeper dies, each obelisk gets 1 glyph, presumably shooting the one that matches the bottom glyph board symbol spawns 2 each.
 - When all 9 glyph locations fill, a text prompt in the kill feed will appear with the text, "The obelisk awaits your offering..." and resets all obelisk timers. One **and only one** obelisk has all glyphs from all 3 correct GKs and will only be the correct obelisk **once** per encounter.
-- Shooting the correct glyph will partially illuminate the obelisk. Keeping the obelisk fully lit by shooting all 3 glyphs multiple times will cause the obelisk to accept the offering and progress the encounter. Failure to shoot all 3 in rapid succession or failing to shoot the correct 3 within roughly 10 seconds will increment the obelisk by 1/3rd and post the text "The obelisk rejects your offering...".
+- Shooting the correct glyph will partially illuminate the obelisk. Keeping the obelisk fully lit (by shooting all 3 glyphs in rapid succession) will cause the obelisk to accept the offering, reset its fill and progress the encounter. Failure to comply within roughly 10 seconds will increment all obelisks by 1/3rd and post the text "The obelisk rejects your offering...".
 
 ### Mechanically Relevant Enemies
 **Glyphkeepers**
-: Glyphkeepers are a reoccurring named enemy - an ultra Chieftain (and ultra Taken Phalanx later on) in the raid that reveal glyphs on death.
+: Glyphkeepers are a reoccurring named enemy - an ultra Chieftain in the raid that reveal glyphs on death.
 
-: Inside each room that is shown by the glyph board, there are two Glyphkeepers, one on each side of the room. Each side of the room has a symbol that corresponds with a display - it will always be light or dark. Killing the GK that:
+: Inside each room that is shown by the glyph board, there are two Glyphkeepers, one on each side of the room. Each side of the room has a symbol that corresponds with a display - it will always be light or dark. Presumably, killing the GK that:
 - Corresponds to the called side: Spawns an additional glyph on each obelisk.
-- Does not correspond: Spawns an ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} abomination outside for each obelisk, these spawn locations are static.
+- Does not correspond: Spawns an ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abomination outside for each obelisk, these spawn locations are static.
 
 : Regardless of which is killed, they will reveal a glyph pillar located at their spawn location (empty, glyph, empty) and reveal 1 glyph on each obelisk. The pillar from the GK of the called side needs to be relayed to the team for the obelisk offering section. **You must kill both**, and presumably killing both partially empties their respective obelisk.
 
 **Disciple's Compass**
 : The compass is a major Taken Knight that will appear in one of 10 spots (refer to the map).
 
-: On death, reveals the second glyph on its relevant glyph board and the first glyph on an empty glyph board, if applicable. Out of its spawn locations, the top portion of the glyph board designates which side of the map it has spawned on. It may partially empty the respective obelisk on death.
+: On death, reveals the second glyph on its relevant glyph board and the first glyph on an empty glyph board, if applicable. Out of its spawn locations, the top portion of the glyph board designates which side of the map it has spawned on. It also empties its respective obelisk on death.
 
 **Abored Adherent**
 : Abored Adherents are major Scorn Lurkers that accompany spawn sets. In E1, it accompanies every normal spawn in a set of 2. They are able to target the obelisk in addition to players. AAs deal large damage to obelisks, roughly 1/18th of its health per hit.
+
+## Challenge: Swift Destruction
+The challenge is failed if any ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abominations remain alive, after roughly 3 seconds, after another one dies. Unknown if this check is per wave or map-wide.
 
 ## Rewards
 One of the following:
@@ -257,6 +260,9 @@ Caretaker can only lose 33% of their first health bar per floor, cumulatively. T
 
 ### Final Stand
 At the last floor, all gates are ignored and mechanic phase is skipped - he can now be killed. If he doesn't die before all plates expire, he enrages and wipes the raid.
+
+## Challenge: Base Information
+To be written. Not currently available in-game until Tuesday, March 29th, 2022.
 
 ## Rewards
 One of the following:
@@ -353,6 +359,9 @@ Deposit all three relics on the fifth and final series of terminals.
 **Curbed Resonance**
 
 : 30 second debuff. Unable to pick up any relics. Inflicted on any player when they drop a relic.
+
+## Challenge: Defenses Down
+To be written. Not currently available in-game until Tuesday, April 5th, 2022.
 
 ## Rewards
 One of the following:
@@ -457,14 +466,18 @@ After the bubble is enterable, players have an unknown amount of time (I assume 
 
 : ![PoV: You are playing during contest mode](https://cdn.discordapp.com/attachments/730083412882358304/950974328755871744/skill_issue.gif)
 
-*Charge*
-: Summons 4 sets of 2 Shadow Thrall, one set per quadrant. Rhulk then summons his glaive, puts it behind his back and dashes forward to the first player that would be in front of him, followed by a high damage frontal cone. He will then drop his glaive, allowing it to be shot as it morphs into a pyramid shard.
+*Savage Strike*
+: Summons 4 sets of 2 Shadow Thrall, one set per quadrant - their spawns are static. Rhulk then summons his glaive, puts it behind his back and dashes forward to the first player that would be in front of him, followed by a high damage frontal cone. He will then drop his glaive, allowing it to be shot as it morphs into a pyramid shard.
 : If there are no players where the dash would resolve, he ends his dash where it would have finished otherwise.
 
-: The dash itself does **no** damage, only the cleave - he is also **incorporeal while dashing**.
+: Rhulk is **incorporeal while dashing**, meaning he both takes and deals no damage during the dash. Only the cleave has a hurtbox.
 
 *Suns of Lubrae*
 : This attack is usually used as a followup to the dash, but can also be used on its own. Identical to the laser attack in the first phase but is faster, 4x smaller and fires 4way cardinally from where he's facing. Unknown if it can be dodged by being directly inside the boss.
+
+*Orange Channel*
+
+: If his crit spots aren't broken within roughly 2 minutes, Rhulk kneels down and becomes immune to damage while glowing orange. After ~15 seconds, the bubble regains its knockback capability and he transitions back to phase 1.
 
 ### Interactables
 **Rhulk's Glaive**
@@ -486,22 +499,21 @@ Upon entering damage phase, all force buffs are purged. Any pending glaives are 
 ### Mechanically Relevant Enemies
 **Rhulk, Disciple of the Witness**
 
-: Rhulk's behaviour changes again during this phase.
+: Rhulk's behaviour changes again during this phase. After roughly 30 seconds, he will start his orange channel.
 
 *Slash*
 
 : Rhulk will powerwalk towards the player closest to him. If he's close enough to a player, he will slash them with his glaive, dealing high damage.
 
-*Charge*
+*Savage Strike*
 
 : Rhulk's tell on the charge changes - he twirls the glaive above him and then immediately dashes forward to the first player that would be in front of him, followed by a high damage frontal cone. This attack is always immediately followed by Suns of Lubrae. He will dash roughly 3 times per damage phase, as a rule of thumb.
 
-*Orange Channel*
-
-: Immobilizes himself and becomes immune to damage while glowing orange. After ~15 seconds, the bubble regains its knockback capability and he transitions back to phase 1.
-
 ### Final Stand
-Upon losing his first health bar, he becomes temporarily immune and his glaive transforms and expands, instantly afflicting all players with 2 stacks of PD. During this phase, he constantly afflicts all players with a stack of PD every second until either he dies or all players die.
+Upon losing his first health bar, he becomes temporarily immune and his glaive transforms and expands, instantly afflicting all players with 2 stacks of PD. During this phase, he constantly afflicts all players with a stack of PD every second until either he dies or all players die. During this phase, he will not cast his bubble channel.
+
+## Challenge: Looping Catalyst
+To be written. Not currently available in-game until Tuesday, April 12th, 2022.
 
 ## Rewards
 
@@ -513,9 +525,9 @@ One of the following:
 - Gauntlets
 - Class Item
 
-If the glyph secret was completed, an additional chest will spawn granting a random raid weapon with Deepsight on a weekly lockout per account.
+: Collective Obligation, unknown drop chance.
 
-Collective Obligation, unknown drop chance
+: If the glyph secret was completed, an additional chest will spawn granting a random raid weapon with Deepsight on a weekly lockout per account.
 
 ---
 
@@ -523,4 +535,3 @@ Collective Obligation, unknown drop chance
 
 ## Spoils Chest
 One weapon with Deepsight Resonance can be purchased per week, per account.
-
