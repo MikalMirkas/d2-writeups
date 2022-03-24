@@ -54,7 +54,7 @@ This encounter has a secret chest in the fifth and final section, openable by hi
 
 ### Mechanically Relevant Enemies
 **Knowledge Keepers**
-: 3 ultra abominations of the same name will spawn at the start of each section. Killing *all* of them will spawn 9 glowing tiny darkness crystals that can be picked up by moving over them, granting the Knowledge series of buffs. While any KKs are alive, all players will receive stacks of Pervasive Darkness.
+: 3 ultra Abominations of the same name will spawn at the start of each section. Killing *all* of them will spawn 9 glowing tiny darkness crystals that can be picked up by moving over them, granting the Knowledge series of buffs. While any KKs are alive, all players will receive stacks of Pervasive Darkness.
 
 ### Statuses
 **Knowledge**
@@ -79,7 +79,7 @@ Otherwise, speedrun through this section.
 ## Bonus Boss Chest
 When you first enter the pyramid, a glyph totem/board spawns with 3 glyphs on it. Finding the rooms that correlate to the glyphs on the totem and **only** activating them grants an additional drop from final boss that has a raid weapon with **guaranteed** Deepsight Resonance. Once all 3 have been activated, a text string will appear with "The Disciple recognizes your offering...". 
 - The lockout is weekly, once per account.
-- You cannot backtrack without OoBing. OoBing in load zones has a chance to render the chest **unobtainable without restarting**, due to  despawning load zones forward and killing players in zones ahead, causing a softlock.
+- You cannot backtrack without OoBing. OoBing in load zones has a chance to render the chest **unobtainable without restarting**, due to despawning load zones forward and killing players in zones ahead, causing a softlock.
 
 ### Locations
 - Pyramid: After the large fall in the pyramid, turn around. Shard is on the left of the door.
@@ -90,7 +90,7 @@ When you first enter the pyramid, a glyph totem/board spawns with 3 glyphs on it
 - Light: Floor after Caretaker that has the first fragment for the platforming segment. Door is on the wall, shard is hidden in the ceiling.
 - Stop: Third fragment for the platforming segment. Directly beneath the hidden chest room.
 - Guardian: After Exhibition, take the left staircase up one level then turn left and go to the edge. Shard is floating in the air. Door is hidden above the stairs, behind a pillar.
-- Kill: On the third floor after Exhibition, there are rooms with 2 Taken Centurions. Shard is floating on the back wall. Door is in one of the right-side rooms.
+- Kill: On the third floor after Exhibition, there are rooms with Taken Centurions. Shard is floating on the back wall. Door is in one of the right-side rooms.
 
 ## Glyph Room {#glyphs}
 There are 27 interactables that each have a glyph. Walking near it will change the radar location to the name of the corresponding glyph - these need to be memorized for callouts. There is a 28th glyph which is just an empty circle with an ordinary black background, which denotes a lack of a glyph.
@@ -164,9 +164,9 @@ One is in front of each obelisk, for a total of three of them in the raid.
 
 : Inside each room that is shown by the glyph board, there are two Glyphkeepers, one on each side of the room. Each side of the room has a symbol that corresponds with a display - it will always be light or dark. Presumably, killing the GK that:
 - Corresponds to the called side: Spawns an additional glyph on each obelisk.
-- Does not correspond: Spawns an ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abomination outside for each obelisk, these spawn locations are static.
+- Does not correspond: Spawns an ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abomination outside of its relevant obelisk - these spawn locations are static.
 
-: Regardless of which is killed, they will reveal a glyph pillar located at their spawn location (empty, glyph, empty) and reveal 1 glyph on each obelisk. The pillar from the GK of the called side needs to be relayed to the team for the obelisk offering section. **You must kill both**, and presumably killing both partially empties their respective obelisk.
+: Regardless of which is killed, they will reveal a glyph pillar located at their spawn location (empty, glyph, empty) and reveal 1 glyph on each obelisk. The pillar from the GK of the called side needs to be relayed to the team for the obelisk offering section. **You must kill both**, and presumably killing both empties their respective obelisk.
 
 **Disciple's Compass**
 : The compass is a major Taken Knight that will appear in one of 10 spots (refer to the map).
@@ -177,7 +177,7 @@ One is in front of each obelisk, for a total of three of them in the raid.
 : Abored Adherents are major Scorn Lurkers that accompany spawn sets. In E1, it accompanies every normal spawn in a set of 2. They are able to target the obelisk in addition to players. AAs deal large damage to obelisks, roughly 1/18th of its health per hit.
 
 ## Challenge: Swift Destruction
-The challenge is failed if any ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abominations remain alive, after roughly 3 seconds, after another one dies. Unknown if this check is per wave or map-wide.
+The challenge is failed if any ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abominations remain alive, after roughly 3 seconds, after another one dies. Unknown if this check is per wave or map-wide. Note that, sometimes, the Abomination furthest north can spawn OoB.
 
 ## Rewards
 One of the following:
@@ -214,14 +214,14 @@ Kill the Caretaker.
 : During this phase, the Caretaker is invulnerable.
 : The Caretaker occasionally glows yellow - he can be damaged in a limited capacity on his glowing portions.
 : If the boss reaches the obelisk before all 9 glyphs are resolved, the raid wipes - acting as a timer for each floor's mechanic phase.
-: While unstunned, he periodically sends out lingering projectiles, that will home in on a random player after an obelisk has resolved an offering or by some unknown additional condition - these can be killed.
+: While unstunned, he periodically sends out lingering projectiles, known as Resonant Suns, that will home in on a random player after an obelisk has resolved an offering or by some unknown additional condition - these can be killed. Taking damage from one of these projectiles will inflict PD and does medium damage.
 : While unstunned, The Caretaker will also passively use abomination zaps on whoever has aggro. 
 : After the obelisk offerings are completed, he will no longer stomp or use Caretaker's Gaze until the next mechanic phase.
 
 ### Statuses
 **Stunned**
 
-: Periodically (?) or when Caretaker gazes, his face will glow yellow for 5 seconds or until taking enough damage, roughly 2000 at 1530 power. If his face is broken, his backpack will then glow for 5 seconds. When the backpack takes enough damage, he releases ~6 projectiles and will be stunned for 5 seconds. If any part naturally stops glowing, the stun progress is lost and must be restarted.
+: Periodically (?) or when Caretaker gazes, his face will glow yellow for 5 seconds or until taking enough damage, roughly 2000 at 1530 power. If his face is broken, his backpack will then glow for 5 seconds. When the backpack takes enough damage, he releases ~6 Suns and will be stunned for 5 seconds. If any part naturally stops glowing, the stun progress is lost and must be restarted.
 
 **Caretaker's Gaze**
 
@@ -229,11 +229,11 @@ Kill the Caretaker.
 
 **Knowledge**
 
-: Picking up one of these knowledge crystals with a glyph on it will spawn the glyph on the obelisk, if it is not there already. If an obelisk offering is rejected or a player with any knowledge stacks dies, the pickups on the relevant player will respawn where they were taken from with the same glyph. When all knowledge has been resolved with the obelisk, damage phase starts with the log text, "The ritual is complete, power awaits you..."
+: Picking up one of these knowledge crystals with a glyph on it will spawn the glyph on the obelisk, if it is not there already. If an obelisk offering is rejected or a player with any knowledge stacks dies, the pickups on the relevant player will respawn where they were taken from with the same glyph. When all knowledge has been resolved with the obelisk, damage phase starts with the kill feed text, "The ritual is complete, power awaits you..." and cleanses all stacks of PD.
 
 ### Locations
 **Glyph / Dark Room**
-: The glyph/dark room can be opened by any **Darkness Fragment** and has several named ultra Wizards and several Shadow Thrall inside - these can all be ignored. While inside the room, any player inside will be inflicted with stacking **PD**. Inside the dark room, there are 9 glowing knowledge crystals with a glyph on them, scattered around the room (see above paragraph for more detail).
+: The glyph/dark room can be opened by any **Darkness Fragment** and has multiple named ultra Wizards and several Shadow Thrall inside - these can all be ignored. While inside the room, any player inside will be inflicted with stacking **PD**. Inside the dark room, there are 9 glowing knowledge crystals with a glyph on them, scattered around the room (see above paragraph for more detail).
 : Each floor's room is larger than the last and will have more death pits.
 
 ### Interactables
