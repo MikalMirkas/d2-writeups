@@ -58,7 +58,7 @@ This encounter has a secret chest at the fifth section and is accessible by hitt
 
 ### Statuses
 **Knowledge**
-: Stackable buff, 3x max. The first word of the buff changes based on the number of stacks you have: Heightened, Brimming and Overflowing.
+: Stackable buff, 3x max. The first word of the buff changes based on the number of stacks you have: Heightened, Brimming and Overflowing. If a player dies with this buff, the buffs respawn where they were picked up.
 
 : The buff is consumed by a sister mechanic to activate them (e.g. in this encounter, it is consumed by the cart).
 
@@ -85,12 +85,12 @@ When you first enter the pyramid, a glyph totem/board spawns with 3 glyphs on it
 - Pyramid: After the large fall in the pyramid, turn around. Shard is on the left of the door.
 - Give: Right before first encounter, left of the Acquisition encounter entrance. Shootable's on top of the door frame.
 - Darkness: In the area where the Acquisition encounter is, the door on the furthest left can be opened by shooting the shard in front of the sphinx.
-- Traveler: In the first area after the collection text appears, at the back of the room. Fragment is hidden on top.
-- Worship: Caretaker encounter, floor 4. Shard is near the entrance of the room, on the left. Door is near the entrance of the room, on the right.
-- Light: Floor after Caretaker that has the first fragment for the platforming segment. Door is on the wall, shard is hidden in the ceiling.
+- Traveler: In the first area after the "Collection" area text appears, at the back of the room. Fragment is hidden on top.
+- Worship: Collection encounter, floor 4. Shard is near the entrance of the room, on the left. Door is near the entrance of the room, on the right.
+- Light: Floor after Collection that has the first fragment for the platforming segment. Door is on the wall, shard is hidden in the ceiling.
 - Stop: Third fragment for the platforming segment. Directly beneath the hidden chest room.
 - Guardian: After Exhibition, take the left staircase up one level then turn left and go to the edge. Shard is floating in the air. Door is hidden above the stairs, behind a pillar.
-- Kill: On the third floor after Exhibition, there are rooms with Taken Centurions. Shard is floating on the back wall. Door is in one of the right-side rooms.
+- Kill: On the third floor after Exhibition, there are rooms with Taken Centurions. Shard is floating on the back wall. Door is in on the third floor on the right.
 
 ## Glyph Room {#glyphs}
 There are 27 interactables that each have a glyph. Walking near it will change the radar location to the name of the corresponding glyph - these need to be memorized for callouts. There is a 28th glyph which is just an empty circle with an ordinary black background, which denotes a lack of a glyph.
@@ -192,15 +192,15 @@ One of the following:
 
 # Collection {#collection}
 
-Collection is a boss encounter with split roles. It has 4 floors (excluding the starting floor which is not relevant), each corresponding to a phase set. Killing the Caretaker will allow further progression into the raid. Encounter is started by opening any door.
+Collection is a boss encounter with split roles. It has 4 floors (excluding the starting floor which is not relevant), each corresponding to a phase set. Killing the Caretaker will allow further progression into the raid. Encounter is started by shooting any door-controlling fragments in the room.
 
 ## Objective
 Kill the Caretaker.
 
 ### TL;DR
 - Stun the Caretaker to prevent him reaching the obelisk
-- Grab the glyph-overlayed buffs to spawn glyphs on the obelisk
-- Despawn all knowledge buffs to stop wipe mechanic
+- Grab glyph-overlayed buffs
+- Shoot all the glyphs off the obelisk
 - Shoot at boss
 
 ## Mechanics
@@ -212,11 +212,17 @@ Kill the Caretaker.
 
 **Caretaker**
 : During this phase, the Caretaker is invulnerable.
-: The Caretaker occasionally glows yellow - he can be damaged in a limited capacity on his glowing portions.
-: If the boss reaches the obelisk before all 9 glyphs are resolved, the raid wipes - acting as a timer for each floor's mechanic phase.
-: While unstunned, he periodically sends out lingering projectiles, known as Resonant Suns, that will home in on a random player after an obelisk has resolved an offering or by some unknown additional condition - these can be killed. Taking damage from one of these projectiles will inflict PD and does medium damage.
+: The Caretaker occasionally glows bright yellow - he can be damaged, in a limited capacity, on his glowing portions.
+: If the boss reaches the obelisk before all the glyphs on the obelisk are resolved, the raid wipes - acting as a timer for each floor's mechanic phase.
+: He periodically sends out lingering projectiles known as Resonant Suns.
 : While unstunned, The Caretaker will also passively use abomination zaps on whoever has aggro. 
 : After the obelisk offerings are completed, he will no longer stomp or use Caretaker's Gaze until the next mechanic phase.
+: Enemies only spawn on the floor that the Caretaker is currently on, if possible.
+: The Caretaker's pathing can be altered or broken by using Sparrows or Stasis Crystals. To be explicit, if CT's pathing is altered outside of damage phase, he will attempt to path to the obelisk by going the other way - this does not alter which plate damage phase starts on. If CT's pathing is altered during damage phase **or** if his path is completely blocked, he will teleport to the fork in the road in front of the obelisk.
+
+*Resonant Suns*
+
+: Also known as seekers. These spiral lingering projectiles can be shot down and also explode on contact with a player. If not shot down, after the obelisk glows orange (e.g. after an offering has been completed and some additional unknown condition, or if damage phase starts), they will home in on a seemingly random player. Taking damage from one of these projectiles will inflict PD and does medium damage.
 
 ### Statuses
 **Stunned**
@@ -229,23 +235,23 @@ Kill the Caretaker.
 
 **Knowledge**
 
-: Picking up one of these knowledge crystals with a glyph on it will spawn the glyph on the obelisk, if it is not there already. If an obelisk offering is rejected or a player with any knowledge stacks dies, the pickups on the relevant player will respawn where they were taken from with the same glyph. When all knowledge has been resolved with the obelisk, damage phase starts with the kill feed text, "The ritual is complete, power awaits you..." and cleanses all stacks of PD.
+: Same as normal, but also resets the buff and reinitializes the fragment (with its associated glyph) if an obelisk offering is rejected. When all knowledge has been resolved with the obelisk, damage phase starts with the kill feed text, "The ritual is complete, power awaits you..." and cleanses all stacks of PD.
 
 ### Locations
 **Glyph / Dark Room**
-: The glyph/dark room can be opened by any **Darkness Fragment** and has multiple named ultra Wizards and several Shadow Thrall inside - these can all be ignored. While inside the room, any player inside will be inflicted with stacking **PD**. Inside the dark room, there are 9 glowing knowledge crystals with a glyph on them, scattered around the room (see above paragraph for more detail).
+: The glyph/dark room can be opened by any **Darkness Fragment** and has multiple named ultra Wizards and several Shadow Thrall inside - these can all be mostly ignored. While inside the room, any player inside will be inflicted with stacking **PD**. Inside the dark room, there are 9 glowing knowledge crystals with a glyph on them, scattered around the room, used for the obelisk mechanic.
 : Each floor's room is larger than the last and will have more death pits.
 
 ### Interactables
 **Obelisk**
-: An obelisk appears on the floor that Caretaker is currently on, excluding the last floor. When any player has knowledge stacks and are outside of a glyph room, a text log will appear saying "An obelisk awaits ``<PLAYERNAME>``'s offering...", with that player's name being one who has knowledge stacks. All glyphs on the obelisk that correspond with the knowledge puddles that said player ran over must be quickly shot, or the obelisk will partially fill up and purge that player's knowledge buff. Only one offering can occur at a time.
+: An obelisk is present on the second, third and fourth floor. When any player has knowledge stacks and is outside of a glyph room, they become eligible to perform an offering. While any player is eligible to perform an offering, a text log will appear saying, "An obelisk awaits ``<PLAYERNAME>``'s offering...", with the player's name being one who is eligible to offer. All glyphs on the obelisk that correspond with the knowledge puddles that said player ran over must be quickly shot, or the obelisk will partially fill up and purge that player's knowledge buff (thus respawning the fragments in the glyph room). Only one offering can occur at a time.
 
 *Damage Phase*
 ---
 Damage can be dealt to the Caretaker when Resonant Breakthrough is active.
 
 ### Health Gating
-Caretaker can only lose 33% of their first health bar per floor, cumulatively. To be clear: he can only go down to 66% of his first HP bar on floor 1, 33% on floor 2 and 0% on floor 3. Upon triggering the gate, damage phase ends. The glowing portion on the boss health bar denotes how much health is left per gate.
+Caretaker can only lose roughly 33% of their first health bar per damage phase, cumulatively. To be clear: he can only go down to roughly 66% of his first HP bar on floor 1, roughly 33% on floor 2 and 0% on floor 3. Upon triggering the gate, damage phase ends. The glowing portion on the boss health bar denotes how much health is left per gate.
 
 ### Statuses
 **Resonant Breakthrough**
@@ -255,8 +261,8 @@ Caretaker can only lose 33% of their first health bar per floor, cumulatively. T
 ### Interactables
 **Plates / Wells**
 : Three plates are near the obelisk on each floor, excluding the final floor where all three plates are lined up sequentially. These plates grant Resonant Breakthrough to players touching plates when active. When all 3 have deactivated after being active, the Caretaker will vanish, opening access to the next floor. If the Caretaker is on the fourth and final floor, he wipes the raid instead.
-: The first plate to activate will be the closest one to the side that Caretaker approached from and only activates when the boss is close enough to the obelisk - the only tell is that he becomes vulnerable to damage (verify). Plates permanently deactivate after 10ish seconds of being active (verify) (text prompt: "The current well begins to fade...") and then immediately activate the next eligible one closest to it.
-: However, if he is stunned at the same time the final offering is accepted, the game probably assumes that the Caretaker is at the obelisk and will start damage phase early, giving the first plate a significantly longer duration. Occasionally, he will become permanently stunlocked - damage phase won't end until the damage gate kicks in.
+: The first plate to activate will be the closest one to the side that Caretaker approached from and only starts the activation routine when the obelisk glows. Presumably, if Caretaker is deemed to be unable to immediately move closer to the obelisk, the obelisk will glow. Plates permanently deactivate roughly 5 seconds of the Caretaker being near the obelisk, with a two second warning with the log, "The current well begins to fade...", and then immediately activate the next eligible one closest to it.
+: Occasionally, he will become permanently stunlocked - damage phase won't end until the damage gate kicks in.
 
 ### Final Stand
 At the last floor, all gates are ignored and mechanic phase is skipped - he can now be killed. If he doesn't die before all plates expire, he enrages and wipes the raid.
@@ -278,7 +284,7 @@ One of the following:
 # Platforming Section
 To keep this part brief, keep going up. Path platforms are toggled with the darkness fragment. Progressing through a portion and engaging with enemies on the other side will activate all platforms of the previous segment. In the third platforming segment, there is a hidden chest if you keep going right instead of going through the window.
 
-This is where your flawlesses will die; Warlocks in particular want practice with this part. All fireteam members must be at the exit to open the door to the next encounter.
+This is where your flawlesses will die; Warlocks in particular want practice with this part. All fireteam members must be at the exit to open the door to the next encounter. There is a known OoB near the wall at the first set of enemy spawns. However, as of writing there are no appropriate video links to describe how to navigate around the outside.
 
 ---
 
