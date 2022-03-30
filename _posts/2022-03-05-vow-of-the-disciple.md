@@ -44,17 +44,17 @@ This encounter has a secret chest in the fifth and final section, openable by hi
 ## Mechanics
 
 ### Interactables
-**Barge**
-: Being near the payload while a Knowledge Keeper is alive will stop Pervasive Darkness accumulation (explained below).
+**Resonant Splinter**
+: Acts as a cart, just like its public event variant. The cart has a small safe zone enveloping it it that prevents Pervasive Darkness accumulation (explained in the statuses section).
 
-: Not directly interactable - it is advanced by bringing all 9 knowledge buffs to the cart.
+: Not directly interactable - it is advanced by bringing all 9 knowledge buffs to the cart. Bringing a buff to the cart purges it.
 
 **"Darkness Shard" / "Crux" / "the rock" / "the (pyramid) fragment" / "the crystal"** (official name unknown)
 : Toggleable shootable. Controls whether some associated object is on or off, usually doors being opened or closed.
 
 ### Mechanically Relevant Enemies
 **Knowledge Keepers**
-: 3 ultra Abominations of the same name will spawn at the start of each section. Killing *all* of them will spawn 9 glowing tiny darkness crystals that can be picked up by moving over them, granting the Knowledge series of buffs. While any KKs are alive, all players will receive stacks of Pervasive Darkness.
+: 3 ultra Abominations of the same name will spawn at the start of each section, denoted with the kill feed textline, "Drown in the deep...". While any KKs are alive, all players in the zone will gain stacks of Pervasive Darkness. Killing *all* of them causes the kill feed to display the text string, "Rise from the deep..." and will spawn 9 glowing tiny darkness crystals that can be picked up by moving over them, granting the Knowledge series of buffs.
 
 ### Statuses
 **Knowledge**
@@ -262,7 +262,7 @@ Caretaker can only lose 33% of their first health bar per floor, cumulatively. T
 At the last floor, all gates are ignored and mechanic phase is skipped - he can now be killed. If he doesn't die before all plates expire, he enrages and wipes the raid.
 
 ## Challenge: Base Information
-To be written. Not currently available in-game until Tuesday, March 29th, 2022.
+No player can obtain Brimming Knowledge - each player is only allowed to hold, at most, one Knowledge stack at a time.
 
 ## Rewards
 One of the following:
