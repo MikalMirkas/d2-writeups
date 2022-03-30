@@ -320,7 +320,7 @@ Deposit all three relics on the fifth and final series of terminals.
 **Taken Essence**
 : Works similarly to the one in Last Wish, but no access to the Super and doesn't die when the grenade input is used.
 
-: Fire input fires a medium damage projectile, grenade input kills all nearby Taken spheres.
+: Fire input fires a medium damage projectile, grenade input kills all nearby Taken spheres and deals higher damage than the projectile.
 
 ### Mechanically Relevant Enemies
 **Glyphkeepers**
@@ -328,18 +328,20 @@ Deposit all three relics on the fifth and final series of terminals.
 : Glyphkeepers spawn when all the Taken Hobgoblins on their side have been slain, presumably including the ![Overload Champion]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"}s. A text line will appear: "Glyphkeepers approach..."
 : Glyphkeepers spawn in sets of 2, 1 Scorn and 1 Taken. Every room that doesn't have a terminal in it will have 2 sets, 1 otherwise.
 : Killing either of these Glyphkeepers will drop a glyph totem. The totem from the Taken GK can **only be read by a relic holder** and vice-versa. Killing both of them will spawn a Disciple's Hourglass at the chokepoint of the current non-terminal room. Additionally, if it is the first set of each non-terminal room, their deaths will spawn more Taken Hobgoblins.
+: Any room with more than 1 set of Glyphkeeper spawns will stack PD on any player inside it as long as all sets aren't dead. Note: the application geometry does not match the room geometry, there are small spots on some walls that stop stacking.
 
 : Each pair of glyph totems contains a matching glyph which is used to open the upcoming ingress.
 
 **Disciple's Hourglass**
 
-: Taken Knight with a white shield. Always spawns at a chokepoint at the center of the room after a GK set is slain. Explicit spawn location is based on which GK set dies - it is pre-determined. Killing the Disciple's Hourglass extends Terminal Resonance by around 30 seconds and can't push it past its initial value(?).
+: Taken Knight with a white shield. Always spawns at a chokepoint at the center of the room after a GK set is slain. Explicit spawn location is based on which GK set dies - it is pre-determined. Killing the Disciple's Hourglass extends Terminal Resonance by around 30 seconds and can't push it past its initial value.
 
 ### Interactables
 
 **Artifact Terminal**
 : Terminals can be used to deposit relics.
 : Placing all available relics on terminals in a room will open the door to the next room. Terminals, excluding the one used to start the encounter, are available after every ingress. All terminal sets, aside from the first two sets, will spawn a pack of Screebs *once and only once* when approached.
+: Relics placed on terminals can only be interacted with if all terminals in that room have had a relic on them prior.
 : Placing a Resonant Shard on a terminal will refresh the duration of Terminal Resonance. Placing a Resonant Shard on the second terminal set will spawn an Aegis on the unused terminal. Placing a Resonant Shard and Aegis on the third terminal set will spawn a Taken Essence on the unused terminal.
 
 : Relics can be taken from the terminal after all active relics are placed. Relics that go OoB will respawn on the terminal that they were last placed on.
@@ -348,7 +350,7 @@ Deposit all three relics on the fifth and final series of terminals.
 : Ingresses are doors that are required to be opened to progress through the encounter.
 : In order to open them, the matching glyph from each glyph pillar pair needs to be quickly shot on the door after the text log saying "The ingress awaits your offering...". Shooting the correct symbols will result in a text log saying that the offering is accepted and vice-versa.
 
-: There is no known direct consequence for failing the offering other than the obvious time loss of waiting for the prompt again.
+: Failing the offering subtracts 15 seconds from Terminal Resonance.
 
 **Taken Sphere** (unofficial name)
 : Identical to the Taken sphere that the Ascendant Primeval (meatball) spawned during Gambit Primeval phases, however it is immune to all damage and can be killed through the grenade function on the Taken Essence. Enemies tethered to it gain immunity to all damage, but not debuffs (e.g. you can push them off an edge with Tractor Cannon or a well placed Vortex Grenade).
@@ -356,11 +358,13 @@ Deposit all three relics on the fifth and final series of terminals.
 ### Statuses
 **Pervading Darkness**
 
-: Stacks in every room without a terminal in it.
+: Stacks in every room without a terminal in it. Ceases stacking when all potential Glyphkeepers in that room are killed.
 
 **Terminal Resonance**
 
-: 75 second persistent debuff. When it times out, the raid gets wiped. Inflicted on the entire party when starting the encounter.
+: 75 second persistent debuff. When it times out, after a short delay if it's still below 0:00, the raid gets wiped. Stops ticking until the encounter is reset if it goes under 0:00 for any reason. Inflicted on the entire party when starting the encounter.
+
+: To be explicit, what this means is that if you immediately kill an Hourglass after failing an ingress, you can **stop the timer** if it dips below 0s. This also allows players to smuggle relics out of the encounter when combined with an OoB located in the final section, which has strange effects when brought to the final encounter (e.g. infinite damage phase).
 
 **Curbed Resonance**
 
