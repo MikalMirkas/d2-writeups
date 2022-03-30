@@ -32,13 +32,13 @@ Realistically, you won't need to use either outside of Master or Contest mode.
 
 # Disciple's Bog (Outside) {#bog}
 
-Bog is a payload encounter - it's identical to the one you do in Preservation, except has more enemies and has a secret chest. If you specifically have bad FPS loss here, it will get better after this section ends. Opening section is started by killing all enemies in front of the gate. No darkness zone here either, the only punishment for dying is wasting time.
+The bog is a payload minor encounter - it's identical to the one you do in Preservation, except has more enemies and has a secret chest. If you specifically have bad FPS loss here, it will get better after this section ends. Opening section is started by killing all enemies in front of the gate. No darkness zone here either, the only punishment for dying is wasting time.
 
 ## Objective
-Move the cart forward five times.
+Move the Resonant Splinter forward five times.
 
 ## Hidden Chest
-This encounter has a secret chest in the fifth and final section, openable by hitting all 3 pyramid spikes, located in the elevated hut to the right. There is one pyramid shard per section, excluding the first and last sections.
+This encounter has a secret chest at the fifth section and is accessible by hitting all 3 pyramid spikes. The crypt containing the chest is located in the building to the direct right of the where the cart stops. There is one pyramid shard per section, excluding the first and last sections.
 [imgur gallery](https://imgur.com/a/BTzBH3V)
 
 ## Mechanics
