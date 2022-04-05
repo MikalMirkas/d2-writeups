@@ -244,14 +244,14 @@ Kill the Caretaker.
 
 ### Interactables
 **Obelisk**
-: An obelisk is present on the second, third and fourth floor. When any player has knowledge stacks and is outside of a glyph room, they become eligible to perform an offering. While any player is eligible to perform an offering, a text log will appear saying, "An obelisk awaits ``<PLAYERNAME>``'s offering...", with the player's name being one who is eligible to offer. All glyphs on the obelisk that correspond with the knowledge puddles that said player ran over must be quickly shot, or the obelisk will partially fill up and purge that player's knowledge buff (thus respawning the fragments in the glyph room). Only one offering can occur at a time.
+: An obelisk is present on the second, third and fourth floor. When any player has knowledge stacks and is outside of a glyph room, they become eligible to perform an offering. When a player is eligible for an offering, their knowledge buff will be purged and a text log will appear saying, "An obelisk awaits ``<PLAYERNAME>``'s offering...", with the player's name being whoever lost their buff. All glyphs on the obelisk that correspond with the knowledge puddles that said player ran over must be quickly shot, or the obelisk will partially fill up and respawn the fragments in the glyph room. Only one offering can occur at a time.
 
 *Damage Phase*
 ---
 Damage can be dealt to the Caretaker when Resonant Breakthrough is active.
 
 ### Health Gating
-Caretaker can only lose roughly 33% of their first health bar per damage phase, cumulatively. To be clear: he can only go down to roughly 66% of his first HP bar on floor 1, roughly 33% on floor 2 and 0% on floor 3. Upon triggering the gate, damage phase ends. The glowing portion on the boss health bar denotes how much health is left per gate.
+Caretaker can only lose roughly 33% of their first health bar per damage phase, cumulatively. To be clear: he can only go down to 66% of his first HP bar on floor 1 before starting his disengagement, roughly 33% on floor 2 and 0% on floor 3. Upon triggering the gate, Caretaker will start teleporting away roughly 3 seconds afterwards. The glowing portion on the boss health bar denotes how much health is left per gate.
 
 ### Statuses
 **Resonant Breakthrough**
