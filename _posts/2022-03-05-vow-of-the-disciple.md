@@ -54,7 +54,9 @@ This encounter has a secret chest at the fifth section and is accessible by hitt
 
 ### Mechanically Relevant Enemies
 **Knowledge Keepers**
-: 3 ultra Abominations of the same name will spawn at the start of each section, denoted with the kill feed textline, "Drown in the deep...". While any KKs are alive, all players in the zone will gain stacks of Pervasive Darkness. Killing *all* of them causes the kill feed to display the text string, "Rise from the deep..." and will spawn 9 glowing tiny darkness crystals that can be picked up by moving over them, granting the Knowledge series of buffs.
+: 3 ultra Abominations of the same name will spawn at the start of each section, denoted with the kill feed textline, "Drown in the deep...". While any KKs are alive, all players in the zone will gain stacks of Pervasive Darkness.
+
+: Killing *any* of them causes them to spawn 3 glowing tiny darkness crystals that can be picked up by moving over them, granting the Knowledge series of buffs. Killing *all* of them causes the kill feed to display the text string, "Rise from the deep...", denoting that PD accumulation has stopped.
 
 ### Statuses
 **Knowledge**
@@ -132,8 +134,8 @@ The objective of the encounter is to have the obelisk accept your offering three
 
 ### TL;DR
 - Don't let the obelisks blow up
-- Kill all 3 Disciple's Compasses
-- Kill all 6 Glyphkeepers
+- Kill every Disciple's Compass
+- Kill every Glyphkeeper
 - Document which glyph the correct GK dropped
 - Shoot the correct glyphs on the correct obelisk
 
@@ -145,7 +147,7 @@ The objective of the encounter is to have the obelisk accept your offering three
 - Mid: designates which crypt the Glyphkeepers are at
 - Bottom: designates which Glyphkeeper glyph needs to be relayed to the fireteam
 
-One is in front of each obelisk, for a total of three of them in the raid. 
+One is in front of each obelisk, for a total of three of them in the encounter. 
 
 ### Interactables
 **Pyramid Fragment** (official name unknown)
@@ -327,14 +329,14 @@ Deposit all three relics on the fifth and final series of terminals.
 : A new Glyphkeeper type is introduced in this encounter, the Resonant Glyphkeeper - an Ultra Taken Phalanx.
 : Glyphkeepers spawn when all the Taken Hobgoblins on their side have been slain, presumably including the ![Overload Champion]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"}s. A text line will appear: "Glyphkeepers approach..."
 : Glyphkeepers spawn in sets of 2, 1 Scorn and 1 Taken. Every room that doesn't have a terminal in it will have 2 sets, 1 otherwise.
-: Killing either of these Glyphkeepers will drop a glyph totem. The totem from the Taken GK can **only be read by a relic holder** and vice-versa. Killing both of them will spawn a Disciple's Hourglass at the chokepoint of the current non-terminal room. Additionally, if it is the first set of each non-terminal room, their deaths will spawn more Taken Hobgoblins.
-: Any room with more than 1 set of Glyphkeeper spawns will stack PD on any player inside it as long as all sets aren't dead. Note: the application geometry does not match the room geometry, there are small spots on some walls that stop stacking.
+: Killing either of these Glyphkeepers will drop a glyph totem. The totem from the Taken GK can **only be read by a relic holder** and vice-versa. Killing both of them will spawn a Disciple's Hourglass at the chokepoint of the current non-terminal room. Additionally, if it is the first set of each non-terminal room, their deaths will spawn more Taken Hobgoblins (and maybe some Lurkers, unverified).
+: Any room with more than 1 set of Glyphkeeper spawns will stack PD on any player inside it as long as all sets aren't dead. Note: the application geometry does not match the room geometry, there are small spots on some walls and doors that stop stacking.
 
 : Each pair of glyph totems contains a matching glyph which is used to open the upcoming ingress.
 
 **Disciple's Hourglass**
 
-: Taken Knight with a white shield. Always spawns at a chokepoint at the center of the room after a GK set is slain. Explicit spawn location is based on which GK set dies - it is pre-determined. Killing the Disciple's Hourglass extends Terminal Resonance by around 30 seconds and can't push it past its initial value.
+: Taken Knight with a white shield. Always spawns at a chokepoint at the center of the room after a GK set is slain. Explicit spawn location is based on which GK set dies - it is pre-determined. Killing the Disciple's Hourglass extends Terminal Resonance by ~40 seconds and can't push it past its initial value.
 
 ### Interactables
 
@@ -344,7 +346,7 @@ Deposit all three relics on the fifth and final series of terminals.
 : Relics placed on terminals can only be interacted with if all terminals in that room have had a relic on them prior.
 : Placing a Resonant Shard on a terminal will refresh the duration of Terminal Resonance. Placing a Resonant Shard on the second terminal set will spawn an Aegis on the unused terminal. Placing a Resonant Shard and Aegis on the third terminal set will spawn a Taken Essence on the unused terminal.
 
-: Relics can be taken from the terminal after all active relics are placed. Relics that go OoB will respawn on the terminal that they were last placed on.
+: Relics can be taken from a terminal set after all active relics are placed. Relics that go below the death plane will respawn on the terminal that they were last placed on (and therefore can be taken freely, given no Curbed Resonance).
 
 **Ingresses / Glyph Doors**
 : Ingresses are doors that are required to be opened to progress through the encounter.
@@ -364,14 +366,14 @@ Deposit all three relics on the fifth and final series of terminals.
 
 : 75 second persistent debuff. When it times out, after a short delay if it's still below 0:00, the raid gets wiped. Stops ticking until the encounter is reset if it goes under 0:00 for any reason. Inflicted on the entire party when starting the encounter.
 
-: To be explicit, what this means is that if you immediately kill an Hourglass after failing an ingress, you can **stop the timer** if it dips below 0s. This also allows players to smuggle relics out of the encounter when combined with an OoB located in the final section, which has strange effects when brought to the final encounter (e.g. infinite damage phase).
+: To be explicit, what this means is that if you **immediately** kill an Hourglass after failing an ingress, you can **stop the timer** if it dips below 0s. This also allows players to smuggle relics out of the encounter when combined with an OoB located in the final section, which has strange effects when brought to the final encounter (e.g. infinite damage phase).
 
 **Curbed Resonance**
 
 : 30 second debuff. Unable to pick up any relics. Inflicted on any player when they drop a relic.
 
 ## Challenge: Defenses Down
-To be written. Not currently available in-game until Tuesday, April 5th, 2022.
+No player can kill more than 1 Disciple's Hourglass. It is currently unknown if players can *damage* more than 1 Hourglass.
 
 ## Rewards
 One of the following:
