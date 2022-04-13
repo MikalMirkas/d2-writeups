@@ -142,7 +142,7 @@ The objective of the encounter is to have the obelisk accept your offering three
 ## Mechanics
 ### Data
 **Glyph Totem / Board**
-: Split into three parts, one glyph on each. Default empty, gets filled up as objectives progress. In E1, the boards indicates objectives that need to be carried out. 
+: Split into three parts, one glyph on each. Default empty, gets filled up as objectives progress and adds glyphs to its nearest obelisk. In E1, the boards indicates objectives that need to be carried out. 
 - Top: designates where a Disciple's Compass spawns
 - Mid: designates which crypt the Glyphkeepers are at
 - Bottom: designates which Glyphkeeper glyph needs to be relayed to the fireteam
@@ -164,9 +164,7 @@ One is in front of each obelisk, for a total of three of them in the encounter.
 **Glyphkeepers**
 : Glyphkeepers are a reoccurring named enemy - an ultra Chieftain in the raid that reveal glyphs on death.
 
-: Inside each room that is shown by the glyph board, there are two Glyphkeepers, one on each side of the room. Each side of the room has a symbol that corresponds with a display - it will always be light or dark. Presumably, killing the GK that:
-- Corresponds to the called side: Spawns an additional glyph on each obelisk.
-- Does not correspond: Spawns an ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abomination outside of its relevant obelisk - these spawn locations are static.
+: Inside each room that is shown by the glyph board, there are two Glyphkeepers, one on each side of the room. Each side of the room has a symbol that corresponds with a display - it will always be light or dark. Killing both Glyphkeepers spawns an ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abomination outside of its relevant obelisk (uncertain, might be based on closest location to crypt) - these spawn locations are static.
 
 : Regardless of which is killed, they will reveal a glyph pillar located at their spawn location (empty, glyph, empty) and reveal 1 glyph on each obelisk. The pillar from the GK of the called side needs to be relayed to the team for the obelisk offering section. **You must kill both**, and presumably killing both empties their respective obelisk.
 
@@ -494,7 +492,7 @@ After the bubble is enterable, players have an unknown amount of time (I assume 
 ### Interactables
 **Rhulk's Glaive**
 
-: Rhulk drops a copy of his glaive after each dash in this phase - it can be shot and killed. Whomever deals the killing blow on the glaive will be granted Leeching Force. Additionally, a glyph pillar will appear at wherever it died - this pillar can only be seen by those without a force buff. Multiple glaives can be active at once.
+: Rhulk drops a copy of his glaive after each dash in this phase - it can be shot and killed. Whomever deals the killing blow on the glaive will be granted Leeching Force. Additionally, a glyph pillar will appear at wherever it died - this pillar can only be seen by those without a force buff. Multiple glaives can be active at once. Glaives last for roughly 15 seconds.
 
 **Glyph Totems**
 
@@ -525,7 +523,7 @@ Upon entering damage phase, all force buffs are purged. Any pending glaives are 
 Upon losing his first health bar, he becomes temporarily immune and his glaive transforms and expands, instantly afflicting all players with 2 stacks of PD. During this phase, he constantly afflicts all players with a stack of PD every second until either he dies or all players die. During this phase, he will not cast his bubble channel.
 
 ## Challenge: Looping Catalyst
-To be written. Not currently available in-game until Tuesday, April 12th, 2022.
+Per phase, Rhulk cannot summon his pyramid shard more than once.
 
 ## Rewards
 
