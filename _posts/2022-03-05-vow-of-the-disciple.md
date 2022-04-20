@@ -23,7 +23,7 @@ Vow of the Disciple is the end result of blending encounters from Last Wish, Lev
 ## Ammo Generation
 This section is for you, Lucent Finisher and Aeon users.
 - No Hive Lightbearers are in the raid. Only Scorn and Taken enemies appear (no Taken bosses, sorry Taken Spec fans).
-- Champions are in E1 and E3.
+- Champions are in E1 and E3 on Legend difficulty. On Master difficulty, there are multiple Champions in every encounter.
 - Ultras are in every encounter, but they are far away from allies (E1, E2, E3 kind of) or functionally unkillable (E2) in every encounter but E4.
 
 Realistically, you won't need to use either outside of Master or Contest mode.
@@ -142,12 +142,12 @@ The objective of the encounter is to have the obelisk accept your offering three
 ## Mechanics
 ### Data
 **Glyph Totem / Board**
-: Split into three parts, one glyph on each. Default empty, gets filled up as objectives progress and adds glyphs to its nearest obelisk. In E1, the boards indicates objectives that need to be carried out. 
+: Split into three parts, one glyph on each. Default empty, gets filled up as objectives progress. When an objective is cleared, it adds glyphs to its nearest obelisk and empties it of charge. In E1, the boards indicates objectives that need to be carried out. 
 - Top: designates where a Disciple's Compass spawns
 - Mid: designates which crypt the Glyphkeepers are at
 - Bottom: designates which Glyphkeeper glyph needs to be relayed to the fireteam
 
-One is in front of each obelisk, for a total of three of them in the encounter. 
+One is in front of each obelisk, for a total of three of them in the encounter.
 
 ### Interactables
 **Pyramid Fragment** (official name unknown)
@@ -155,8 +155,8 @@ One is in front of each obelisk, for a total of three of them in the encounter.
 
 **Obelisks**
 ![Obelisk](https://cdn.discordapp.com/attachments/937646044714504222/949739827258085456/Destiny_2_Screenshot_2022.03.05_-_13.45.30.12.png)
-: The obelisk is the primary wipe mechanic of the first couple of fights. It starts out black and fills up orange. It fills up over time and fills up faster when shot by enemies, acting as a raid clock. When it fills up, the raid wipes. It gets emptied by progressing the Glyph board.
-: There are 9 glyph locations on the obelisks that can be interacted by shooting them. When a Glyphkeeper dies, each obelisk gets 1 glyph, presumably shooting the one that matches the bottom glyph board symbol spawns 2 each.
+: The obelisk is the primary wipe mechanic of the first couple of fights. It starts out black and fills up orange. It fills up over time and fills up faster when shot by enemies, acting as a raid clock. When it fills up, the raid wipes. It gets emptied by progressing the glyph board.
+: There are 9 glyph locations on the obelisks that can be interacted by shooting them.
 - When all 9 glyph locations fill, a text prompt in the kill feed will appear with the text, "The obelisk awaits your offering..." and resets all obelisk timers. One **and only one** obelisk has all glyphs from all 3 correct GKs and will only be the correct obelisk **once** per encounter.
 - Shooting the correct glyph will partially illuminate the obelisk. Keeping the obelisk fully lit (by shooting all 3 glyphs in rapid succession) will cause the obelisk to accept the offering, reset its fill and progress the encounter. Failure to comply within roughly 10 seconds will increment all obelisks by 1/3rd and post the text "The obelisk rejects your offering...".
 
@@ -164,14 +164,14 @@ One is in front of each obelisk, for a total of three of them in the encounter.
 **Glyphkeepers**
 : Glyphkeepers are a reoccurring named enemy - an ultra Chieftain in the raid that reveal glyphs on death.
 
-: Inside each room that is shown by the glyph board, there are two Glyphkeepers, one on each side of the room. Each side of the room has a symbol that corresponds with a display - it will always be light or dark. Killing both Glyphkeepers spawns an ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abomination outside of its relevant obelisk (uncertain, might be based on closest location to crypt) - these spawn locations are static.
+: Inside each room that is shown by the glyph board, there are two Glyphkeepers, one on each side of the room. Each side of the room has a symbol that corresponds with a display - it will always be light or dark. Killing any (verify) Glyphkeepers in its set will spawn an ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abomination outside of its relevant obelisk (uncertain, might be based on closest location to crypt) - these spawn locations are static.
 
-: Regardless of which is killed, they will reveal a glyph pillar located at their spawn location (empty, glyph, empty) and reveal 1 glyph on each obelisk. The pillar from the GK of the called side needs to be relayed to the team for the obelisk offering section. **You must kill both**, and presumably killing both empties their respective obelisk.
+: Killing the correct Glyphkeeper will progress the glyph board. Killing the incorrect one does nothing. Regardless of which is killed, they will reveal a glyph pillar located at their spawn location (empty, glyph, empty). The pillar from the GK of the called side needs to be relayed to the team for the obelisk offering section.
 
 **Disciple's Compass**
 : The compass is a major Taken Knight that will appear in one of 10 spots (refer to the map).
 
-: On death, reveals the second glyph on its relevant glyph board and the first glyph on an empty glyph board, if applicable. Out of its spawn locations, the top portion of the glyph board designates which side of the map it has spawned on. It also empties its respective obelisk on death.
+: On death, reveals the second glyph on its relevant glyph board and the first glyph on an empty glyph board, if applicable. Out of its spawn locations, the top portion of the glyph board designates which side of the map it has spawned on.
 
 **Abored Adherent**
 : Abored Adherents are major Scorn Lurkers that accompany spawn sets. In E1, it accompanies every normal spawn in a set of 2. They are able to target the obelisk in addition to players. AAs deal large damage to obelisks, roughly 1/18th of its health per hit.
@@ -262,7 +262,7 @@ Caretaker can only lose roughly 33% of their first health bar per damage phase, 
 **Plates / Wells**
 : Three plates are near the obelisk on each floor, excluding the final floor where all three plates are lined up sequentially. These plates grant Resonant Breakthrough to players touching plates when active. When all 3 have deactivated after being active, the Caretaker will vanish, opening access to the next floor. If the Caretaker is on the fourth and final floor, he wipes the raid instead.
 : The first plate to activate will be the closest one to the side that Caretaker approached from and only starts the activation routine when the obelisk glows. Presumably, if Caretaker is deemed to be unable to immediately move closer to the obelisk, the obelisk will glow. Plates permanently deactivate roughly 5 seconds of the Caretaker being near the obelisk, with a two second warning with the log, "The current well begins to fade...", and then immediately activate the next eligible one closest to it.
-: Occasionally, he will become permanently stunlocked - damage phase won't end until the damage gate kicks in.
+: He will become stunlocked until end of damage phase if the stun starts at the same time the final glyphs resolve.
 
 ### Final Stand
 At the last floor, all gates are ignored and mechanic phase is skipped - he can now be killed. If he doesn't die before all plates expire, he enrages and wipes the raid.
@@ -362,9 +362,7 @@ Deposit all three relics on the fifth and final series of terminals.
 
 **Terminal Resonance**
 
-: 75 second persistent debuff. When it times out, after a short delay if it's still below 0:00, the raid gets wiped. Stops ticking until the encounter is reset if it goes under 0:00 for any reason. Inflicted on the entire party when starting the encounter.
-
-: To be explicit, what this means is that if you **immediately** kill an Hourglass after failing an ingress, you can **stop the timer** if it dips below 0s. This also allows players to smuggle relics out of the encounter when combined with an OoB located in the final section, which has strange effects when brought to the final encounter (e.g. infinite damage phase).
+: 75 second persistent debuff. When it times out, after a short delay if it's still below 0:00, the raid gets wiped. Inflicted on the entire party when starting the encounter.
 
 **Curbed Resonance**
 
@@ -538,6 +536,23 @@ One of the following:
 : Collective Obligation, unknown drop chance.
 
 : If the glyph secret was completed, an additional chest will spawn granting a random raid weapon with Deepsight on a weekly lockout per account.
+
+---
+
+# Master Difficulty {#master}
+
+Master difficulty applies the following changes to the raid:
+- The power level of each encounter is boosted to Master power level (Pinnacle Cap + 20)
+- Match Game is enabled
+- Chaff is enabled
+- All Disciple's Compasses gain Solar shields
+- All Wraiths gain Solar shields
+- All Taken Vandals are upgraded to ![Overload Hobgoblins]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"}
+- All Glyphkeepers are upgraded to Champions of the same enemy type (Chieftains become ![Overload Champions]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} and Phalanxes become ![Unstoppable Champions]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"})
+
+## Reward Adjustments
+
+All encounter chest rewards are overwritten with high-stat armor, specializing on on a specific stat per a weekly rotation. All challenge chest rewards are overwritten with **any** adept weapon from the raid.
 
 ---
 
