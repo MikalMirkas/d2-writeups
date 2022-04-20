@@ -180,7 +180,7 @@ One is in front of each obelisk, for a total of three of them in the encounter.
 The challenge is failed if any ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abominations remain alive, after roughly 3 seconds, after another one dies. Unknown if this check is per wave or map-wide. Note that, sometimes, the Abomination furthest north can spawn OoB.
 
 ## Rewards
-One of the following:
+The encounter chest grants one of the following:
 - Submission
 - Deliverance
 - Cataclysmic
@@ -271,7 +271,7 @@ At the last floor, all gates are ignored and mechanic phase is skipped - he can 
 No player can obtain Brimming Knowledge - each player is only allowed to hold, at most, one Knowledge stack at a time.
 
 ## Rewards
-One of the following:
+The encounter chest grants one of the following:
 - Submission
 - Insidious
 - Forebearance
@@ -372,7 +372,7 @@ Deposit all three relics on the fifth and final series of terminals.
 No player can kill more than 1 Disciple's Hourglass. It is currently unknown if players can *damage* more than 1 Hourglass.
 
 ## Rewards
-One of the following:
+The encounter chest grants one of the following:
 - Submission
 - Deliverance
 - Helmet
@@ -454,7 +454,7 @@ Kill Rhulk, ~~Edgelord~~ Disciple of the Witness. Rhulk will hard enrage if not 
 
 **Glyph Plate**
 
-: Any player with Leeching Force that stands on the plate will spawn a pair of large floating pyramid shard. Players without any force buff or that have not killed the other prism in the pair can damage them. Whoever inflicted final blows on the pair of shards gain Leeching Force and whoever was standing on the plate gets it purged.
+: Any player with Leeching Force that stands on the plate will spawn a pair of floating pyramid shards. Players without any force buff or that have not killed the other prism in the pair can damage them. Whoever inflicted final blows on the pair of shards gain Leeching Force and whoever was standing on the plate gets it purged.
 
 *Deposit Phase 2: Arena Phase*
 ---
@@ -524,8 +524,7 @@ Upon losing his first health bar, he becomes temporarily immune and his glaive t
 Per phase, Rhulk cannot summon his pyramid shard more than once.
 
 ## Rewards
-
-One of the following:
+The encounter chest grants one of the following:
 - Lubrae's Ruin
 - Insidious
 - Forebarance
@@ -533,9 +532,11 @@ One of the following:
 - Gauntlets
 - Class Item
 
-: Collective Obligation, unknown drop chance.
+Additionally, if the raid exotic table was hit:
+- Collective Obligation, unknown drop chance (presumably <5% at base)
 
-: If the glyph secret was completed, an additional chest will spawn granting a random raid weapon with Deepsight on a weekly lockout per account.
+The glyph secret chest grants the following:
+- Random raid weapon with Deepsight Resonance
 
 ---
 
@@ -556,7 +557,5 @@ All encounter chest rewards are overwritten with high-stat armor, specializing o
 
 ---
 
-# End {#end}
-
-## Spoils Chest
+# Spoils Chest {#end}
 One weapon with Deepsight Resonance can be purchased per week, per account.
