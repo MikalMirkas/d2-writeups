@@ -250,8 +250,13 @@ Kill the Caretaker.
 ---
 Damage can be dealt to the Caretaker when Resonant Breakthrough is active.
 
-### Health Gating
-Caretaker can only lose roughly 33% of their first health bar per damage phase, cumulatively. To be clear: he can only go down to 66% of his first HP bar on floor 1 before starting his disengagement, roughly 33% on floor 2 and 0% on floor 3. Upon triggering the gate, Caretaker will start teleporting away roughly 3 seconds afterwards. The glowing portion on the boss health bar denotes how much health is left per gate.
+### Mechanically Relevant Enemies
+**Caretaker**
+*Health Gating*
+Caretaker can only lose roughly 33% of their first health bar per damage phase, cumulatively. To be clear: he can only go down to 66% of his first HP bar on floor 1 before starting his disengagement, roughly 33% on floor 2 and 0% on floor 3. Upon triggering the gate, Caretaker will gain a **25% damage vulnerability** and start teleporting 4 seconds afterwards. The glowing portion on the boss health bar denotes how much health is left per gate.
+
+*Stun Loop*
+: If the Caretaker is stunned at the same time the ritual resolves, they become permanently stunned until their damage gate is triggered.
 
 ### Statuses
 **Resonant Breakthrough**
@@ -259,10 +264,12 @@ Caretaker can only lose roughly 33% of their first health bar per damage phase, 
 : The Caretaker is only able to take damage from players who have the Resonant Breakthrough buff, which is continuously granted to players touching glowing plates - lingers for about a second. 
 
 ### Interactables
-**Plates / Wells**
-: Three plates are near the obelisk on each floor, excluding the final floor where all three plates are lined up sequentially. These plates grant Resonant Breakthrough to players touching plates when active. When all 3 have deactivated after being active, the Caretaker will vanish, opening access to the next floor. If the Caretaker is on the fourth and final floor, he wipes the raid instead.
-: The first plate to activate will be the closest one to the side that Caretaker approached from and only starts the activation routine when the obelisk glows. Presumably, if Caretaker is deemed to be unable to immediately move closer to the obelisk, the obelisk will glow. Plates permanently deactivate roughly 5 seconds of the Caretaker being near the obelisk, with a two second warning with the log, "The current well begins to fade...", and then immediately activate the next eligible one closest to it.
-: He will become stunlocked until end of damage phase if the stun starts at the same time the final glyphs resolve.
+**Plates**
+: Three plates are near the obelisk on each floor, excluding the final floor where they are lined up sequentially instead. Each plate has three states: inactive, pending and active.
+: Active plates grant the Resonant Breakthrough buff to players standing on it, allowing said players to damage the Caretaker. After the Caretaker is near the obelisk for 10 seconds after a plate goes active, it becomes inactive. It has a two second warning with the log, "The current well begins to fade...".
+: When the ritual text log appears, 15 seconds later after it, the closest plate to the side that Caretaker approached from will become pending. Pending plates have an internal timer of 15 seconds of existing - after that, they go inactive. Pending plates become activated by touching them.
+: When any plate is changed to becoming inactive, the plate following it becomes pending.
+: When all 3 have deactivated after being active, the Caretaker will vanish, opening access to the next floor. If the Caretaker is on the fourth and final floor, he casts his raid wipe instead.
 
 ### Final Stand
 At the last floor, all gates are ignored and mechanic phase is skipped - he can now be killed. If he doesn't die before all plates expire, he enrages and wipes the raid.
@@ -548,6 +555,7 @@ Master difficulty applies the following changes to the raid:
 - Chaff is enabled
 - All Disciple's Compasses gain Solar shields
 - All Wraiths gain Solar shields
+- All ordinary Taken Hobgoblins gain Void shields
 - All Taken Vandals are upgraded to ![Overload Hobgoblins]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"}
 - All Glyphkeepers are upgraded to Champions of the same enemy type (Chieftains become ![Overload Champions]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} and Phalanxes become ![Unstoppable Champions]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"})
 
