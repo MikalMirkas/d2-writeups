@@ -9,17 +9,18 @@ tags: raids
 {% assign power = 1560 %}
 {% endif %}
 
-King's Fall is back. Long live the king.
+King's Fall is back. Long live the king. Five encounters, three platforming segments and three hidden chests are lying in wait.
 
 # Prereading
 
 - This isn't a guide, this is a mechanic explanation. There's many ways to handle these mechanics - do whatever's best for your raid team.
 - Light for final encounter is {{power}}.
+- Taken Spec is enabled, but all ultras or bosses that are vulnerable to gunfire are Hive aside from the Shade of Oryx. Probably just run your normal gun spec.
 
 ## Ammo Generation
 This section is for you, Aeon users.
 - Presumably no to few champions on Legend. Hive and Taken are in this raid, so any of the three Champion types could be present.
-- Presumably many champions on Master.
+- Presumably several champions on Master.
 
 ---
 
@@ -53,10 +54,10 @@ Encounter starts by picking up the Brand of the Weaver. The room is split into t
 The objective of the encounter is to open the door by depositing stacks at its entrance.
 
 ### TL;DR
-- Get brands
+- Get Brands
 - Sit on plates
 - Kill adds
-- Pass brand to ally when it expires
+- Pass Brand to ally when it expires
 - Deposit stacks at door
 
 ## Mechanics
@@ -74,7 +75,7 @@ The objective of the encounter is to open the door by depositing stacks at its e
 : Allows players to pass through the fog without penalty.
 
 **Deathsinger's Power**
-: Does nothing on its own. Allows players to deposit the stacks onto the door plate to progress towards the door opening. Supposedly makes the afflicted players vulnerable to fog through the Weaver aura.
+: Offers no benefit on its own. Can be passively deposited while standing the door plate, while afflicted. Supposedly negates Aura of the Weaver.
 
 ### Interactables
 **Weaver Pedestal**
@@ -95,7 +96,7 @@ One of the following:
 
 # what is this place called? {#warpriest}
 
-Encounter starts by activating all three plates.
+Encounter starts by activating all three plates. Add spawns change depending on boss's health, with Taken adds replacing Hive ones at lower health values.
 
 ## Objective
 The objective of the encounter is to kill the Warpriest.
@@ -145,7 +146,7 @@ labyrinth. if it's like d1, right, 2 lefts, right. hidden chest: r, l, straight,
 
 # Golgoroth's Cellar {#golgoroth}
 
-Encounter is started by breaking the dark bubble.
+Encounter is started by breaking the dark bubble. Add spawns change depending on Golgoroth's health, with Taken adds replacing Hive ones at lower health values.
 
 ## Objective
 Kill Golgoroth.
@@ -249,9 +250,9 @@ Kill Oryx, The Taken King.
 - Obtain Torn from Oryx, try not to reuse the same MTG joke again
 - Kill all the Light-Eaters ASAP
 - Activate all 4 plates CCW, get the Brand Claimer buff
-- Brand the Vessel of Oryx, get mechanic eligibility buff
+- Claim the Vessel of Oryx's Brand, get mechanic eligibility buff
 - Continously deal damage to Oryx's chest to maintain damage eligibility
-- Plate runners go detonate Corrupted Light
+- Plate runners go detonate Corrupted Light to deal damage to Oryx
 - If Oryx is below 50%, complete the Shade minigame.
 - Repeat until final stand (~5% HP), shoot him during it
 
@@ -308,10 +309,13 @@ Kill Oryx, The Taken King.
 : Consumes Corrupted Light when near it. Immune to all damage, but can be instantly killed by the Brand Claimer. Drops the Brand of Immortality buff.
 
 **Shade of Oryx**
-: Keeps the dome active when he is alive.
+: Keeps the dome active while he is alive.
 
 ## Rewards
 One of the following:
+
+Additionally, if the raid exotic table was hit:
+- Touch of Malice, unknown drop chance (presumably <5% at base)
 
 ## Challenge: 
 
