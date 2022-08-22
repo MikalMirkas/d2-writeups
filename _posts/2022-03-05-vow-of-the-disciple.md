@@ -561,9 +561,9 @@ Master difficulty applies the following changes to the raid:
 
 ## Reward Adjustments
 
-All encounter chest rewards are overwritten with high-stat armor, specializing on on a specific stat per a weekly rotation. All challenge chest rewards are overwritten with **any** adept weapon from the raid.
+All encounter chest rewards are overwritten with high-stat armor, specializing on a specific stat per a weekly rotation. All challenge chest rewards are overwritten with **any** adept weapon from the raid.
 
 ---
 
 # Spoils Chest {#end}
-Weapons that have been obtained from the raid prior can be purchased here. The first weapon purchase per week is guaranteed Deepsight Resonance, per week on an account-wide lockout. Subsequent purchases have no chance, if any, to be Deepsighted.
+Weapons and armor that have obtained from the raid can be purchased here. The first weapon purchase per week is guaranteed to have Deepsight Resonance, on an account-wide lockout. Subsequent purchases during the lockout have no chance, if any, to be Deepsighted.
