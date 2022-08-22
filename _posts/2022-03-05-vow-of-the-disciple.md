@@ -566,4 +566,4 @@ All encounter chest rewards are overwritten with high-stat armor, specializing o
 ---
 
 # Spoils Chest {#end}
-One weapon with Deepsight Resonance can be purchased per week, per account.
+Weapons that have been obtained from the raid prior can be purchased here. The first weapon purchase per week is guaranteed Deepsight Resonance, per week on an account-wide lockout. Subsequent purchases have no chance, if any, to be Deepsighted.
