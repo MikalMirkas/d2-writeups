@@ -351,17 +351,17 @@ Kill Golgoroth.
 ## Mechanics
 **Tablet of Ruin**
 
-: The tablet is a black stone slab in the back of the room. It accumulates when Golgoroth's Gaze is lost and adds stacks depending on how many potential poison sacs weren't spawned per damage phase. It also accumulates by 2 if Golgoroth's Gaze is not obtained within roughly 10 seconds after a poison sac appears. If six runes are present, Exodia is summoned and instantly knocks your raid's life points to zero (inflicts Drained of Light).
+: The tablet is a black stone slab in the back of the room. It accumulates when Golgoroth's Gaze is lost and adds stacks depending on how many potential poison sacs weren't spawned per damage phase. It also accumulates by 2 if Golgoroth's Gaze is not obtained within roughly 10 seconds after a poison sac appears. If six runes are present, Exodia is summoned and instantly knocks your raid's life points to zero.
 
 ### Statuses
 
 **Golgoroth's Gaze**
 
-: Caretaker will inflict a debuff of the same name on someone who shoots him in the back with the text prompt, "Golgoroth shifts his Gaze to ``<PLAYERNAME>``". While gazed upon, Golgoroth will fire swarms of Axion Darts at the debuffed player instead of using the normal Ogre attack kit. Lasts 20 seconds, only one gaze can be active at a time. Breaking line of sight or gaining any form of invisibility instantly removes the debuff. Gaining Gaze while it is active will purge it on any other players. If gained while any poison sacs or Pools of Light are active, waves of enemies will spawn near the door in the back of the pit.
+: Caretaker will inflict a debuff of the same name on someone who shoots him in the back with the text prompt, "Golgoroth shifts his Gaze to ``<PLAYERNAME>``". While Gaze is active, Golgoroth will fire swarms of Golgoroth's Rage at the debuffed player instead of using the normal Ogre attack kit. Lasts 20 seconds, only one gaze can be active at a time. Breaking line of sight or gaining any form of invisibility instantly removes the debuff. Gaining Gaze while it is active will purge it on any other players. If gained while any other Gazes are active, a wave of adds will spawn near the door in the back of the pit (unsure if on a timer or if this is the spawn condition).
 
 **Pool of Reclaimed Light**
 
-: Continously granted to those standing in a Pool of Reclaimed Light that is dropped from a poison sac. The pool lasts roughly 15 seconds. Allows players inside to ignore Golgoroth's damage resistance.
+: Continously granted to those standing in a Pool of Reclaimed Light that is dropped from a poison sac. The pool lasts roughly 15 seconds. Allows players inside to ignore Golgoroth's damage resistance on his stomach.
 
 **Unstable Light**
 
@@ -385,7 +385,7 @@ Kill Golgoroth.
 
 : Immune to damage everywhere but his exposed back. His back becomes exposed after killing all the enemies in the room and will become rearmored if no one has Gaze after obtaining it once ("lost Gaze / failed to capture" prompt), not breaking his back within 15 seconds of it appearing (latter prompt as the last one) or Gaze being removed 6 times (Golgoroth becomes tired).
 
-: Breaking his back will grant Golgoroth's Gaze, changing Golg's kit from the standard Ogre kit to an Axion Dart spammer and lock his aggro (and facing) to the player with Gaze. Golgoroth's Axion Darts have a special name (Golgoroth's Rage) and inflict Ogre's Venom.
+: Breaking his back will grant Golgoroth's Gaze, changing Golg's kit from the standard Ogre kit to an Axion Dart spammer and lock both his aggro and facing to the player with Gaze. Golgoroth's Axion Darts have a special name (Golgoroth's Rage) and inflict Ogre's Venom in addition to normal Axion Dart effects.
 
 : When a player has Gaze, Golgoroth's stomach will glow white and can be damaged, but with ~95% damage resistance. Standing in a Pool of Reclaimed Light will allow outgoing damage to ignore Golgoroth's damage resistance. Weak spot is his glowing core on his stomach. Enrages after breaking the first poison sac 4 times.
 
@@ -420,7 +420,7 @@ There is a set of secret platforms that are activated by pulling out a Ghost, st
 
 # Daughters of Oryx {#daughters}
 
-Presumably there is an enrage here, but I have never seen it because the sisters probably lost an extra 0 for their health bars. Welcome to the new accessible spoils farm.
+Presumably, there is an enrage here, but I have never seen it because the sisters probably lost an extra 0 for their health bars. Welcome to the new accessible spoils farm.
 
 ## Objective
 Kill the Deathsingers.
