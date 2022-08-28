@@ -79,8 +79,8 @@ There are 9 runes in the raid. Ishtar Collective has no data on the names aside 
 |!["Table"]({{"assets/images/destiny/runes/table.png" \| relative_url}}){:height="50px" width="50px"}     |   Table   | After entering the portal, "jump on the first swinging lamp and turn around. The rune is directly below the platform below" |
 | !["Crosswalk"]({{"assets/images/destiny/runes/crosswalk.png" \| relative_url}}){:height="50px" width="50px"} | Crosswalk | Above the door where the first secret chest is.|
 |!["Clippy"]({{"assets/images/destiny/runes/clippy.png" | relative_url}}){:height="50px" width="50px"}|Clippy|In the room with the left Annihilator Totem, on the balcony.|
-|!["Volcano"]({{"assets/images/destiny/runes/volcano.png" | relative_url}}){:height="50px" width="50px"}|Volcano|: In Warpriest's room, on the right-side wall, visible from the right side balcony.|
-|!["Typing"]({{"assets/images/destiny/runes/typing.png" | relative_url}}){:height="50px" width="50px"}|(Is) Typing|: Immediately before Golgoroth's room, inside the last pit. Ishtar calls this one "Door/Treasure/Chamber".|
+|!["Volcano"]({{"assets/images/destiny/runes/volcano.png" | relative_url}}){:height="50px" width="50px"}|Volcano|In Warpriest's room, on the right-side wall, visible from the right side balcony.|
+|!["Typing"]({{"assets/images/destiny/runes/typing.png" | relative_url}}){:height="50px" width="50px"}|(Is) Typing|Immediately before Golgoroth's room, inside the last pit. Ishtar calls this one "Door/Treasure/Chamber".|
 |!["X"]({{"assets/images/destiny/runes/x.png" | relative_url}}){:height="50px" width="50px"}|X|In the left-side pit in Golgoroth's arena.|
 |!["England"]({{"assets/images/destiny/runes/saucyunionjack.png" | relative_url}}){:height="50px" width="50px"}|(COME ON) England|Next to the third secret chest.|
 |!["Cone"]({{"assets/images/destiny/runes/cone.png" | relative_url}}){:height="50px" width="50px"}|Cone|In the ceiling immediately before the door at the Threshold loading zone, after the final platforming segment.|
