@@ -16,7 +16,6 @@ Hollow Knight joke here.
 - This isn't a guide, this is a mechanic explanation. There's many ways to handle these mechanics - do whatever's best for your raid team.
 - Light for final encounter is {{power}}.
 - Taken Spec is enabled, but all bosses that are vulnerable to gunfire are Hive. Probably just run your normal gun spec unless you're doing things where you only deal with Taken enemies.
-- All drops are WIP. If you have found something that I've missed, DM me.
 
 ## Ammo Generation
 This section is for you, Aeon users.
@@ -45,7 +44,7 @@ Activate all six statues.
 
 ### Statuses
 **Time Remaining**
-: Self-explanatory. Time allotted depends on which set is obtained. Shown to all players when a Relic is obtained. Deposit all relics at the active statue before it runs out or all relics respawn. Resets to 4 seconds when one is deposited.
+: Self-explanatory. Time allotted seems to depend on which set is obtained, but might be passively rolling from 60 seconds and is only shown when both players pick up a relic. Shown to all players when both Relics are obtained. Deposit all relics at the active statue before it runs out or all relics respawn. Resets to 4 seconds when one is deposited.
 
 | Set Number | Duration (s) |
 |------------|--------------|
@@ -66,24 +65,24 @@ One of the following, at world drop light:
 
 # Offering (Bonus Boss Chest) {#offering}
 
-Below the platform that the portal is on, there are three runes displayed, out of a pool of 9. Activating them **and only them** grants an additional drop from final boss that has a raid weapon with **guaranteed** Deepsight Resonance. Shooting an activated rune will deactivate it and vice-versa. Once all 3 have been activated, a text string will appear with "The runes accept your offering".
+Below the platform that the portal is on, there are three runes displayed out of a pool of 9. Scattered throughout the raid are green flaming plates, each of them having a specific rune when it's activated. Activating them **and only them** grants an additional drop from final boss that has a raid weapon with **guaranteed** Deepsight Resonance. Shooting an activated rune will deactivate it and vice-versa. Once all 3 have been activated, a text string will appear with "The runes accept your offering".
 - The lockout is weekly, once per account.
 - To be explicit, it must be done in one complete run.
 - You cannot backtrack without OoBing - the doors close behind you in every encounter. If it is anything like Vow of the Disciple, OoBing may cause softlocks.
 
 ### Locations
-There are 9 runes in the raid. Ishtar Collective has no data on the names aside from the final rune, so have fun communicating this to your raid. I included the nicknames that my group decided on, but feel free to use your own.
+There are 9 runes in the raid. Ishtar Collective has no data on the names aside from the Typing rune, so have fun communicating this to your raid. I included the nicknames that my group decided on, but feel free to use your own.
 
-|                                                   Rune                                                  |  Nickname | Location                                                                                                                    |
+|Rune|Nickname|Location|
 |:---:|:---------:|------------------------------------|
-|!["Table"]({{"assets/images/destiny/runes/table.png" \| relative_url}}){:height="50px" width="50px"}     |   Table   | After entering the portal, "jump on the first swinging lamp and turn around. The rune is directly below the platform below" |
+|!["Table"]({{"assets/images/destiny/runes/table.png" \| relative_url}}){:height="50px" width="50px"}     |   Table   | In the Crux, after the first jump to the swaying pillars, look below from where you jumped from. |
 | !["Crosswalk"]({{"assets/images/destiny/runes/crosswalk.png" \| relative_url}}){:height="50px" width="50px"} | Crosswalk | Above the door where the first secret chest is.|
-|!["Clippy"]({{"assets/images/destiny/runes/clippy.png" | relative_url}}){:height="50px" width="50px"}|Clippy|In the room with the left Annihilator Totem, on the balcony.|
-|!["Volcano"]({{"assets/images/destiny/runes/volcano.png" | relative_url}}){:height="50px" width="50px"}|Volcano|In Warpriest's room, on the right-side wall, visible from the right side balcony.|
-|!["Typing"]({{"assets/images/destiny/runes/typing.png" | relative_url}}){:height="50px" width="50px"}|(Is) Typing|Immediately before Golgoroth's room, inside the last pit. Ishtar calls this one "Door/Treasure/Chamber".|
+|!["Clippy"]({{"assets/images/destiny/runes/clippy.png" | relative_url}}){:height="50px" width="50px"}|Clippy|In the room with the left Annihilator Totem, on the wall with the balcony.|
+|!["Volcano"]({{"assets/images/destiny/runes/volcano.png" | relative_url}}){:height="50px" width="50px"}|Volcano|In Warpriest's room, on the wall opposite of the door, touching the right side balcony.|
+|!["Typing"]({{"assets/images/destiny/runes/typing.png" | relative_url}}){:height="50px" width="50px"}|(Is) Typing / Door / Treasure / Chamber|Immediately before Golgoroth's room, inside the last pit.|
 |!["X"]({{"assets/images/destiny/runes/x.png" | relative_url}}){:height="50px" width="50px"}|X|In the left-side pit in Golgoroth's arena.|
 |!["England"]({{"assets/images/destiny/runes/saucyunionjack.png" | relative_url}}){:height="50px" width="50px"}|(COME ON) England|Next to the third secret chest.|
-|!["Cone"]({{"assets/images/destiny/runes/cone.png" | relative_url}}){:height="50px" width="50px"}|Cone|In the ceiling immediately before the door at the Threshold loading zone, after the final platforming segment.|
+|!["Cone"]({{"assets/images/destiny/runes/cone.png" | relative_url}}){:height="50px" width="50px"}|Cone|In the ceiling immediately before the door after the Transept platforming segment.|
 |!["what"]({{"assets/images/destiny/runes/what.png" | relative_url}}){:height="50px" width="50px"}|what|In the final room, turn around and look at the wall where the door is.|
 
 ---
@@ -111,14 +110,14 @@ Jump on the first tombship to activate it. Make the following jumps in order:
 - Jump on the tombship visible to the left as it intersects the third ship
 - Jump to the platform attached to the upcoming left side pillar
 
-This is a player respawn point. Make the next jumps in order:
+This is an optional player respawn point. Make the next jumps in order:
 - Jump on the tombship underneath the platform when it approaches
 - Jump on the tombship that spawns on the left as it intersects
-- Jump **over** the tombship that blocks the way of the one that is active
+- Jump **over** the tombship that blocks the way of the one that is active (you can also just move around it)
 - Jump on the tombship that spawns on the right
 - Jump on the tombship that spawns on the right
 - Jump on the tombship that spawns on the left
-- Jump on the tombship that spawns to the northwest
+- Jump on the tombship that spawns to the north
 - Jump to solid ground
 
 There are two sets of buttons here, one before the tombship and one afterwards. Any set being activated will deactivate the barrier that allows players on the ship to cross without being pushed into a death plane.
@@ -131,31 +130,34 @@ On the left side of the wall on the final tombship, there is a hidden chest. The
 
 # Basilica: Door ![Unstoppable Champions]({{"assets/images/destiny/champion_icons/Unstoppable_Champion_icon.png" | relative_url}}){:height="20px" width="20px"} {#totems}
 
-Encounter starts by picking up any Brand. The room is split into two, with one Annihilator Totem on each side. Taken enemies are in the left room, Hive enemies are in the right. Left room has much more cover but less enemies and vice-versa.
+Encounter starts by picking up any Brand. The room is split into two, with one Annihilator Totem on each side. Taken enemies path to the left room, Hive enemies try to path to the right. Sword Knights will path to nearby allies instead. Unstoppable Ogres and the Hive that are alive at the start and will path to the middle plate. Wizards and the Blightguard stay on their platforms.
 
 ## Objective
-The objective of the encounter is to open the door by depositing stacks at its entrance.
+The objective of the encounter is to open the door by depositing roughly 200 stacks at its entrance.
 
 ### TL;DR
 - Get Brands
 - Sit on plates
-- Only Brand users kill non-essential adds
+- Kill Wizards and Blightguards on sight
+- Only Brand users kill trash
 - Brand Claimers take the Brands before they blow up
 - Deposit stacks at door
 
 ## Mechanics
 **Annihilator Totems**
 
-: Same thing as in *Pit of Heresy*. If any of the two totems fully charge, the raid wipes. Can be prevented by standing on the plates beneath them. The rooms that they are in are engulfed in poison clouds.
+: Same thing as in *Pit of Heresy*. If any of the two totems fully charge, the raid wipes. Can be prevented by standing on the plates beneath them. The rooms that they are in are engulfed in damage auras.
 
-**Poison Cloud**
+**Blight of Weaving / Unraveling**
 
-: Deals low damage over time. Presumably stacks higher over time.
+: Deals low damage over time. After taking damage for around five seconds from it, instantly kills the target.
 
 ### Statuses
 **Brand of the Unraveler / Weaver**
 
-: Lasts 30 seconds. Found on the pedestals near the entrance of the totem rooms - Unraveler on the left side and Weaver on the right. Creates a safe zone around the player that negates the fog, granting their respective Aura buff while inside. Once the buff times out, the player who has it dies. Killing a minor enemy **that is not a Knight** grants the wielder a stack of Deathsinger's Power. Killing a major enemy grants three stacks. Unknown if Revenant Knights give any stacks.
+: Lasts 30 seconds. Found on the pedestals near the entrance of the totem rooms - Unraveler on the left side and Weaver on the right. Creates a safe zone around the player that negates the fog, granting their respective Aura buff while inside. Once the buff times out, the player who has it dies.
+
+: Killing a minor Hive enemy with Brand of the Unraveler grants a stack of Deathsinger's Power and a major Hive gives 3 stacks. With the Weaver brand, you gain a stack from killing a minor Taken enemy instead and 3 stacks from a major Taken.
 
 **Aura of the Unraveler / Weaver**
 
@@ -169,6 +171,10 @@ The objective of the encounter is to open the door by depositing stacks at its e
 
 : Offers no benefit on its own. Can be deposited at a rate of two at a time while standing the door plate. Supposedly negates any aura effects while active. Prevents interacting with Brand Claimer while any stacks are active.
 
+**Annihilator Totem**
+
+: Kills the afflicted player. Inflicted on all players when an Annihilator Totem is charged.
+
 ### Interactables
 **Pedestals**
 
@@ -176,7 +182,7 @@ The objective of the encounter is to open the door by depositing stacks at its e
 
 **Annihilator Plates**
 
-: Prevents the Annihilator Totem above the plate from charging and slowly reverts their charge.
+: Prevents the Annihilator Totem above the plate from charging and slowly reverts their charge. Charges in roughly 5 seconds.
 
 **Brand Claimer**
 
@@ -184,7 +190,7 @@ The objective of the encounter is to open the door by depositing stacks at its e
 
 **Door Plate**
 
-: Opens the door when enough stacks of Deathsinger's Power have been deposited, presumably 100. Presumably, each 40 or so will spawn an ![Unstoppable Champion]({{"assets/images/destiny/champion_icons/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Ogre.
+: Opens the door when enough stacks of Deathsinger's Power have been deposited, around 200. Presumably, each 65 or so will spawn an ![Unstoppable Champion]({{"assets/images/destiny/champion_icons/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Ogre.
 
 ### Mechanically Relevant Enemies
 **Wizard**
@@ -319,6 +325,7 @@ One of the following:
 - Chest
 
 ---
+
 # Golgoroth's Maze {#maze}
 
 Same layout as D1's labyrinth but has extra stuff in it now. Map [here](https://i.imgur.com/atlBKa4.png).
@@ -330,7 +337,7 @@ The path to the exit is:
 - Go right, straight until exit
 
 ## Hidden Chest
-The hidden chest in the area requires five hidden plates to be pressed in the maze, in order. First is bottom right, second is top left, third is bottom left, fourth is middle left (jump over the door), fifth is top right. The chest spawns in the middle of the maze.
+The hidden chest in the area requires all five hidden plates to be held down simultaneously in the maze, in order. First is bottom right, second is top left, third is bottom left, fourth is middle left (jump over the door), fifth is top right. The chest spawns in the middle of the maze.
 
 ---
 
@@ -354,18 +361,17 @@ Kill Golgoroth.
 : The tablet is a black stone slab in the back of the room. It accumulates when Golgoroth's Gaze is lost and adds stacks depending on how many potential poison sacs weren't spawned per damage phase. It also accumulates by 2 if Golgoroth's Gaze is not obtained within roughly 10 seconds after a poison sac appears. If six runes are present, Exodia is summoned and instantly knocks your raid's life points to zero.
 
 ### Statuses
-
 **Golgoroth's Gaze**
 
 : Caretaker will inflict a debuff of the same name on someone who shoots him in the back with the text prompt, "Golgoroth shifts his Gaze to ``<PLAYERNAME>``". While Gaze is active, Golgoroth will fire swarms of Golgoroth's Rage at the debuffed player instead of using the normal Ogre attack kit. Lasts 20 seconds, only one gaze can be active at a time. Breaking line of sight or gaining any form of invisibility instantly removes the debuff. Gaining Gaze while it is active will purge it on any other players. If gained while any other Gazes are active, a wave of adds will spawn near the door in the back of the pit (unsure if on a timer or if this is the spawn condition).
 
 **Pool of Reclaimed Light**
 
-: Continously granted to those standing in a Pool of Reclaimed Light that is dropped from a poison sac. The pool lasts roughly 15 seconds. Allows players inside to ignore Golgoroth's damage resistance on his stomach.
+: Continously granted to those standing in a pool of Reclaimed Light that is dropped from a poison sac. The pool lasts roughly 15 seconds. Allows players inside to ignore Golgoroth's damage resistance on his stomach.
 
 **Unstable Light**
 
-: Lasts 7 seconds. Presumably happens after a poison sac is destroyed. One player does their best Grandmaster Cursed Thrall impression, dealing lethal damage to any nearby allies and dealing ~250k damage to Golgoroth if nearby, presumably ignoring damage resistance. Creates a humming noise that can be heard by all players and gets louder the closer it is to resolving.
+: Lasts 7 seconds. Seems to be periodically afflicted on any player who has Pool of Reclaimed Light. One player does their best Grandmaster Cursed Thrall impression, dealing lethal damage to any nearby allies and dealing ~250k damage to Golgoroth if nearby, presumably ignoring damage resistance. Creates a humming noise that can be heard by all players and gets louder the closer it is to resolving.
 
 **Drained of Light**
 
@@ -378,7 +384,7 @@ Kill Golgoroth.
 ### Interactables
 **Poison Sac**
 
-: Appears when Golgoroth's Gaze has been obtained / passed, aside from the cosmetic one that starts the encounter. Has 6 spawn spots on the ceiling, in a zig-zag pattern, starting left-most nearest the entrance and ends right-most furthest from the entrance. When Golgoroth's Gaze is broken, no more poison sacs in sequence will spawn. When the first poison sac is broken 5 times (this includes the cosmetic one to start the encounter), Golgoroth enrages.
+: Appears when Golgoroth's Gaze has been obtained / passed, aside from the cosmetic one that starts the encounter. Has 6 spawn spots on the ceiling, in a zig-zag pattern, starting left-most nearest the entrance and ends right-most furthest from the entrance. The When Golgoroth's Gaze is broken, no more poison sacs in sequence will spawn. When the first poison sac is broken 4 times, Golgoroth enrages.
 
 ### Mechanically Relevant Enemies
 **Golgoroth**
@@ -387,7 +393,7 @@ Kill Golgoroth.
 
 : Breaking his back will grant Golgoroth's Gaze, changing Golg's kit from the standard Ogre kit to an Axion Dart spammer and lock both his aggro and facing to the player with Gaze. Golgoroth's Axion Darts have a special name (Golgoroth's Rage) and inflict Ogre's Venom in addition to normal Axion Dart effects.
 
-: When a player has Gaze, Golgoroth's stomach will glow white and can be damaged, but with ~95% damage resistance. Standing in a Pool of Reclaimed Light will allow outgoing damage to ignore Golgoroth's damage resistance. Weak spot is his glowing core on his stomach. Enrages after breaking the first poison sac 4 times.
+: When a player has Gaze, Golgoroth's stomach will glow white and can be damaged, but with ~95% damage resistance. Standing in a pool of Reclaimed Light will allow outgoing damage to ignore Golgoroth's damage resistance. Weak spot is his glowing core on his stomach. Enrages after breaking the first poison sac 4 times.
 
 ### Special Enemies
 **Adepts**
@@ -508,9 +514,9 @@ Kill Oryx, The Taken King.
 - Kill all the Light-Eaters ASAP
 - Do plate dance, get Brand Claimer
 - Claim the Vessel of Oryx's Brand, obtain life privilege
-- Do a little bit of cosmic trolling by detonating neutrino bombs during darkness channel
+- Put the Dox in Doxology by detonating neutrino bombs during darkness channel
 - Stack on brand holder to survive the ban wave
-- Help out your good friend Oryx by giving him some advanced LASIK on his chest
+- Show Oryx how to solo Crota with some [hardcore cheeto hands](https://media.discordapp.net/attachments/981996380698603581/1013505892962029658/sweatcicle.gif)
 - Get flinched by the thrall and whiff the crit, speak a word of it to no one
 - Survive the wacky Warioware minigame
 
@@ -532,7 +538,7 @@ Kill Oryx, The Taken King.
 
 **Corrupted Light**
 
-: Looks similar to a Taken Blight. When activated, prints a text log and then roughly three seconds afterwards, kills all Guardians not under the effect of an Immortality buff. If detonated while Oryx is channeling Doxology, he becomes vulnerable for five seconds per bomb resolved during the channel. Can be eaten by any Hive Knight, empowering them and removing it from the field.
+: Looks similar to a Taken Blight. When activated, prints a text log and then roughly three seconds afterwards, kills all Guardians not under the effect of an Immortality buff. If detonated while Oryx is channeling Doxology, he becomes vulnerable for five seconds per bomb resolved during the channel. Can be eaten by any Hive Knight, empowering them and removing it from the field. Despawns upon entering final stand.
 
 **Dome**
 
