@@ -20,7 +20,7 @@ Hollow Knight joke here.
 
 ## Ammo Generation
 This section is for you, Aeon users.
-- E1, E2 and E3 have minibosses that can be finished for heavy drops. E2 and E5 have none on Legend.
+- E1, E2 and E3 have miniboss Knights or Wizards that can be finished for heavy drops. E4 and E5 have none on Legend.
 - Hive and Taken are in this raid, so any of the three Champion types could be present on Master in addition to the Unstoppable one already present in E1. Expect Overload Hobgoblins in E4M/E5M.
 
 ---
