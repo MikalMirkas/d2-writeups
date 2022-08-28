@@ -78,7 +78,7 @@ The pyramid itself is only relevant if one of the following is met:
 
 Otherwise, speedrun through this section.
 
-## Bonus Boss Chest
+## Offering (Bonus Boss Chest) {#offering}
 When you first enter the pyramid, a glyph totem/board spawns with 3 glyphs on it. Finding the rooms that correlate to the glyphs on the totem and **only** activating them grants an additional drop from final boss that has a raid weapon with **guaranteed** Deepsight Resonance. Once all 3 have been activated, a text string will appear with "The Disciple recognizes your offering...". 
 - The lockout is weekly, once per account.
 - You cannot backtrack without OoBing. OoBing in load zones has a chance to render the chest **unobtainable without restarting**, due to despawning load zones forward and killing players in zones ahead, causing a softlock.
@@ -123,11 +123,9 @@ Decoded instructions:
 
 ---
 
-# Acquisition ![Unstoppable Champions]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="20px" width="20px"} {#acquisition} 
+# Acquisition ![Unstoppable Champions]({{"assets/images/destiny/champion_icons/Unstoppable_Champion_icon.png" | relative_url}}){:height="20px" width="20px"} {#acquisition} 
 
-Acquisition is an introductory encounter to the raid, teaching the main bulk of the mechanics while racing the clock. The encounter starts when you open the doors using the control mechanism in the north part of the room.
-
-![Acquisition Encounter Map](https://i.imgur.com/9PjcEUk.png)
+Acquisition is an introductory encounter to the raid, teaching the main bulk of the mechanics while racing the clock. The encounter starts when you open the doors using the control mechanism in the north part of the room. A link to a [Acquisition Encounter Map can be found here.](https://i.imgur.com/9PjcEUk.png)
 
 ## Objective
 The objective of the encounter is to have the obelisk accept your offering three times, allowing further progression into the raid.
@@ -164,7 +162,7 @@ One is in front of each obelisk, for a total of three of them in the encounter.
 **Glyphkeepers**
 : Glyphkeepers are a reoccurring named enemy - an ultra Chieftain in the raid that reveal glyphs on death.
 
-: Inside each room that is shown by the glyph board, there are two Glyphkeepers, one on each side of the room. Each side of the room has a symbol that corresponds with a display - it will always be light or dark. Killing any (verify) Glyphkeepers in its set will spawn an ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abomination outside of its relevant obelisk (uncertain, might be based on closest location to crypt) - these spawn locations are static.
+: Inside each room that is shown by the glyph board, there are two Glyphkeepers, one on each side of the room. Each side of the room has a symbol that corresponds with a display - it will always be light or dark. Killing any (verify) Glyphkeepers in its set will spawn an ![Unstoppable Champion]({{"assets/images/destiny/champion_icons/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abomination outside of its relevant obelisk (uncertain, might be based on closest location to crypt) - these spawn locations are static.
 
 : Killing the correct Glyphkeeper will progress the glyph board. Killing the incorrect one does nothing. Regardless of which is killed, they will reveal a glyph pillar located at their spawn location (empty, glyph, empty). The pillar from the GK of the called side needs to be relayed to the team for the obelisk offering section.
 
@@ -177,7 +175,7 @@ One is in front of each obelisk, for a total of three of them in the encounter.
 : Abored Adherents are major Scorn Lurkers that accompany spawn sets. In E1, it accompanies every normal spawn in a set of 2. They are able to target the obelisk in addition to players. AAs deal large damage to obelisks, roughly 1/18th of its health per hit.
 
 ## Challenge: Swift Destruction
-The challenge is failed if any ![Unstoppable Champion]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abominations remain alive, after roughly 3 seconds, after another one dies. Unknown if this check is per wave or map-wide. Note that, sometimes, the Abomination furthest north can spawn OoB.
+The challenge is failed if any ![Unstoppable Champion]({{"assets/images/destiny/champion_icons/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Abominations remain alive, after roughly 3 seconds, after another one dies. Unknown if this check is per wave or map-wide. Note that, sometimes, the Abomination furthest north can spawn OoB.
 
 ## Rewards
 The encounter chest grants one of the following:
@@ -252,7 +250,9 @@ Damage can be dealt to the Caretaker when Resonant Breakthrough is active.
 
 ### Mechanically Relevant Enemies
 **Caretaker**
+
 *Health Gating*
+
 Caretaker can only lose roughly 33% of their first health bar per damage phase, cumulatively. To be clear: he can only go down to 66% of his first HP bar on floor 1 before starting his disengagement, roughly 33% on floor 2 and 0% on floor 3. Upon triggering the gate, Caretaker will gain a **25% damage vulnerability** and start teleporting 4 seconds afterwards. The glowing portion on the boss health bar denotes how much health is left per gate.
 
 *Stun Loop*
@@ -295,7 +295,7 @@ This is where your flawlesses will die; Warlocks in particular want practice wit
 
 ---
 
-# Exhibition ![Overload Champions]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="20px" width="20px"} {#exhibition}
+# Exhibition ![Overload Champions]({{"assets/images/destiny/champion_icons/Overload_Champion_icon.png" | relative_url}}){:height="20px" width="20px"} {#exhibition}
 Exhibition is a mob-heavy encounter where you juggle artifacts (known as relics) to deal with weapon-immune enemies and cleansing debuffs while racing the clock. Encounter starts by taking the Resonant Shard from its terminal / pedestal.
 
 ![Exhibition Encounter Map](https://cdn.discordapp.com/attachments/948006022306463804/951287013506707466/IMG_7825.webp)
@@ -332,7 +332,7 @@ Deposit all three relics on the fifth and final series of terminals.
 ### Mechanically Relevant Enemies
 **Glyphkeepers**
 : A new Glyphkeeper type is introduced in this encounter, the Resonant Glyphkeeper - an Ultra Taken Phalanx.
-: Glyphkeepers spawn when all the Taken Hobgoblins on their side have been slain, presumably including the ![Overload Champion]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"}s. A text line will appear: "Glyphkeepers approach..."
+: Glyphkeepers spawn when all the Taken Hobgoblins on their side have been slain, presumably including the ![Overload Champion]({{"assets/images/destiny/champion_icons/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"}s. A text line will appear: "Glyphkeepers approach..."
 : Glyphkeepers spawn in sets of 2, 1 Scorn and 1 Taken. Every room that doesn't have a terminal in it will have 2 sets, 1 otherwise.
 : Killing either of these Glyphkeepers will drop a glyph totem. The totem from the Taken GK can **only be read by a relic holder** and vice-versa. Killing both of them will spawn a Disciple's Hourglass at the chokepoint of the current non-terminal room. Additionally, if it is the first set of each non-terminal room, their deaths will spawn more Taken Hobgoblins (and maybe some Lurkers, unverified).
 : Any room with more than 1 set of Glyphkeeper spawns will stack PD on any player inside it as long as all sets aren't dead. Note: the application geometry does not match the room geometry, there are small spots on some walls and doors that stop stacking.
@@ -488,6 +488,7 @@ After the bubble is enterable, players have an unknown amount of time (I assume 
 : Rhulk is **incorporeal while dashing**, meaning he both takes and deals no damage during the dash. Only the cleave has a hurtbox.
 
 *Suns of Lubrae*
+
 : This attack is usually used as a followup to the dash, but can also be used on its own. Identical to the laser attack in the first phase but is faster, 4x smaller and fires 4way cardinally from where he's facing. Unknown if it can be dodged by being directly inside the boss.
 
 *Orange Channel*
@@ -556,14 +557,14 @@ Master difficulty applies the following changes to the raid:
 - All Disciple's Compasses gain Solar shields
 - All Wraiths gain Solar shields
 - All ordinary Taken Hobgoblins gain Void shields
-- All Taken Vandals are upgraded to ![Overload Hobgoblins]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"}
-- All Glyphkeepers are upgraded to Champions of the same enemy type (Chieftains become ![Overload Champions]({{"assets/images/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} and Phalanxes become ![Unstoppable Champions]({{"assets/images/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"})
+- All Taken Vandals are upgraded to ![Overload Hobgoblins]({{"assets/images/destiny/champion_icons/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"}
+- All Glyphkeepers are upgraded to Champions of the same enemy type (Chieftains become ![Overload Champions]({{"assets/images/destiny/champion_icons/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} and Phalanxes become ![Unstoppable Champions]({{"assets/images/destiny/champion_icons/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"})
 
 ## Reward Adjustments
 
-All encounter chest rewards are overwritten with high-stat armor, specializing on on a specific stat per a weekly rotation. All challenge chest rewards are overwritten with **any** adept weapon from the raid.
+All encounter chest rewards are overwritten with high-stat armor, specializing on a specific stat per a weekly rotation. All challenge chest rewards are overwritten with **any** adept weapon from the raid.
 
 ---
 
 # Spoils Chest {#end}
-Weapons that have been obtained from the raid prior can be purchased here. The first weapon purchase per week is guaranteed Deepsight Resonance, per week on an account-wide lockout. Subsequent purchases have no chance, if any, to be Deepsighted.
+Weapons and armor that have obtained from the raid can be purchased here. The first weapon purchase per week is guaranteed to have Deepsight Resonance, on an account-wide lockout. Subsequent purchases during the lockout have no chance, if any, to be Deepsighted.
