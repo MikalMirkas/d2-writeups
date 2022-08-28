@@ -78,7 +78,7 @@ The pyramid itself is only relevant if one of the following is met:
 
 Otherwise, speedrun through this section.
 
-## Bonus Boss Chest
+## Offering (Bonus Boss Chest)
 When you first enter the pyramid, a glyph totem/board spawns with 3 glyphs on it. Finding the rooms that correlate to the glyphs on the totem and **only** activating them grants an additional drop from final boss that has a raid weapon with **guaranteed** Deepsight Resonance. Once all 3 have been activated, a text string will appear with "The Disciple recognizes your offering...". 
 - The lockout is weekly, once per account.
 - You cannot backtrack without OoBing. OoBing in load zones has a chance to render the chest **unobtainable without restarting**, due to despawning load zones forward and killing players in zones ahead, causing a softlock.
