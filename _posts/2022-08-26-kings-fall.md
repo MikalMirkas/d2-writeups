@@ -286,7 +286,7 @@ The objective of the encounter is to kill the Warpriest.
 ### Mechanically Relevant Enemies
 **Warpriest**
 
-: Large Knight boss with four extra attacks: Taken Fire from Taken Knights, Retaliation Swarm from Taken Hobgoblins, Darkness Bolt from Taken Captains (only used after Searing Torrent) and Axion Darts from Taken Centurions. Immune to damage from anyone who does not have an Initiate buff. Summons an Oculus after each damage phase.
+: Large Knight boss with four extra attacks: Taken Fire from Taken Knights, Retaliation Swarm from Taken Hobgoblins, Darkness Bolts from Taken Captains and Axion Darts from Taken Centurions. Immune to damage from anyone who does not have an Initiate buff. Summons an Oculus after each damage phase.
 
 **Oculus**
 
