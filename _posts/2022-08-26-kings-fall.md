@@ -3,10 +3,9 @@ title: "King's Fall"
 category: destiny
 tags: raids
 ---
-{% if site.data.destiny.power.min > 1580 %}
-{% assign power = site.data.destiny.power.min %}
-{% else %}
 {% assign power = 1580 %}
+{% if site.data.destiny.power.min > power %}
+{% assign power = site.data.destiny.power.min %}
 {% endif %}
 
 Hollow Knight joke here.

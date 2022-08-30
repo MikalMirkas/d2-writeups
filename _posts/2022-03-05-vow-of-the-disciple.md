@@ -3,10 +3,10 @@ title: "Vow of the Disciple"
 category: destiny
 tags: raids
 ---
-{% if site.data.destiny.power.min > 1550 %}
-{% assign power = site.data.destiny.power.min %}
-{% else %}
+
 {% assign power = 1550 %}
+{% if site.data.destiny.power.min > power %}
+{% assign power = site.data.destiny.power.min %}
 {% endif %}
 
 Vow of the Disciple is the end result of blending encounters from Last Wish, Leviathan, Vault of Glass, Crown of Sorrow and Risk of Rain 2's final boss.

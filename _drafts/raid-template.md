@@ -3,10 +3,9 @@ title: "raid copypaste"
 category: destiny
 tags: raids
 ---
-{% if site.data.destiny.power.min > 1560 %}
+{% assign power = 1580 %}
+{% if site.data.destiny.power.min > power %}
 {% assign power = site.data.destiny.power.min %}
-{% else %}
-{% assign power = 1560 %}
 {% endif %}
 
 slightly witty description here, don't forget to adjust power
