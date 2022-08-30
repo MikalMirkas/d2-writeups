@@ -68,7 +68,8 @@ Below the platform that the portal is on, there are three runes displayed out of
 - The lockout is weekly, once per account.
 - To be explicit, it must be done in one complete run.
 - You cannot backtrack without OoBing - the doors close behind you in every encounter. If it is anything like Vow of the Disciple, OoBing may cause softlocks.
-- **As of writing, every combination seems to be broken aside from a handful. Crosswalk + Typing + England is rumored to work.**
+- **If you wipe in a zone with an activated rune loaded, it will deactivate.** I have had three runs fail and, so far, this appears to be the culprit.
+- **The ninth rune supposedly will not activate after in Oryx.**
 
 ### Locations
 There are 9 runes in the raid. Ishtar Collective has no data on the names aside from the Typing rune, so have fun communicating this to your raid. I included the nicknames that my group decided on, but feel free to use your own.
@@ -289,7 +290,7 @@ The objective of the encounter is to kill the Warpriest.
 
 **Oculus**
 
-: Flavor enemy in the shape of a large Taken ball that hangs out in the back of the arena. Presumably uninteractable. Casts Searing Torrent during damage phase end, dealing [rapid and near-lethal](https://clips.twitch.tv/SpineyInquisitiveWallabyRickroll-c1W-gfASThSwwC_2) damage to any player not hiding behind a monolith. Removes any monoliths that have a player near it after the attack animation ends.
+: Flavor enemy in the shape of a large Taken ball that hangs out in the back of the arena. Presumably uninteractable. Casts Searing Torrent during damage phase end, dealing [rapid and near-lethal](https://clips.twitch.tv/SpineyInquisitiveWallabyRickroll-c1W-gfASThSwwC_2) damage to any player not hiding behind a monolith. Removes any monoliths that have a player near it after the attack animation ends. **Does not ignore overshields or block frames**.
 
 **Revenant Knight**
 
