@@ -44,7 +44,7 @@ Activate all six statues.
 
 ### Statuses
 **Time Remaining**
-: Self-explanatory. Time allotted seems to depend on which set is obtained, but might be passively rolling from 60 seconds and is only shown when both players pick up a relic. Shown to all players when both Relics are obtained. Deposit all relics at the active statue before it runs out or all relics respawn. Resets to 4 seconds when one is deposited.
+: Self-explanatory. Time allotted seems to depend on which set is obtained, but might be passively rolling from 60 seconds and is only shown when both players pick up a relic. Shown to all players when either relics are obtained. Deposit all relics at the active statue before it runs out or all relics respawn. Resets to 4 seconds when one is deposited.
 
 | Set Number | Duration (s) |
 |------------|--------------|
@@ -57,9 +57,8 @@ Activate all six statues.
 
 ## Rewards
 One of the following, at world drop light:
+- Doom of Chelchis
 - Class Item
-- chips got a scout idk
-- to be filled in
 
 ---
 
@@ -69,6 +68,7 @@ Below the platform that the portal is on, there are three runes displayed out of
 - The lockout is weekly, once per account.
 - To be explicit, it must be done in one complete run.
 - You cannot backtrack without OoBing - the doors close behind you in every encounter. If it is anything like Vow of the Disciple, OoBing may cause softlocks.
+- **As of writing, every combination seems to be broken aside from a handful. Crosswalk + Typing + England is rumored to work.**
 
 ### Locations
 There are 9 runes in the raid. Ishtar Collective has no data on the names aside from the Typing rune, so have fun communicating this to your raid. I included the nicknames that my group decided on, but feel free to use your own.
@@ -76,7 +76,7 @@ There are 9 runes in the raid. Ishtar Collective has no data on the names aside 
 |Rune|Nickname|Location|
 |:---:|:---------:|------------------------------------|
 |!["Table"]({{"assets/images/destiny/runes/table.png" \| relative_url}}){:height="50px" width="50px"}     |   Table   | In the Crux, after the first jump to the swaying pillars, look below from where you jumped from. |
-| !["Crosswalk"]({{"assets/images/destiny/runes/crosswalk.png" \| relative_url}}){:height="50px" width="50px"} | Crosswalk | Above the door where the first secret chest is.|
+|!["Crosswalk"]({{"assets/images/destiny/runes/crosswalk.png" \| relative_url}}){:height="50px" width="50px"} | Crosswalk | Above the door where the first secret chest is.|
 |!["Clippy"]({{"assets/images/destiny/runes/clippy.png" | relative_url}}){:height="50px" width="50px"}|Clippy|In the room with the left Annihilator Totem, on the wall with the balcony.|
 |!["Volcano"]({{"assets/images/destiny/runes/volcano.png" | relative_url}}){:height="50px" width="50px"}|Volcano|In Warpriest's room, on the wall opposite of the door, touching the right side balcony.|
 |!["Typing"]({{"assets/images/destiny/runes/typing.png" | relative_url}}){:height="50px" width="50px"}|(Is) Typing / Door / Treasure / Chamber|Immediately before Golgoroth's room, inside the last pit.|
@@ -150,18 +150,18 @@ The objective of the encounter is to open the door by depositing roughly 200 sta
 
 **Blight of Weaving / Unraveling**
 
-: Deals low damage over time. After taking damage for around five seconds from it, instantly kills the target.
+: Deals low damage over time, incrementing per successive hit. Roughly the seventh tick will instantly kill the target. Weaving is on the left side and Unraveling is on the right.
 
 ### Statuses
 **Brand of the Unraveler / Weaver**
 
-: Lasts 30 seconds. Found on the pedestals near the entrance of the totem rooms - Unraveler on the left side and Weaver on the right. Creates a safe zone around the player that negates the fog, granting their respective Aura buff while inside. Once the buff times out, the player who has it dies.
+: Lasts 30 seconds. Found on the pedestals near the entrance of the totem rooms - Unraveler on the left side and Weaver on the right. Creates a safe zone around the player that negates the (opposite type?) damage aura, granting their respective Aura buff while inside. Once the buff times out, the player who has it dies.
 
 : Killing a minor Hive enemy with Brand of the Unraveler grants a stack of Deathsinger's Power and a major Hive gives 3 stacks. With the Weaver brand, you gain a stack from killing a minor Taken enemy instead and 3 stacks from a major Taken.
 
 **Aura of the Unraveler / Weaver**
 
-: Allows players to pass through the fog without penalty.
+: Allows players to pass through the aura without penalty.
 
 **Brand Claimer**
 
@@ -173,7 +173,7 @@ The objective of the encounter is to open the door by depositing roughly 200 sta
 
 **Annihilator Totem**
 
-: Kills the afflicted player. Inflicted on all players when an Annihilator Totem is charged.
+: Kills the afflicted player shortly after application. Continously inflicted on all players when an Annihilator Totem is charged.
 
 ### Interactables
 **Pedestals**
@@ -210,14 +210,15 @@ The objective of the encounter is to open the door by depositing roughly 200 sta
 
 No player may hold the same Brand type twice in succession.
 
-: A Behemoth point of view for Contest Challenge Mode E1 can be found [here](https://www.youtube.com/watch?v=lNSwHrKRpH4).
+: A Behemoth point of view for Totems Contest Challenge Mode can be found [here](https://www.youtube.com/watch?v=lNSwHrKRpH4).
 
 ## Rewards
 One of the following:
 - Doom of Chelchis
-- Class Item
+- Qullim's Terminus
 - Chest
 - Legs
+- Class Item
 
 ---
 
@@ -226,7 +227,7 @@ One of the following:
 Encounter starts by activating all three plates at the same time. Add spawns change depending on boss's health.
 - Before first damage phase: Rank and file Hive, Revenant Knights and (ultra) Blistered Wizards. All enemies spawn through the arena doors.
 - Above ~50% HP: Same as above but with Cursed Thralls and Adepts.
-- Below ~50% HP: All adds replaced with Taken; including Hobgoblins, Minotaurs and (ultra) Servile Knights. All enemies spawn through ordinary Taken spawns (aka there are more spawns and at different locations).
+- Below ~50% HP: All adds replaced with Taken; including Hobgoblins, Minotaurs and ultras. All enemies spawn through ordinary Taken spawns (aka there are more spawns and at different locations).
 
 ## Objective
 The objective of the encounter is to kill the Warpriest.
@@ -363,7 +364,7 @@ Kill Golgoroth.
 ### Statuses
 **Golgoroth's Gaze**
 
-: Caretaker will inflict a debuff of the same name on someone who shoots him in the back with the text prompt, "Golgoroth shifts his Gaze to ``<PLAYERNAME>``". While Gaze is active, Golgoroth will fire swarms of Golgoroth's Rage at the debuffed player instead of using the normal Ogre attack kit. Lasts 20 seconds, only one gaze can be active at a time. Breaking line of sight or gaining any form of invisibility instantly removes the debuff. Gaining Gaze while it is active will purge it on any other players. If gained while any other Gazes are active, a wave of adds will spawn near the door in the back of the pit (unsure if on a timer or if this is the spawn condition).
+: Caretaker will inflict a debuff of the same name on someone who shoots him in the back with the text prompt, "Golgoroth shifts his Gaze to ``<PLAYERNAME>``". While Gaze is active, Golgoroth will fire swarms of Golgoroth's Rage at the debuffed player instead of using the normal Ogre attack kit. Lasts 20 seconds, only one gaze can be active at a time. Breaking line of sight or gaining any form of invisibility instantly removes the debuff. Gaining Gaze while it is active will purge it on any other players. If gained while any other Gazes are active, a wave of adds will spawn near the door in the back of the pit (unsure if on a timer or if this is the spawn condition). Losing Gaze at any time will despawn all poison sacs.
 
 **Pool of Reclaimed Light**
 
@@ -371,7 +372,7 @@ Kill Golgoroth.
 
 **Unstable Light**
 
-: Lasts 7 seconds. Seems to be periodically afflicted on any player who has Pool of Reclaimed Light. One player does their best Grandmaster Cursed Thrall impression, dealing lethal damage to any nearby allies and dealing ~250k damage to Golgoroth if nearby, presumably ignoring damage resistance. Creates a humming noise that can be heard by all players and gets louder the closer it is to resolving.
+: Lasts 7 seconds. Seems to be periodically afflicted on any player who has Pool of Reclaimed Light. One player does their best Grandmaster Cursed Thrall impression, dealing lethal damage to any nearby allies and dealing massive damage to Golgoroth if nearby, presumably ignoring damage resistance. Creates a humming noise that can be heard by all players and gets louder the closer it is to resolving.
 
 **Drained of Light**
 
@@ -410,6 +411,7 @@ Any time Golgoroth's Gaze is removed, it must be accompanied by the Pool of Recl
 One of the following:
 - Zaouli's Bane
 - Midha's Reckoning
+- Qullum's Terminus
 - Helmet
 - Legs
 
@@ -481,7 +483,7 @@ Kill the Deathsingers.
 
 **Ir Halak, Deathsinger**
 
-: Hive Wizard boss. Starts each phase with Brand of Weaving. Supposedly treated as a vehicle for the purposes of Wardcliff Coil (e.g. enjoy this while you can). While singing, doesn't attack and inflicts Dirge of Unraveling on the raid. Only one Deathsinger can be singing at a time (do they always alternate? is the first one static?).
+: Hive Wizard boss. Starts each phase with Brand of Weaving. Treated as an elite for purposes of damage calculation. While singing, doesn't attack and inflicts Dirge of Unraveling on the raid. Only one Deathsinger can be singing at a time (do they always alternate? is the first one static?).
 
 **Ir Anûk, Deathsinger**
 
@@ -496,7 +498,9 @@ No player can activate a plate more than once per phase.
 ## Rewards
 One of the following:
 - Smite of Merain
-- Qullim's Terminus
+- Defiance of Yasmin
+- Qullim's Terminus?
+- Zaouli's Bane
 - Arms
 - Chest
 
@@ -538,11 +542,11 @@ Kill Oryx, The Taken King.
 
 **Corrupted Light**
 
-: Looks similar to a Taken Blight. When activated, prints a text log and then roughly three seconds afterwards, kills all Guardians not under the effect of an Immortality buff. If detonated while Oryx is channeling Doxology, he becomes vulnerable for five seconds per bomb resolved during the channel. Can be eaten by any Hive Knight, empowering them and removing it from the field. Despawns upon entering final stand.
+: Looks similar to a Taken Blight. When activated, prints a text log and then roughly three seconds afterwards, deals roughly 300 damage to all Guardians not under the effect of an Immortality buff. If detonated while Oryx is channeling Doxology, he becomes vulnerable for five seconds per bomb resolved during the channel. Can be eaten by any Hive Knight, empowering them and removing it from the field. Despawns upon entering final stand.
 
 **Dome**
 
-: The thunderdome / Darkness Sphere / "this has no name given to the player" is active while the Shade of Oryx is alive. This always appears in front of Oryx at the end of a phase, should he choose to use it. If any Taken Thrall touch it, they teleport inside the dome. Supposedly, touching the outside of the dome is instant death. All players inside are teleported out when the Shade dies. Players are periodically teleported inside while the dome is active.
+: The thunderdome / Darkness sphere / "this has no name given to the player" is active while the Shade of Oryx is alive. This always appears in front of Oryx at the end of a phase, should he choose to use it. If any Taken Thrall touch it, they teleport inside the dome. Supposedly, touching the outside of the dome is instant death. All players inside are teleported out when the Shade dies. Players are periodically teleported inside while the dome is active.
 
 ### Statuses
 
@@ -573,9 +577,9 @@ Kill Oryx, The Taken King.
 ### Mechanically Relevant Enemies
 **Oryx, The Taken King**
 
-: Attacks by using Fist of Darkness (the instakill slam), Spite of the King (the spit) and Doxology (the raid wipe, always has the Darkness text tell). Has two special attacks at the end of a phase and will only use one of them: Summon Darkness Sphere (Shade of Oryx minigame) or Wrath of the King (summon Ravenous Knight on each plate, continously summon proximity bombs on every player for roughly 10 seconds). Immune to damage aside from his crit spot and during final stand. Can be stunned by detonating Corrupted Light during Doxology channel.
+: Attacks by using Fist of Darkness (the instakill slam), Spite of the King (the spit) and Doxology (the raid wipe, always has the Darkness text tell). Has two special attacks at the end of a phase and will only use one of them: Summon Darkness Sphere (Shade of Oryx minigame) or Wrath of the King (summon Ravenous Knight on each plate, continously summon proximity bombs on every player until Knights are dead or until 9 bombs spawn on each player). Immune to damage aside from his crit spot and during final stand. Can be stunned by detonating Corrupted Light during Doxology channel.
 
-: After Oryx casts his second Fist of Darkness per phase, he will cast Doxology. This is roughly 110 seconds after the first first per phase and seems to be shortened to 5 seconds after Brand of Immortality has been stolen.
+: After Oryx casts his second Fist of Darkness per phase, he will cast Doxology. This is roughly 110 seconds after the first fist per phase and seems to be shortened to 5 seconds after Brand of Immortality has been stolen.
 
 : Oryx's final stand will spawn 2 successive Light-Eater Ogres nearest him while starting his Doxology channel. This final stand is triggered after four damage phases or when his final stand health gate is hit, whichever comes first. When his final stand starts, damage phase is interrupted.
 
@@ -605,6 +609,7 @@ No player can kill a Light-Eater Ogre or Light-Eater Knight **from the same spaw
 One of the following:
 - Midha's Reckoning
 - Helmet
+- Gloves
 
 Additionally, if the raid exotic table was hit:
 - Touch of Malice, unknown drop chance (presumably <5% at base)
