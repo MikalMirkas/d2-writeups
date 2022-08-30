@@ -1,3 +1,21 @@
 power:
   min: 1350
   max: 1550
+
+drops:
+  kf:
+    exotic: "Touch of Malice"
+    scout_rifle: "Doom of Chelchis"
+    pulse_rifle: "Smite of Merain"
+    hand_cannon: "Zaouli's Bane"
+    fusion_rifle: "Midha's Reckoning"
+    sniper_rifle: "Defiance of Yasmin"
+    machine_gun: "Qullim's Terminus"
+  vow:
+    exotic: "Collective Obligation"
+    submachine_gun: "Submission"
+    pulse_rifle: "Insidious"
+    fusion_rifle: "Deliverance"
+    grenade_launcher: "Forbearance"
+    glaive: "Lubrae's Ruin"
+    linear_fusion_rifle: "Cataclysmic"

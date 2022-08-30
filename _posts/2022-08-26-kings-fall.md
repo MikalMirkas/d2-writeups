@@ -43,11 +43,11 @@ Activate all six statues to spawn the exit portal.
 
 ### Statuses
 **Time Remaining**
-: Self-explanatory. Initial time allotted appears to be passively rolling from 48 seconds and is only shown to all players when all spawn locations do not have relics on them, but might be dependent on set number. Upon timing out, respawns all relics. Resets to 4 seconds when one is deposited. Supposedly, each set after the first that has both relics picked up simultaneously gets a time extension of around 15 seconds. Seems to 
+: Self-explanatory. Initial time allotted appears to be passively rolling from 48 seconds and is only shown to all players when all spawn locations do not have relics on them, but might be dependent on set number. Upon timing out, respawns all relics. Resets to 4 seconds when one is deposited. Supposedly, each set after the first that has both relics picked up simultaneously gets a time extension of around 15 seconds.
 
 ## Rewards
 One of the following, at world drop light:
-- Doom of Chelchis
+- {{ site.data.destiny.drops.kf.scout_rifle }}
 - Class Item
 
 ---
@@ -66,8 +66,8 @@ There are 9 runes in the raid. Ishtar Collective has no data on the names aside 
 
 |Rune|Nickname|Location|
 |:---:|:---------:|------------------------------------|
-|!["Table"]({{"assets/images/destiny/runes/table.png" \| relative_url}}){:height="50px" width="50px"}|Table|In the Crux, after the first jump to the swaying pillars, look below from where you jumped from. |
-|!["Crosswalk"]({{"assets/images/destiny/runes/crosswalk.png" \| relative_url}}){:height="50px" width="50px"} | Crosswalk | Above the door where the first secret chest is.|
+|!["Table"]({{"assets/images/destiny/runes/table.png" | relative_url}}){:height="50px" width="50px"}|Table|In the Crux, after the first jump to the swaying pillars, look below from where you jumped from. |
+|!["Crosswalk"]({{"assets/images/destiny/runes/crosswalk.png" | relative_url}}){:height="50px" width="50px"} | Crosswalk | Above the door where the first secret chest is.|
 |!["Clippy"]({{"assets/images/destiny/runes/clippy.png" | relative_url}}){:height="50px" width="50px"}|Clippy|In the room with the left Annihilator Totem, on the wall with the balcony.|
 |!["Volcano"]({{"assets/images/destiny/runes/volcano.png" | relative_url}}){:height="50px" width="50px"}|Volcano|In Warpriest's room, on the wall opposite of the door, touching the right side balcony.|
 |!["Typing"]({{"assets/images/destiny/runes/typing.png" | relative_url}}){:height="50px" width="50px"}|(Is) Typing / Door / Treasure / Chamber|Immediately before Golgoroth's room, inside the last pit.|
@@ -78,16 +78,16 @@ There are 9 runes in the raid. Ishtar Collective has no data on the names aside 
 
 ---
 
-# Basketball Court / Touch of Malice Catalyst {#catalyst}
+# Basketball Court / {{ site.data.destiny.drops.kf.exotic }} Catalyst {#catalyst}
 
-If anyone in the raid has Touch of Malice, the Basketball Court becomes accessible and contains the ToM catalyst. To play some B-ball, all three hidden statues in the raid must be activated. To activate them, their respective dormant plate must be activated. When activated by a user who has Touch of Malice equipped, a nearby statue will start accepting relics while multiple relics appear around the area. Dunking all the relics in rapid succession will activate the statue. Failure to do so will presumably reset the plate. Activating all the statues will open the door to the court.
+If anyone in the raid has {{ site.data.destiny.drops.kf.exotic }}, the Basketball Court becomes accessible and contains its catalyst. To play some B-ball, all three hidden statues in the raid must be activated. To activate them, their respective dormant plate must be activated. When activated by a user who has the exotic equipped, a nearby statue will start accepting relics while multiple relics appear around the area. Dunking all the relics in rapid succession will activate the statue. Failure to do so will presumably reset the plate. Activating all the statues will open the door to the court.
 
 The plates are in the following three locations:
 - In the Hall of Souls, in the back left building in the distance. The statue is located behind the portal. This plate can only be activated before the first relics are grabbed. There are 4 relics with a time of 1:30 to dunk them all.
 - At the second hidden chest location. Statue is near a pit before exiting Golgoroth's maze.
 - At the third hidden chest location. Statue is at the end of the platforming segment.
 
-Inside, there is a final fourth plate. Finishing the final set of dunks inside the court will grant the catalyst to each member in the raid who has Touch of Malice in collections.
+Inside, there is a final fourth plate. Finishing the final set of dunks inside the court will grant the catalyst to each member in the raid who has {{ site.data.destiny.drops.kf.exotic }} in collections.
 
 ---
 
@@ -156,7 +156,7 @@ The objective of the encounter is to open the door by depositing roughly 200 sta
 
 **Brand Claimer**
 
-: Lasts 30 seconds. Allows passing of any brand by interacting on the aura while holding the buff and resets the brand's timer.
+: {% capture status_brand_claimer %}Lasts 30 seconds. Allows passing of any brand by interacting on the aura while holding the buff.{% endcapture %} {{ status_brand_claimer }} Resets the timer on a passed Brand of the Unraveler or Brand of the Weaver.
 
 **Deathsinger's Power**
 
@@ -195,7 +195,7 @@ The objective of the encounter is to open the door by depositing roughly 200 sta
 ### Special Enemies
 **Adepts**
 
-: Major Acolytes. On death, buffs all nearby Acolytes, augmenting their ranged attack to a Ogre's eye laser beam attack. Only present at the door.
+: {% capture description_adept_enemy %} Major Acolytes. On death, buffs all nearby Acolytes, augmenting their ranged attack to a Ogre's eye laser beam attack.{% endcapture %}{{description_adept_enemy}} Only present at the door.
 
 ## Challenge: The Grass is Always Greener
 
@@ -205,8 +205,8 @@ No player may hold the same Brand type twice in succession.
 
 ## Rewards
 One of the following:
-- Doom of Chelchis
-- Qullim's Terminus
+- {{ site.data.destiny.drops.kf.scout_rifle }}
+- {{ site.data.destiny.drops.kf.machine_gun }}
 - Chest
 - Legs
 - Class Item
@@ -253,7 +253,7 @@ The objective of the encounter is to kill the Warpriest.
 
 **Brand Claimer**
 
-: Lasts 30 seconds. Allows passing of any brand by interacting on a brand's aura while holding the buff and resets the brand's timer. Decreases the amount of stacks on Brand of the Initiate by 1.
+: {{status_brand_claimer}} Decreases the amount of stacks on Brand of the Initiate by 1.
 
 **Brand of the Initiate**
 
@@ -291,17 +291,12 @@ The objective of the encounter is to kill the Warpriest.
 
 **Blightguard**
 
-: Blightguards are miniboss Taken Knights that appear when the Brand of the Initiate is obtained. They will spawn within fusion range of plates and spawn twice per damage phase. Killing them spawns a Brand Claimer on their position.
-
-Unconfirmed what order they spawn in, but they will:
-- Spawn near plates
-- Never spawn in the same spot twice per damage phase
-- Never spawn near the plate that gave the Brand of the Initiate
+: Blightguards are miniboss Taken Knights that appear when the Brand of the Initiate is obtained. They will spawn within fusion range of plates and spawn twice per damage phase, never in the same spot and never on the same plate that gave a player Brand. Killing them spawns a Brand Claimer on their position.
 
 ### Special Enemies
 **Adepts**
 
-: Major Acolytes. On death, buffs all nearby Acolytes, augmenting their ranged attack to a Ogre's eye laser beam attack. Only present after first damage phase and if the Warpriest is spawning Hive.
+: {{description_adept_enemy}} Only present after first damage phase and if the Warpriest is spawning Hive.
 
 ## Challenge: Devious Thievery
 
@@ -311,8 +306,8 @@ Brand Claimers must be used within 5 seconds of being obtained. Additionally, no
 
 ## Rewards
 One of the following:
-- Smite of Merain
-- Defiance of Yasmin
+- {{ site.data.destiny.drops.kf.pulse_rifle }}
+- {{ site.data.destiny.drops.kf.sniper_rifle }}
 - Arms
 - Chest
 
@@ -391,16 +386,16 @@ Kill Golgoroth.
 ### Mechanically Relevant Enemies
 **Golgoroth**
 
-: Immune to taking health damage from any source without Pool of Reclaimed Light. Damage to his exposed back counts towards damage dealt but appears to deal no damage to Golgoroth's health bar, regardless of player state. His back becomes exposed after killing all the enemies in the room and will become rearmored if no one has Gaze after obtaining it once ("lost Gaze" / "failed to capture" prompt), not breaking his back within 15 seconds of it appearing (latter prompt as the last one) or Gaze being removed 6 times ("Golgoroth becomes tired").
+: Immune to taking health damage from any source not under the effect of Pool of Reclaimed Light. Damage to his exposed back counts towards damage dealt but appears to deal no damage to Golgoroth's health bar, regardless of player state. His back becomes exposed after killing all the enemies in the room and will become rearmored if no one has Gaze after obtaining it once ("lost Gaze" / "failed to capture" prompt), not breaking his back within 15 seconds of it appearing (latter prompt as the last one) or Gaze being removed 6 times ("Golgoroth becomes tired").
 
 : Breaking his back will grant Golgoroth's Gaze, changing Golg's kit from the standard Ogre kit to an Axion Dart spammer and lock both his aggro and facing to the player with Gaze. Golgoroth's Axion Darts have a special name (Golgoroth's Rage) and inflict Ogre's Venom in addition to normal Axion Dart effects.
 
-: When a player has Gaze, Golgoroth's stomach will glow white and can be damaged, but with ~95% damage resistance. Standing in a pool of Reclaimed Light will allow outgoing damage to ignore Golgoroth's damage resistance. Weak spot is his glowing core on his stomach. Enrages after breaking the first poison sac 4 times.
+: When a player has Gaze, Golgoroth's stomach will glow white and can be damaged, but with ~95% damage resistance. Standing in a pool of Reclaimed Light will allow outgoing damage to ignore Golgoroth's damage resistance. Enrages after breaking the first poison sac 4 times.
 
 ### Special Enemies
 **Adepts**
 
-: Major Acolytes. On death, buffs all nearby Acolytes, augmenting their ranged attack to a Ogre's eye laser beam attack.
+: {{description_adept_enemy}}
 
 ## Challenge: Gaze Amaze
 
@@ -410,10 +405,10 @@ Any time Golgoroth's Gaze is removed, the player who had it must under the effec
 
 ## Rewards
 One of the following:
-- Doom of Chelchis
-- Zaouli's Bane
-- Midha's Reckoning
-- Qullum's Terminus
+- {{ site.data.destiny.drops.kf.scout_rifle }}
+- {{ site.data.destiny.drops.kf.hand_cannon }}
+- {{ site.data.destiny.drops.kf.fusion_rifle }}
+- {{ site.data.destiny.drops.kf.machine_gun }}
 - Helmet
 - Legs
 
@@ -449,7 +444,7 @@ Kill the Deathsingers.
 
 **Brand Claimer**
 
-: Lasts 30 seconds. Allows passing of any brand by interacting on the aura while holding the buff.
+: {{status_brand_claimer}}
 
 **Dirge of Unraveling / Hymn of Weaving**
 
@@ -465,17 +460,17 @@ Kill the Deathsingers.
 
 **Torn Between Dimensions**
 
-: Inflicted on a random player when a player stands on a correct plate if no other players are Torn Between Dimensions. Allows them to stand on translucent platforms. Draws aggro on all bosses. Suppresses all abilities besides Movement Abilities. Inflicts both a disarm and forced third person camera. If a player dies while inflicted with Torn, it is immediately reapplied to another player. Has a lower targeting priority on players standing on plates. Turns the afflicted player's screen monochrome and changes their color scheme and texture to look more like the Taken.
+: {% capture description_status_torn %} Inflicted on a random player when a player stands on a correct plate if no other players are Torn Between Dimensions. Allows them to stand on translucent platforms. Draws aggro on all bosses. Suppresses all abilities besides Movement Abilities. Inflicts both a disarm and forced third person camera. If a player dies while inflicted with Torn, it is immediately reapplied to another player. Has a lower targeting priority on players standing on plates. Turns the afflicted player's screen monochrome and changes their color scheme and texture to look more like the Taken. {% endcapture %} {{description_status_torn}}
 
 ### Interactables
 
 **Piece of the Blightguard**
 
-: Looks like Toland. Spawns on a translucent platform above the arena. Replaced with a Brand Claimer when two have been collected.
+: {% capture description_entity_piece_of_the_blightguard %}Looks like Toland. Spawns on a translucent platform above the arena. Replaced with a Brand Claimer when two have been collected.{% endcapture %} {{ description_entity_piece_of_the_blightguard }}
 
 **Brand Claimer**
 
-: Spawns on a translucent platform above the arena when two pieces of the Blightguard have been obtained. Grants a status effect of the same name.
+: {% capture description_entity_brand_claimer_daughters %}Spawns on a translucent platform above the arena when two pieces of the Blightguard have been obtained. Grants a status effect of the same name.{% endcapture %}{{ description_entity_brand_claimer_daughters }}
 
 **Plates**
 
@@ -499,10 +494,10 @@ No player can activate a plate more than once per phase.
 
 ## Rewards
 One of the following:
-- Smite of Merain
-- Defiance of Yasmin
-- Qullim's Terminus?
-- Zaouli's Bane
+- {{ site.data.destiny.drops.kf.pulse_rifle }}
+- {{ site.data.destiny.drops.kf.sniper_rifle }}
+- {{ site.data.destiny.drops.kf.machine_gun }}?
+- {{ site.data.destiny.drops.kf.hand_cannon }}
 - Arms
 - Chest
 
@@ -531,11 +526,11 @@ Kill Oryx, The Taken King.
 
 **Piece of the Blightguard**
 
-: Looks like Toland. Spawns on a translucent platform above the arena. Replaced with a Brand Claimer when two have been collected.
+: {{ description_entity_piece_of_the_blightguard }}
 
 **Brand Claimer**
 
-: Spawns on a translucent platform above the arena when two pieces of the Blightguard have been obtained. Grants a status effect of the same name.
+: {{ description_entity_brand_claimer_daughters }}
 
 **Plates**
 
@@ -555,11 +550,11 @@ Kill Oryx, The Taken King.
 
 **Brand Claimer**
 
-: Lasts 30 seconds. Allows passing of any brand by interacting on the aura while holding the buff.
+: {{status_brand_claimer}}
 
 **Torn Between Dimensions**
 
-: Inflicted on a random player when a player stands on a correct plate if no other players are Torn Between Dimensions. Allows them to stand on translucent platforms. Draws aggro on all bosses. Suppresses all abilities besides Movement Abilities. Inflicts both a disarm and forced third person camera. If a player dies while inflicted with Torn, it is immediately reapplied to another player. Has a lower targeting priority on players standing on plates. Turns the afflicted player's screen monochrome and changes their color scheme and texture to look more like the Taken.
+: {{description_status_torn}}
 
 **Brand of Immortality**
 
@@ -580,14 +575,14 @@ Kill Oryx, The Taken King.
 ### Mechanically Relevant Enemies
 **Oryx, The Taken King**
 
-: Immune to damage outside of final stand unless he is stunned. Weak spot is his glowing chest.
+: Immune to damage outside of his final stand unless he is stunned. Weak spot is his glowing chest.
 
 : Has the following attacks:
 - Spite of the King, a projectile salvo attack. Used when any player has Torn Between Dimensions.
 - Fist of Darkness, a slam. Instantly kills any player it hits and always targets a plate. Only used outside of final stand and always used twice per phase: one at the start of the phase and one roughly 110 seconds later, before Doxology. This interval is shortened to 5 seconds after the Brand of Immortality buff has been stolen.
 - Doxology, a raid wipe that always has a text tell. Can be interrupted by detonating Corrupted Light, starting DPS phase. Always used once per phase and is always followed by the second Fist of Darkness per phase, excluding during his final stand where he will cast it after the right-side Ogre spawns.
 
-At the end of a phase, he will always do one of two special attacks:
+: At the end of a phase, he will always do one of two exclusive attacks:
 - Summon Darkness Sphere, does what it says on the tin. Summons a Shade of Oryx and a major Taken Knight on each plate after he dies.
 - Wrath of the King, targeted AoEs on all players. A major Taken Knight is spawned on each plate. WotK is continuously cast until all 4 Knights are dead or until 9 bombs spawn on each player. 
 
@@ -617,12 +612,12 @@ No player can kill a Light-Eater Ogre or Light-Eater Knight **from the same spaw
 
 ## Rewards
 One of the following:
-- Midha's Reckoning
+- {{ site.data.destiny.drops.kf.fusion_rifle }}
 - Helmet
 - Gloves
 
 Additionally, if the raid exotic table was hit:
-- Touch of Malice, unknown drop chance (presumably <5% at base)
+- {{ site.data.destiny.drops.kf.exotic }}, unknown drop chance (presumably ~5% at base)
 
 The rune secret chest grants the following:
 - Random King's Fall weapon with Deepsight Resonance
