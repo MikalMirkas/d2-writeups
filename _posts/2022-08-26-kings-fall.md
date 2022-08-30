@@ -460,11 +460,11 @@ Kill the Deathsingers.
 
 **Aura of Weaving / Unraveling**
 
-: Immune to all sources of damage that aren't instant death and debuffs of the same named type.
+: Immune to all sources of damage that aren't instant death and presumably debuffs of the same named type.
 
 **Torn Between Dimensions**
 
-: Inflicted on a random player that is not touching a plate (might be set to a lower priority?) when a player stands on the correct first plate, if no other players are Torn Between Dimensions. Allows them to stand on translucent platforms. Draws aggro on all boss enemies. Suppresses all abilities besides jump abilities and inflicts a disarm. Turns their screen monochrome and changes the afflicted player's color scheme and texture to look more like the Taken. Reinflicted on another eligible player upon death.
+: Inflicted on a random player when a player stands on the correct first plate if no other players are Torn Between Dimensions. Allows them to stand on translucent platforms. Draws aggro on all boss enemies. Suppresses all abilities besides jump abilities, inflicts both a disarm and forced third person camera. If a player dies while inflicted with Torn, it is immediately reapplied to another player. Has a lower targeting priority on players standing on plates. Turns their screen monochrome and changes the afflicted player's color scheme and texture to look more like the Taken.
 
 ### Interactables
 
@@ -547,7 +547,7 @@ Kill Oryx, The Taken King.
 
 **Dome**
 
-: The thunderdome / Darkness sphere / "this has no name given to the player" is active while the Shade of Oryx is alive. This always appears in front of Oryx at the end of a phase, should he choose to use it. If any Taken Thrall touch it, they teleport inside the dome. Supposedly, touching the outside of the dome is instant death. All players inside are teleported out when the Shade dies. Players are periodically teleported inside while the dome is active.
+: The thunderdome / Darkness sphere / "this has no name given to the player" is active while the Shade of Oryx is alive. This always appears in front of Oryx at the end of a phase, should he choose to use it. If any Taken Thrall touch it, they teleport inside the dome. Touching the outside of the dome is lethal. All players inside are teleported out when the Shade dies. Players are periodically teleported inside while the dome is active.
 
 ### Statuses
 
@@ -557,7 +557,7 @@ Kill Oryx, The Taken King.
 
 **Torn Between Dimensions**
 
-: Inflicted on a random player that is not touching a plate (might be set to a lower priority?) when a player stands on the correct first plate, if no other players are Torn Between Dimensions. Allows them to stand on translucent platforms. Draws aggro on all boss enemies. Suppresses all abilities besides jump abilities and inflicts a disarm. Turns their screen monochrome and changes the afflicted player's color scheme and texture to look more like the Taken. Reinflicted on another eligible player upon death.
+: Inflicted on a random player when a player stands on the correct first plate if no other players are Torn Between Dimensions. Allows them to stand on translucent platforms. Draws aggro on all boss enemies. Suppresses all abilities besides jump abilities, inflicts both a disarm and forced third person camera. If a player dies while inflicted with Torn, it is immediately reapplied to another player. Has a lower targeting priority on players standing on plates. Turns their screen monochrome and changes the afflicted player's color scheme and texture to look more like the Taken.
 
 **Brand of Immortality**
 
@@ -616,7 +616,7 @@ Additionally, if the raid exotic table was hit:
 - Touch of Malice, unknown drop chance (presumably <5% at base)
 
 The rune secret chest grants the following:
-- Random raid weapon with Deepsight Resonance
+- Random King's Fall weapon with Deepsight Resonance
 
 ---
 
