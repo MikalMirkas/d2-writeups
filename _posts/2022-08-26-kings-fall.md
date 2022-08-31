@@ -141,7 +141,7 @@ The objective of the encounter is to open the door by depositing roughly 200 sta
 
 **Blight of Weaving / Unraveling**
 
-: Deals low damage over time, incrementing per successive hit. The seventh tick or so tick will instantly kill its victim. Weaving is on the left side and Unraveling is on the right.
+: Deals low damage over time, incrementing per successive hit. The seventh tick or so will instantly kill its victim. The Weaving blight is on the left side and the Unraveling one is on the right.
 
 ### Statuses
 **Brand of the Unraveler / Weaver**
