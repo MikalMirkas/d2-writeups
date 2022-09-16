@@ -54,11 +54,11 @@ One of the following, at world drop light:
 
 # Offering (Bonus Boss Chest) {#offering}
 
-Below the platform that the portal is on, there are three runes displayed out of a pool of 9. Scattered throughout the raid are green flaming plates, each of them holding a specific rune when it's activated. Activating only the three displayed will play a jingle and post the text, "The runes accept your offering". grants an additional drop from final boss that has a raid weapon with **guaranteed** Deepsight Resonance. Shooting an activated rune will deactivate it and vice-versa. Once all 3 have been activated,
+Below the platform that the portal is on, there are three runes displayed out of a pool of 9. Scattered throughout the raid are green flaming plates, each of them holding a specific rune when it's activated. Activating the **three and only the three** displayed will play a jingle and post the text, "The runes accept your offering". grants an additional drop from final boss that has a raid weapon with guaranteed Deepsight Resonance. Shooting a plate with an activated rune will deactivate it and vice-versa.
 - The lockout is weekly, once per account.
 - To be explicit, it must be done in one complete run.
 - You cannot backtrack without OoBing - the doors close behind you in every encounter. If it is anything like Vow of the Disciple, OoBing may cause softlocks.
-- **The ninth rune does not properly activate after the fourth encounter starts.** (untested as of the 9/12/2022 patch)
+- **The ninth rune does not properly activate after the fourth encounter starts** (untested as of the 9/12/2022 patch).
 
 ### Locations
 There are 9 runes in the raid. Ishtar Collective has no data on the names aside from the Typing rune, so have fun communicating this to your raid. I included the nicknames that my group decided on, but feel free to use your own.
