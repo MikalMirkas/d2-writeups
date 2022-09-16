@@ -332,9 +332,9 @@ Deposit all three relics on the fifth and final series of terminals.
 ### Mechanically Relevant Enemies
 **Glyphkeepers**
 : A new Glyphkeeper type is introduced in this encounter, the Resonant Glyphkeeper - an Ultra Taken Phalanx.
-: Glyphkeepers spawn when all the Taken Hobgoblins on their side have been slain, presumably including the ![Overload Champion]({{"assets/images/destiny/champion_icons/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"}s. A text line will appear: "Glyphkeepers approach..."
+: Glyphkeepers spawn when most of the adds on their corresponding side have been slain. A text line will appear: "Glyphkeepers approach..."
 : Glyphkeepers spawn in sets of 2, 1 Scorn and 1 Taken. Every room that doesn't have a terminal in it will have 2 sets, 1 otherwise.
-: Killing either of these Glyphkeepers will drop a glyph totem. The totem from the Taken GK can **only be read by a relic holder** and vice-versa. Killing both of them will spawn a Disciple's Hourglass at the chokepoint of the current non-terminal room. Additionally, if it is the first set of each non-terminal room, their deaths will spawn more Taken Hobgoblins (and maybe some Lurkers, unverified).
+: Killing either of these Glyphkeepers will drop a glyph totem. The totem from the Taken GK can **only be read by a relic holder** and vice-versa. Killing both of them will spawn a Disciple's Hourglass at the chokepoint of the current non-terminal room. Additionally, spawning a Glyphkeeper seems to enable the next set of spawns on their side.
 : Any room with more than 1 set of Glyphkeeper spawns will stack PD on any player inside it as long as all sets aren't dead. Note: the application geometry does not match the room geometry, there are small spots on some walls and doors that stop stacking.
 
 : Each pair of glyph totems contains a matching glyph which is used to open the upcoming ingress.
@@ -466,7 +466,7 @@ Kill Rhulk, ~~Edgelord~~ Disciple of the Witness. Rhulk will hard enrage if not 
 *Deposit Phase 2: Arena Phase*
 ---
 
-![mspaint Drawing of the Arena](https://cdn.discordapp.com/attachments/937646044714504222/949917607161630720/unknown.png)
+![Mspaint Drawing of the Arena](https://cdn.discordapp.com/attachments/937646044714504222/949917607161630720/unknown.png)
 
 ### Timer
 After the bubble is enterable, players have an unknown amount of time (I assume 20 seconds) to enter the UFC cage. After the UFC cage is active, players have about 2 minutes to enter damage phase or he will presumably skip damage phase and start executing his phase end attack, kicking players back to the bubble phase. Breaking all 4 of Rhulk's crit spots will progress to damage phase.
@@ -489,7 +489,7 @@ After the bubble is enterable, players have an unknown amount of time (I assume 
 
 *Suns of Lubrae*
 
-: This attack is usually used as a followup to the dash, but can also be used on its own. Identical to the laser attack in the first phase but is faster, 4x smaller and fires 4way cardinally from where he's facing. Unknown if it can be dodged by being directly inside the boss.
+: This attack is usually used as a followup to the dash, but can also be used on its own. Identical to the laser attack in the first phase but is faster, 4x smaller and fires 4-way cardinally from where he's facing. Unknown if it can be dodged by being directly inside the boss.
 
 *Orange Channel*
 
