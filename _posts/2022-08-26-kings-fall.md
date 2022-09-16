@@ -12,9 +12,9 @@ Hollow Knight joke here.
 
 # Prereading
 
-- This isn't a guide, this is a mechanic explanation. There's many ways to handle these mechanics - do whatever's best for your raid team.
+- This isn't a guide, this is a mechanic explanation. There's many ways to handle all of these mechanics - do whatever's appropriate for your raid team.
 - Light for final encounter is {{power}}.
-- Taken Spec is enabled, but all bosses that are vulnerable to gunfire are Hive. Probably just run your normal gun spec unless you're doing things where you only deal with Taken enemies.
+- Taken Spec is enabled, but **all** encounter bosses are treated as Hive. There is one spot per encounter where there are more-or-less exclusively Taken enemies - power to you if you want to deal with menuing to optimize damage/clear on trash with your non-boss weapons.
 
 ## Ammo Generation
 This section is for you, Aeon users.
@@ -30,7 +30,7 @@ Activate all six statues to spawn the exit portal.
 
 ## Mechanics
 **Statues**
-: Six statues are in the center of the map - activating each of them will spawn a portal and end the encounter. Only statues marked by "dark energy" (Taken ball) can be activated. To activate a statue, it must be deposited at twice in quick succession. Successful rapid dunks will open up the next statue. The text log "A statue hums with dark energy" appears when the eligible statue to dunk at has changed.
+: Six statues are in the center of the map - activating each of them will spawn the exit portal. Only statues marked by "dark energy" (Taken ball) can be activated. To activate a statue, it must be deposited at twice in quick succession. Successful rapid dunks will open up the next statue. The text log "A statue hums with dark energy" appears when the eligible statue to dunk at has changed.
 
 ### Interactables
 **Relics**
@@ -43,7 +43,7 @@ Activate all six statues to spawn the exit portal.
 
 ### Statuses
 **Time Remaining**
-: Self-explanatory. Initial time allotted appears to be passively rolling from 48 seconds and is only shown to all players when all spawn locations do not have relics on them, but might be dependent on set number. Upon timing out, respawns all relics. Resets to 4 seconds when one is deposited. Supposedly, each set after the first that has both relics picked up simultaneously gets a time extension of around 15 seconds.
+: Self-explanatory. Initial time allotted appears to be passively rolling from anywhere from 48 seconds to 75 seconds and is only shown to all players when all spawn locations do not have relics on them, but might be dependent on set number. Upon timing out, respawns all relics. Resets to 4 seconds when one is deposited.
 
 ## Rewards
 One of the following, at world drop light:
@@ -58,36 +58,35 @@ Below the platform that the portal is on, there are three runes displayed out of
 - The lockout is weekly, once per account.
 - To be explicit, it must be done in one complete run.
 - You cannot backtrack without OoBing - the doors close behind you in every encounter. If it is anything like Vow of the Disciple, OoBing may cause softlocks.
-- **If you wipe in a zone with an activated rune loaded, it will deactivate and must be retoggled.** I have had three runs fail and, so far, this appears to be the culprit.
-- **The ninth rune does not properly activate after the fourth encounter starts.**
+- **The ninth rune does not properly activate after the fourth encounter starts.** (untested as of the 9/12/2022 patch)
 
 ### Locations
 There are 9 runes in the raid. Ishtar Collective has no data on the names aside from the Typing rune, so have fun communicating this to your raid. I included the nicknames that my group decided on, but feel free to use your own.
 
 |Rune|Nickname|Location|
 |:---:|:---------:|------------------------------------|
-|!["Table"]({{"assets/images/destiny/runes/table.png" | relative_url}}){:height="50px" width="50px"}|Table|In the Crux, after the first jump to the swaying pillars, look below from where you jumped from. |
-|!["Crosswalk"]({{"assets/images/destiny/runes/crosswalk.png" | relative_url}}){:height="50px" width="50px"} | Crosswalk | Above the door where the first secret chest is.|
+|!["Table"]({{"assets/images/destiny/runes/table.png" | relative_url}}){:height="50px" width="50px"}|Table|In the Crux, after the first jump to the swaying pillars, look below from where you jumped from.|
+|!["Crosswalk"]({{"assets/images/destiny/runes/crosswalk.png" | relative_url}}){:height="50px" width="50px"} | Crosswalk | Above the door, facing the first secret chest.|
 |!["Clippy"]({{"assets/images/destiny/runes/clippy.png" | relative_url}}){:height="50px" width="50px"}|Clippy|In the room with the left Annihilator Totem, on the wall with the balcony.|
-|!["Volcano"]({{"assets/images/destiny/runes/volcano.png" | relative_url}}){:height="50px" width="50px"}|Volcano|In Warpriest's room, on the wall opposite of the door, touching the right side balcony.|
-|!["Typing"]({{"assets/images/destiny/runes/typing.png" | relative_url}}){:height="50px" width="50px"}|(Is) Typing / Door / Treasure / Chamber|Immediately before Golgoroth's room, inside the last pit.|
-|!["X"]({{"assets/images/destiny/runes/x.png" | relative_url}}){:height="50px" width="50px"}|X|In the left-side pit in Golgoroth's arena.|
+|!["Volcano"]({{"assets/images/destiny/runes/volcano.png" | relative_url}}){:height="50px" width="50px"}|Volcano|In Warpriest's room, on the wall of the right-side balcony next to the door.|
+|!["Typing"]({{"assets/images/destiny/runes/typing.png" | relative_url}}){:height="50px" width="50px"}|(Is) Typing / Door / Treasure / Chamber|Immediately before Golgoroth's room, near the lip of the last pit.|
+|!["X"]({{"assets/images/destiny/runes/x.png" | relative_url}}){:height="50px" width="50px"}|X|In the left-side cubby hole in Golgoroth's arena.|
 |!["England"]({{"assets/images/destiny/runes/saucyunionjack.png" | relative_url}}){:height="50px" width="50px"}|(COME ON) England|Next to the third secret chest.|
 |!["Cone"]({{"assets/images/destiny/runes/cone.png" | relative_url}}){:height="50px" width="50px"}|Cone|In the ceiling immediately before the door after the Transept platforming segment.|
-|!["what"]({{"assets/images/destiny/runes/what.png" | relative_url}}){:height="50px" width="50px"}|what|In the final room, turn around and look at the wall where the door is.|
+|!["what"]({{"assets/images/destiny/runes/what.png" | relative_url}}){:height="50px" width="50px"}|what|Above the door in the final room, facing the sisters.|
 
 ---
 
 # Basketball Court / {{ site.data.destiny.drops.kf.exotic }} Catalyst {#catalyst}
 
-If anyone in the raid has {{ site.data.destiny.drops.kf.exotic }}, the Basketball Court becomes accessible and contains its catalyst. To play some B-ball, all three hidden statues in the raid must be activated. To activate them, their respective dormant plate must be activated. When activated by a user who has the exotic equipped, a nearby statue will start accepting relics while multiple relics appear around the area. Dunking all the relics in rapid succession will activate the statue. Failure to do so will presumably reset the plate. Activating all the statues will open the door to the court.
+If anyone in the raid has {{ site.data.destiny.drops.kf.exotic }}, the Basketball Court becomes accessible and contains its catalyst. To play some B-ball, all three hidden statues in the raid must be activated. To activate them, their respective dormant plate must be activated. When activated by a user who has the exotic equipped, a nearby statue will start accepting relics while Major Shriekers and 4 relics appear around the area with a time remaining of 1:30 for each set - there also appears to be a pool of spawn locations and 4 of them are chosen. Dunking all the relics in rapid succession will activate the statue. Failure to do so will presumably reset the plate. Activating all the statues will open the door to the court.
 
 The plates are in the following three locations:
-- In the Hall of Souls, in the back left building in the distance. The statue is located behind the portal. This plate can only be activated before the first relics are grabbed. There are 4 relics with a time of 1:30 to dunk them all.
-- At the second hidden chest location. Statue is near a pit before exiting Golgoroth's maze.
-- At the third hidden chest location. Statue is at the end of the platforming segment.
+- In the Hall of Souls, in the back left building in the distance. The statue is located behind the portal. This plate can only be activated before the first relics are grabbed.
+- In Golgoroth's Maze, at the second hidden chest location. Statue is inside a pit before exiting the area, north of the chest.
+- In Transept, at the plate  Statue is at the start of the platforming segment, on new invisible platforms.
 
-Inside, there is a final fourth plate. Finishing the final set of dunks inside the court will grant the catalyst to each member in the raid who has {{ site.data.destiny.drops.kf.exotic }} in collections.
+Inside, there is a final fourth plate. Rapidly dunking inside the court will grant the catalyst to each member in the raid who has {{ site.data.destiny.drops.kf.exotic }} in collections, exact number of dunks required is unknown.
 
 ---
 
@@ -129,15 +128,15 @@ The objective of the encounter is to open the door by depositing roughly 200 sta
 ### TL;DR
 - Get Brands
 - Sit on plates
-- Kill Wizards and Blightguards on sight
-- Only Brand users kill trash
+- Kill Wizards, Ogres and Blightguards on sight
+- Only Brand users kill trash (preferably including the starting wave)
 - Brand Claimers take the Brands before they blow up
 - Deposit stacks at door
 
 ## Mechanics
 **Annihilator Totems**
 
-: Same thing as in *Pit of Heresy*. If any of the two totems fully charge, the raid wipes. Can be prevented by standing on the plates beneath them. The rooms that they are in are engulfed in damage auras.
+: Same thing as in *Pit of Heresy*. If any of the two totems fully charge, the raid wipes. Can be prevented by standing on the plates beneath them. The rooms that they are in are engulfed in Blight auras.
 
 **Blight of Weaving / Unraveling**
 
@@ -164,7 +163,7 @@ The objective of the encounter is to open the door by depositing roughly 200 sta
 
 **Annihilator Totem**
 
-: Kills the afflicted player shortly after application. Continously inflicted on all players when an Annihilator Totem is charged.
+: Kills the afflicted player shortly after application. Continously inflicted on all players when an Annihilator Totem is charged. Can be cleansed if the Totem who inflicted it deactivates before the debuff resolves.
 
 ### Interactables
 **Pedestals**
@@ -245,7 +244,7 @@ The objective of the encounter is to kill the Warpriest.
 
 : During the glyph **reading** sequence, the middle plate will glow green. Any player standing on the middle plate is shown which side is first for the following glyph sequence, shown by its back glowing. The middle monolith's back cannot be seen from the middle plate.
 
-: During the glyph sequences, a player must stand on the correct plate to reveal which next plate needs to be held down. Holding down all three plates will grant Brand of the Initiate to the player who stood on the final plate.
+: During the glyph sequences, a player must stand on the correct plate to reveal which next plate needs to be held down. Holding down all three plates will grant Brand of the Initiate to the player who stood on the final plate. If the left and right plates are held down simultaneously before the glyph reading sequence's plate activates and all three plates become activated, it presumably gives it to whoever would have finished it normally. 
 
 : If a sequence is done out of order (or presumably if too much time elapses), a text line is printed in chat that the glyphs are released and lights all plates on fire and turns them glowing red, dealing damage for every couple of ticks that players are touching them. When all players are off the plates, the glyphs become unreleased. If the glyphs are released for too long, the raid gets architected.
 
@@ -331,8 +330,8 @@ The hidden chest in the area requires all five hidden plates to be held down sim
 - Third is bottom left
 - Fourth is middle left behind the door - there is a hole above it that can be jumped into
 - Fifth is top right
- 
-The chest spawns in the middle of the maze. All doors in the maze also open up once the chest is available.
+
+Resolving the plates opens up access to the center of the maze where the second hidden chest can be found.
 
 ---
 
@@ -345,7 +344,7 @@ Kill Golgoroth.
 
 ### TL;DR
 - Kill adds
-- Get and juggle Gaze, point towards team
+- Get and juggle Gaze, point towards the pool
 - Shoot and kill sac ASAP to optimize time spent doing damage
 - Upload Cursed Thrall PoV to YouTube after detonating Unstable Light on ~~teammates~~ Golgoroth
 - Break Golgoroth LoS when damage phase ends
@@ -366,7 +365,7 @@ Kill Golgoroth.
 
 **Unstable Light**
 
-: Lasts 7 seconds. Seems to be periodically afflicted on any player who has Pool of Reclaimed Light. One player does their best Grandmaster Cursed Thrall impression, dealing lethal damage to any nearby allies and dealing massive damage to Golgoroth if nearby, presumably ignoring damage resistance. Creates a humming noise that can be heard by all players and gets louder the closer it is to resolving.
+: Lasts 7 seconds. Seems to be periodically afflicted on any player who has Pool of Reclaimed Light. One player does their best Grandmaster Cursed Thrall impression, dealing lethal damage to any nearby allies and dealing massive damage to Golgoroth if nearby *and if vulnerable*, presumably ignoring damage resistance. Creates a humming noise that can be heard by all players and gets louder the closer it is to resolving.
 
 **Drained of Light**
 
@@ -374,7 +373,7 @@ Kill Golgoroth.
 
 **Ogre's Venom**
 
-: Lasts around 1 second. Does a tiny amount of damage. Obtained when taking damage from Golgoroth's Rage.
+: Lasts around 1 second. Deals a tiny amount of damage. Obtained when being close enough to a Golgoroth's Rage projectile when it detonates.
 
 ### Interactables
 **Poison Sac**
@@ -388,7 +387,7 @@ Kill Golgoroth.
 
 : Immune to taking health damage from any source not under the effect of Pool of Reclaimed Light. Damage to his exposed back counts towards damage dealt but appears to deal no damage to Golgoroth's health bar, regardless of player state. His back becomes exposed after killing all the enemies in the room and will become rearmored if no one has Gaze after obtaining it once ("lost Gaze" / "failed to capture" prompt), not breaking his back within 15 seconds of it appearing (latter prompt as the last one) or Gaze being removed 6 times ("Golgoroth becomes tired").
 
-: Breaking his back will grant Golgoroth's Gaze, changing Golg's kit from the standard Ogre kit to an Axion Dart spammer and lock both his aggro and facing to the player with Gaze. Golgoroth's Axion Darts have a special name (Golgoroth's Rage) and inflict Ogre's Venom in addition to normal Axion Dart effects.
+: Breaking his back will grant Golgoroth's Gaze, changing Golg's kit from the standard Ogre kit to an Axion Dart spammer and lock both his aggro and facing to the player with Gaze. Golgoroth's Axion Darts have a special name (Golgoroth's Rage) and inflict Ogre's Venom as a PBAoE deathrattle in addition to normal Axion Dart effects.
 
 : When a player has Gaze, Golgoroth's stomach will glow white and can be damaged, but with ~95% damage resistance. Standing in a pool of Reclaimed Light will allow outgoing damage to ignore Golgoroth's damage resistance. Enrages after breaking the first poison sac 4 times.
 
@@ -416,7 +415,7 @@ One of the following:
 
 # Transept {#dickwall}
 
-Traverse the walls to the next encounter. Don't get knocked off. Standing on a plate will activate platforms to the next plate. Once all 3 plates are held down, they become pressed without players standing on them. 
+Traverse the walls to the next encounter. Don't get knocked off. Standing on a plate will activate platforms to the next plate. When players reach the other side, those platforms become permanently activated.
 
 ## Hidden Chest
 There is a set of secret platforms that are activated by pulling out a Ghost, starting at the first plate and ending at a jump before the final hidden chest.
@@ -448,11 +447,11 @@ Kill the Deathsingers.
 
 **Dirge of Unraveling / Hymn of Weaving**
 
-: Lasts 120 seconds. When it times out, inflicts instant death shortly afterwards. Inflicted on all players when a phase starts and ends the phase when the debuff effect fully resolves.
+: Lasts 120 seconds. When it times out, inflicts instant death shortly afterwards. Inflicted on all players when a phase starts.
 
 **Brand of Weaving / Unraveling**
 
-: Grants the Aura effect of the same type to all nearby allies who are standing in the sphere of influence. Also grants the effects of said Aura. Removed upon death or on phase transition.
+: Grants the Aura effect of the same type to all nearby allies who are standing in the sphere of influence. Also grants the effects of said Aura. Removed upon death, phase transition or killing the Deathsinger who granted it.
 
 **Aura of Weaving / Unraveling**
 
@@ -476,11 +475,13 @@ Kill the Deathsingers.
 
 : There are four plates in the room. The first green plate will have a Revenant Knight spawn on it. Any plates being activated will inflict a random ally with Torn Between Dimensions if there isn't a Torn player already. Anyone on an activated plate can see the location of the Blightguard fragment / Brand Claimer while they are on it. The second eligible plate is the plate under the floating objective. If both plates are activated in order, platforms will appear that the Torn player can jump on while the plates remain activated. Two(?) platforms will also spawn around the arena depending on plates activated, holding a Taken ranged unit on each of them. If any plate is activated out of order, all plates will light on fire and deal continuous damage to players on plates until no players are standing on plates.
 
+: The sides of each plate do not count as standing on them.
+
 ### Mechanically Relevant Enemies
 
 **Ir Halak, Deathsinger**
 
-: Hive Wizard boss. Starts each phase with Brand of Weaving. Treated as an [elite for purposes of damage calculation](https://www.reddit.com/r/DestinyTheGame/comments/x0r0on/wardcliff_coil_doesnt_do_extra_damage_to_vehicles/). While singing, doesn't attack and inflicts Dirge of Unraveling on the raid. Only one Deathsinger can be singing at a time (do they always alternate? is the first one static?).
+: Hive Wizard boss. **Can stomp**. Starts each phase with Brand of Weaving. Treated as an [elite for purposes of damage calculation](https://www.reddit.com/r/DestinyTheGame/comments/x0r0on/wardcliff_coil_doesnt_do_extra_damage_to_vehicles/). While singing, doesn't fire projectiles and inflicts Dirge of Unraveling on the raid. Only one Deathsinger can be singing at a time (do they always alternate? is the first one static?). **If there are no singing Deathsingers, the phase resets in roughly 10 seconds.**
 
 **Ir Anûk, Deathsinger**
 
@@ -516,7 +517,7 @@ Kill Oryx, The Taken King.
 - Claim the Vessel of Oryx's Brand, obtain life privilege
 - Put the Dox in Doxology by detonating neutrino bombs during darkness channel
 - Stack on brand holder to survive the ban wave
-- Show Oryx how to solo Crota with some [hardcore cheeto hands](https://media.discordapp.net/attachments/981996380698603581/1013505892962029658/sweatcicle.gif)
+- Show Oryx how to solo Crota with some [hardcore cheeto hands](https://media.discordapp.net/attachments/981996380698603581/1013505892962029658/sweatcicle.gif) (to be clear, this is not netlimited, this is straight up injection)
 - Get flinched by the thrall and whiff the crit, speak a word of it to no one
 - Survive the wacky Warioware minigame
 
@@ -579,7 +580,7 @@ Kill Oryx, The Taken King.
 
 : Has the following attacks:
 - Spite of the King, a projectile salvo attack. Used when any player has Torn Between Dimensions.
-- Fist of Darkness, a slam. Instantly kills any player it hits and always targets a plate. Only used outside of final stand and always used twice per phase: one at the start of the phase and one roughly 110 seconds later, before Doxology. This interval is shortened to 5 seconds after the Brand of Immortality buff has been stolen.
+- Fist of Darkness, a slam. Deals approximately 170 damage and massive knockback to any player it hits and always targets a plate. Only used outside of final stand and always used twice per phase: one at the start of the phase and one roughly 110 seconds later, before Doxology. This interval is shortened to roughly 5 seconds after the Brand of Immortality buff has been stolen.
 - Doxology, a raid wipe that always has a text tell. Can be interrupted by detonating Corrupted Light, starting DPS phase. Always used once per phase and is always followed by the second Fist of Darkness per phase, excluding during his final stand where he will cast it after the right-side Ogre spawns.
 
 : At the end of a phase, he will always do one of two exclusive attacks:
@@ -633,7 +634,7 @@ Master difficulty applies the following changes to the raid:
 
 ## Reward Adjustments
 
-Unknown as of writing.
+All encounter chest rewards are overwritten with high-stat armor, specializing on a specific stat per a weekly rotation. All challenge chest rewards are overwritten with any Harrowed weapon from the raid, prioritizing those that have not yet been obtained.
 
 ---
 
@@ -642,4 +643,4 @@ Unknown as of writing.
 See you again in six months, maybe.
 
 ## Spoils Chest
-Weapons and armor that have obtained from the raid can be purchased here. The first weapon purchase per week is guaranteed to have Deepsight Resonance, on an account-wide lockout. Subsequent purchases during the lockout have no chance, if any, to be Deepsighted.
+Weapons and armor that have been obtained from the raid can be purchased here. The first weapon purchase per week is guaranteed to have Deepsight Resonance, on an account-wide lockout. Subsequent purchases during the lockout have no chance, if any, to be Deepsighted.
