@@ -15,10 +15,11 @@ Vow of the Disciple is the end result of blending encounters from Last Wish, Lev
 
 - This isn't a guide, this is a mechanic explanation. There's many ways to handle these mechanics - do whatever's best for your raid team.
 - Must have access to the Throne World region to access the raid.
-- Light for final encounter is {{power}}.
+- Light for final encounter is {{power}} on Legend.
 - 2 hidden chests (gives shader triumph), 1 bonus chest on boss from raid secret.
 - Brief overview on mechanics: obtain or protect mechanic eligibility by either killing named enemies, getting and using buffs with glyph callouts or calling out floating glyphs.
 - Solar grenade Raid mod is actually good this time, wacky.
+- When challenge week is active, all encounter lockouts are removed. This means that you can farm PvP Adept Submissions from Rhulk, if you are so inclined.
 
 ## Ammo Generation
 This section is for you, Lucent Finisher and Aeon users.
@@ -551,7 +552,7 @@ The glyph secret chest grants the following:
 # Master Difficulty {#master}
 
 Master difficulty applies the following changes to the raid:
-- The power level of each encounter is boosted to Master power level (Pinnacle Cap + 20)
+- The power level of each encounter is boosted to {{site.data.destiny.power.max | plus: 20}}
 - Match Game is enabled
 - Chaff is enabled
 - All Disciple's Compasses gain Solar shields
@@ -567,4 +568,4 @@ All encounter chest rewards are overwritten with high-stat armor, specializing o
 ---
 
 # Spoils Chest {#end}
-Weapons and armor that have obtained from the raid can be purchased here. The first weapon purchase per week is guaranteed to have Deepsight Resonance, on an account-wide lockout. Subsequent purchases during the lockout have no chance, if any, to be Deepsighted.
+Weapons and armor that have obtained from the raid can be purchased here. The first weapon purchase per week is guaranteed to have Deepsight Resonance, on an account-wide lockout. Subsequent purchases during the lockout have no chance to be Deepsighted, including Adept weapons as of s16.
