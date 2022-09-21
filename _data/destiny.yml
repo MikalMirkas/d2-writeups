@@ -1,6 +1,6 @@
 power:
   min: 1350
-  max: 1550
+  max: 1580
 
 drops:
   kf:
@@ -11,6 +11,7 @@ drops:
     fusion_rifle: "Midha's Reckoning"
     sniper_rifle: "Defiance of Yasmin"
     machine_gun: "Qullim's Terminus"
+    adept_title: " (Harrowed)"
   vow:
     exotic: "Collective Obligation"
     submachine_gun: "Submission"
@@ -19,3 +20,4 @@ drops:
     grenade_launcher: "Forbearance"
     glaive: "Lubrae's Ruin"
     linear_fusion_rifle: "Cataclysmic"
+    adept_title: " (Adept)"
