@@ -13,13 +13,13 @@ Hollow Knight joke here.
 # Prereading
 
 - This isn't a guide, this is a mechanic explanation. There's many ways to handle all of these mechanics - do whatever's appropriate for your raid team.
-- Light for final encounter is {{power}}.
+- Light for final encounter is {{power}} on Legend.
 - Taken Spec is enabled, but **all** encounter bosses are treated as Hive. There is one spot per encounter where there are more-or-less exclusively Taken enemies - power to you if you want to deal with menuing to optimize damage/clear on trash with your non-boss weapons.
 
 ## Ammo Generation
 This section is for you, Aeon users.
 - E1, E2 and E3 have miniboss Knights or Wizards that can be finished for heavy drops. E4 and E5 have none on Legend.
-- Hive and Taken are in this raid, so any of the three Champion types could be present on Master in addition to the Unstoppable one already present in E1. Expect Overload Hobgoblins in E4M/E5M.
+- On Master difficulty, there are several Champions in every encounter and no more than two types per encounter.
 
 ---
 
@@ -44,6 +44,9 @@ Activate all six statues to spawn the exit portal.
 ### Statuses
 **Time Remaining**
 : Self-explanatory. Initial time allotted appears to be passively rolling from anywhere from 48 seconds to 75 seconds and is only shown to all players when all spawn locations do not have relics on them, but might be dependent on set number. Upon timing out, respawns all relics. Resets to 4 seconds when one is deposited.
+
+## Triumph Challenge: Controlled Dunks
+: "Complete the Hall of Souls encounter while never letting the same player deposit relics until everyone else has."
 
 ## Rewards
 One of the following, at world drop light:
@@ -202,6 +205,10 @@ No player may hold the same Brand type twice in succession.
 
 : A Behemoth point of view for Totems Contest Challenge Mode can be found [here](https://www.youtube.com/watch?v=lNSwHrKRpH4).
 
+## Triumph Challenge: Overzealous
+
+Each plate can not have more than one player on it at a time.
+
 ## Rewards
 One of the following:
 - {{ site.data.destiny.drops.kf.scout_rifle }}
@@ -303,6 +310,10 @@ Brand Claimers must be used within 5 seconds of being obtained. Additionally, no
 
 : A Dawnblade and dedicated first Brand Claimer point of view for Warpriest Contest Challenge Mode can be found [here](https://www.youtube.com/watch?v=uQgCsD6VMtM).
 
+## Triumph Challenge: Brand Buster
+
+No player can obtain the Brand again until each player has obtained it. It may be worded poorly, but we effortlessly two-phased him at 10 above cap so that knowledge is unverifiable on my account.
+
 ## Rewards
 One of the following:
 - {{ site.data.destiny.drops.kf.pulse_rifle }}
@@ -402,6 +413,10 @@ Any time Golgoroth's Gaze is removed, the player who had it must under the effec
 
 : A Behemoth point of view for Golgoroth Contest Challenge Mode can be found [here](https://www.youtube.com/watch?v=0MUnKoyJVEI).
 
+## Triumph Challenge: Taking Turns
+
+No player can obtain Golgoroth's Gaze again until each player has obtained it. Uncertain if each player must obtain it at least once or if players must do a full party cycle forever.
+
 ## Rewards
 One of the following:
 - {{ site.data.destiny.drops.kf.scout_rifle }}
@@ -493,6 +508,10 @@ No player can activate a plate more than once per phase.
 
 : A Sentinel point of view for Daughters Contest Challenge Mode can be found [here](https://www.youtube.com/watch?v=K5gxkLiunNo).
 
+## Triumph Challenge: The Floor is Lava
+
+No player with Torn Between Dimensions can touch the ground. Plates, platforms extending out near the boss pillars, the boss pillars and the sides of the map seem to not qualify for what is considered as the ground.
+
 ## Rewards
 One of the following:
 - {{ site.data.destiny.drops.kf.pulse_rifle }}
@@ -543,9 +562,9 @@ Kill Oryx, The Taken King.
 
 : Looks similar to a Taken Blight. When activated, prints a text log and then roughly three seconds afterwards, deals roughly 300 damage to all Guardians not under the effect of an Immortality buff. If detonated while Oryx is channeling Doxology, he becomes vulnerable for five seconds per bomb resolved during the channel. Can be eaten by any Hive Knight, empowering them and removing it from the field. Despawns upon entering final stand.
 
-**Dome**
+**Dome / Alternate Doxology**
 
-: The thunderdome / Darkness sphere / "this has no name given to the player" is active while the Shade of Oryx is alive. This always appears in front of Oryx at the end of a phase, should he choose to use it. If any Taken Thrall touch it, they teleport inside the dome. Touching the outside of the dome is lethal. All players inside are teleported out when the Shade dies. Players are periodically teleported inside while the dome is active.
+: The thunderdome / Darkness sphere / "this has no name given to the player" is active while the Shade of Oryx is alive. This always appears in front of Oryx at the end of a phase, should he choose to use it. Players are periodically teleported inside while the dome is active. If the dome is still active after roughly 30 seconds of activation, Oryx casts Doxology and kills all players. If any Taken Thrall touch it, they teleport inside the dome. Touching the outside of the dome is lethal. All players inside are teleported out when the Shade dies.
 
 ### Statuses
 
@@ -571,7 +590,7 @@ Kill Oryx, The Taken King.
 
 **Darkness Dimension**
 
-: Debuff from being inside the dome. Prevents natural health regeneration. When all raid members have this, the raid wipes. Removed upon leaving the dome.
+: Debuff from being inside the dome. Prevents natural health regeneration. Removed upon leaving the dome.
 
 ### Mechanically Relevant Enemies
 **Oryx, The Taken King**
@@ -580,8 +599,8 @@ Kill Oryx, The Taken King.
 
 : Has the following attacks:
 - Spite of the King, a projectile salvo attack. Used when any player has Torn Between Dimensions.
-- Fist of Darkness, a slam. Deals approximately 170 damage and massive knockback to any player it hits and always targets a plate. Only used outside of final stand and always used twice per phase: one at the start of the phase and one roughly 110 seconds later, before Doxology. This interval is shortened to roughly 5 seconds after the Brand of Immortality buff has been stolen.
-- Doxology, a raid wipe that always has a text tell. Can be interrupted by detonating Corrupted Light, starting DPS phase. Always used once per phase and is always followed by the second Fist of Darkness per phase, excluding during his final stand where he will cast it after the right-side Ogre spawns.
+- Fist of Darkness, a slam. Deals approximately 250 damage and massive knockback to any player it hits and always targets a plate. Only used outside of final stand and always used twice per phase: one at the start of the phase and one roughly 110 seconds later, before Doxology. This interval is shortened to roughly 5 seconds after the Brand of Immortality buff has been stolen.
+- Doxology, a raid wipe that always has a text tell. Can be countered by detonating a Corrupted Light. Always used once per phase and is always followed by the second Fist of Darkness per phase, excluding during his final stand where he will start channeling it after the right-side Ogre spawns.
 
 : At the end of a phase, he will always do one of two exclusive attacks:
 - Summon Darkness Sphere, does what it says on the tin. Summons a Shade of Oryx and a major Taken Knight on each plate after he dies.
@@ -591,15 +610,15 @@ Kill Oryx, The Taken King.
 
 **Light-Eater Ogre**
 
-: Drops a Corrupted Light puddle at location of death. One spawns in each quadrant near each plate, clockwise from the plate that Oryx slams at, roughly five seconds after each other. First one spawns roughly 5 seconds after the first Fist of Darkness. Presumably immune to finishers, as the Corrupted Light would resolve and wipe the raid.
+: Drops a Corrupted Light puddle at location of death. One spawns in each quadrant near each plate, sequentially after the first Fist of Darkness with an interval of about 3 seconds, starting clockwise after the plate that Oryx slams at. Presumably immune to finishers, as the Corrupted Light would resolve and wipe the raid.
 
 **Light-Eater Knight**
 
-: Consumes Corrupted Light after approaching it. Spawns after a Light-Eater Ogre outside of final stand is slain. Assuming the map is divided by the walls near the two plate sets, a LEK always spawns from the opposite plate on the same side when an Ogre dies outside of Oryx's final stand. Immune to finishers?
+: Consumes Corrupted Light after approaching it. Spawns after a Light-Eater Ogre outside of final stand is slain. Assuming the map is divided by the walls near the two plate sets, a LE Knight and Taken Centurion always spawn from the opposite plate on the same side when an Ogre dies outside of Oryx's final stand. Immune to finishers.
 
 **Vessel of Oryx**
 
-: Consumes Corrupted Light after approaching it. Spawns with the Brand of Immortality buff. Spawns from the Tombship roughly 90 seconds after the first Fist of Darkness.
+: Consumes Corrupted Light after approaching it. Spawns with the Brand of Immortality buff. Spawns from the Tombship roughly 90 seconds after the first Fist of Darkness, though an alternate condition for the ship spawning may be having two pieces of the Brand Claimer obtained.
 
 **Shade of Oryx**
 
@@ -610,6 +629,10 @@ Kill Oryx, The Taken King.
 No player can kill a Light-Eater Ogre or Light-Eater Knight **from the same spawn location** twice. To be explicit, the two Ogres spawns furthest from spawn will activate a maximum of five times and everything else pops a maximum of four times. 
 
 : A Sentinel point of view for Oryx Contest Challenge Mode can be found [here](https://www.youtube.com/watch?v=oB_qY3R0itI).
+
+## Triumph Challenge: Power Overwhelming
+
+If Oryx is damaged, his first health bar must be emptied in the same damage phase.
 
 ## Rewards
 One of the following:
@@ -628,13 +651,21 @@ The rune secret chest grants the following:
 # Master Difficulty {#master}
 
 Master difficulty applies the following changes to the raid:
-- The power level of each encounter is boosted to Master power level (Pinnacle Cap + 20)
+- Master difficulty scalar applied to each enemy
+- The power level of each encounter is boosted to {{site.data.destiny.power.max | plus: 20}}
 - Match Game is enabled
-- To be filled in further when Master KF is released.
+- Chaff is enabled
+- Taken Acolytes gain Void shields
+- In the Hall of Souls, the two Taken Vandals near the portal are upgraded to ![Overload Champion]({{"assets/images/destiny/champion_icons/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Line Rifle-wielding Hobgoblins and one ![Unstoppable Champion]({{"assets/images/destiny/champion_icons/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Ogre is added to each side per spawn wave
+- In Basilica, an additional ![Unstoppable Champion]({{"assets/images/destiny/champion_icons/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Ogre is added to each side per normal Unstoppable spawn
+- In Warpriest, the Revenant Knights are replaced with ![Barrier Champion]({{"assets/images/destiny/champion_icons/Barrier_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Knights and Taken Hobgoblins are supposedly upgraded their ![Overload Champion]({{"assets/images/destiny/champion_icons/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} variants ([source until I go to check Warpriest and later manually](https://www.reddit.com/r/raidsecrets/comments/xjgpmu/comment/ip89b0n/?utm_source=share&utm_medium=web2x&context=3))
+- In Golgoroth, the two Knights that spawn when damage phase is ready have been upgraded to ![Barrier Champion]({{"assets/images/destiny/champion_icons/Barrier_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} variants
+- In Deathsingers, the Revenant Knights have been upgraded to their ![Barrier Champion]({{"assets/images/destiny/champion_icons/Barrier_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Knight variant
+- In Oryx, the Ravenous Taken Knights have been "upgraded" to ![Overload Champion]({{"assets/images/destiny/champion_icons/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Stasis-wielding Hobgoblins
 
 ## Reward Adjustments
 
-All encounter chest rewards are overwritten with high-stat armor, specializing on a specific stat per a weekly rotation. All challenge chest rewards are overwritten with any Harrowed weapon from the raid, prioritizing those that have not yet been obtained.
+All encounter chest rewards are overwritten with high-stat armor, specializing on a specific stat per a weekly rotation. All challenge chest rewards are overwritten with any Harrowed weapon from the raid, prioritizing those that have not yet been obtained. The elective difficulty challenge chests share a different lockout than the normal mode challenge chests.
 
 ---
 
@@ -643,4 +674,4 @@ All encounter chest rewards are overwritten with high-stat armor, specializing o
 See you again in six months, maybe.
 
 ## Spoils Chest
-Weapons and armor that have been obtained from the raid can be purchased here. The first weapon purchase per week is guaranteed to have Deepsight Resonance, on an account-wide lockout. Subsequent purchases during the lockout have no chance, if any, to be Deepsighted.
+Weapons and armor that have been obtained from the raid can be purchased here. The first weapon purchase per week is guaranteed to have Deepsight Resonance, on an account-wide lockout. Subsequent purchases during the lockout have no chance to be Deepsighted, excluding Harrowed weapons.
