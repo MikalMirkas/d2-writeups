@@ -15,6 +15,7 @@ Hollow Knight joke here.
 - This isn't a guide, this is a mechanic explanation. There's many ways to handle all of these mechanics - do whatever's appropriate for your raid team.
 - Light for final encounter is {{power}} on Legend.
 - Taken Spec is enabled, but **all** encounter bosses are treated as Hive. There is one spot per encounter where there are more-or-less exclusively Taken enemies - power to you if you want to deal with menuing to optimize damage/clear on trash with your non-boss weapons.
+- When challenge week is active, all encounter lockouts are removed.
 
 ## Ammo Generation
 This section is for you, Aeon users.
@@ -46,7 +47,8 @@ Activate all six statues to spawn the exit portal.
 : Self-explanatory. Initial time allotted appears to be passively rolling from anywhere from 48 seconds to 75 seconds and is only shown to all players when all spawn locations do not have relics on them, but might be dependent on set number. Upon timing out, respawns all relics. Resets to 4 seconds when one is deposited.
 
 ## Triumph Challenge: Controlled Dunks
-: "Complete the Hall of Souls encounter while never letting the same player deposit relics until everyone else has."
+
+"Complete the Hall of Souls encounter while never letting the same player deposit relics until everyone else has."
 
 ## Rewards
 One of the following, at world drop light:
@@ -55,7 +57,7 @@ One of the following, at world drop light:
 
 ---
 
-# Offering (Bonus Boss Chest) {#offering}
+# Offering (Deepsight Chest) {#deepsight}
 
 Below the platform that the portal is on, there are three runes displayed out of a pool of 9. Scattered throughout the raid are green flaming plates, each of them holding a specific rune when it's activated. Activating the **three and only the three** displayed will play a jingle and post the text, "The runes accept your offering". grants an additional drop from final boss that has a raid weapon with guaranteed Deepsight Resonance. Shooting a plate with an activated rune will deactivate it and vice-versa.
 - The lockout is weekly, once per account.
@@ -368,7 +370,7 @@ Kill Golgoroth.
 ### Statuses
 **Golgoroth's Gaze**
 
-: Caretaker will inflict a debuff of the same name on someone who shoots him in the back with the text prompt, "Golgoroth shifts his Gaze to ``<PLAYERNAME>``". While Gaze is active, Golgoroth will fire swarms of Golgoroth's Rage at the debuffed player instead of using the normal Ogre attack kit. Lasts 20 seconds, only one gaze can be active at a time. Breaking line of sight or gaining any form of invisibility instantly removes the debuff. Gaining Gaze while it is active will purge it on any other players. If gained while any other Gazes are active, a wave of adds will spawn near the door in the back of the pit (unsure if on a timer or if this is the spawn condition). Losing Gaze at any time will despawn all poison sacs.
+: Golgoroth will inflict a debuff of the same name on someone who shoots him in the back with the text prompt, "Golgoroth shifts his Gaze to ``<PLAYERNAME>``". While Gaze is active, Golgoroth will fire swarms of Golgoroth's Rage at the debuffed player instead of using the normal Ogre attack kit. Lasts 20 seconds, only one gaze can be active at a time. Breaking line of sight or gaining any form of invisibility instantly removes the debuff. Gaining Gaze while it is active will purge it on any other players. If gained while any other Gazes are active, a wave of adds will spawn near the door in the back of the pit (unsure if on a timer or if this is the spawn condition). Losing Gaze at any time will despawn all poison sacs.
 
 **Pool of Reclaimed Light**
 
@@ -640,11 +642,11 @@ One of the following:
 - Helmet
 - Gloves
 
-Additionally, if the raid exotic table was hit:
-- {{ site.data.destiny.drops.kf.exotic }}, unknown drop chance (presumably ~5% at base)
+Additionally, if the raid exotic table was hit (presumably ~5% at base):
+- {{ site.data.destiny.drops.kf.exotic }}
 
-The rune secret chest grants the following:
-- Random King's Fall weapon with Deepsight Resonance
+If the Offering puzzle was completed, the Deepsight chest grants the following:
+- Random King's Fall raid weapon with Deepsight Resonance with priority towards weapons that do not have their patterns completed
 
 ---
 
@@ -653,7 +655,6 @@ The rune secret chest grants the following:
 Master difficulty applies the following changes to the raid:
 - Master difficulty scalar applied to each enemy
 - The power level of each encounter is boosted to {{site.data.destiny.power.max | plus: 20}}
-- Match Game is enabled
 - Chaff is enabled
 - Taken Acolytes gain Void shields
 - In the Hall of Souls, the two Taken Vandals near the portal are upgraded to ![Overload Champion]({{"assets/images/destiny/champion_icons/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Line Rifle-wielding Hobgoblins and one ![Unstoppable Champion]({{"assets/images/destiny/champion_icons/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Ogre is added to each side per spawn wave
