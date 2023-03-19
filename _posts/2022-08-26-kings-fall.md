@@ -498,7 +498,7 @@ Kill the Deathsingers.
 
 **Ir Halak, Deathsinger**
 
-: Hive Wizard boss. **Can stomp**. Starts each phase with Brand of Weaving. Treated as an [elite for purposes of damage calculation](https://www.reddit.com/r/DestinyTheGame/comments/x0r0on/wardcliff_coil_doesnt_do_extra_damage_to_vehicles/). While singing, doesn't fire projectiles and inflicts Dirge of Unraveling on the raid. Only one Deathsinger can be singing at a time (do they always alternate? is the first one static?). **If there are no singing Deathsingers, the phase resets in roughly 10 seconds.**
+: Hive Wizard boss. **Can stomp**. Starts each phase with Brand of Weaving. While singing, doesn't fire projectiles and inflicts Dirge of Unraveling on the raid. Only one Deathsinger can be singing at a time (do they always alternate? is the first one static?). **If there are no singing Deathsingers, the phase resets in roughly 10 seconds.** As of the Sept-22-2022 hotfix, no longer treated as an treated as an [elite for purposes of damage calculation](https://www.reddit.com/r/DestinyTheGame/comments/x0r0on/wardcliff_coil_doesnt_do_extra_damage_to_vehicles/).
 
 **Ir Anûk, Deathsinger**
 
