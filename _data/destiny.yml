@@ -1,6 +1,63 @@
 power:
-  min: 1350
-  max: 1580
+  min: 1600
+  max: 1810
+  recommended:
+    vow: 1550
+    kf: 1580
+
+raids:
+  ron:
+    max_enemy_power: 1800
+    encounters: 
+    - {name: "Cataclysm", objective: "Survive the Onslaught", area: "Cataclysm", drops: ["auto_rifle", "shotgun", "heavy_grenade_launcher", "Headpiece", "Arms"]}
+    - {name: "Scission", objective: "Charge the Root", area: "Scission", drops: ["sidearm", "shotgun", "heavy_grenade_launcher", "Arms"]}
+    - {name: "Macrocosm", objective: "Defeat the Explicator", area: "Macrocosm", drops: ["auto_rifle", "sidearm", "heavy_grenade_launcher", "Boots", "Class Item"]}
+    - {name: "Nezarec", objective: "Defeat Nezarec", area: "Cataclysm", drops: ["auto_rifle", "trace_rifle", "Headpiece", "Class Item"]}
+    bosses:
+    - {full_title: "Zo'Aurc, Explicator of Planets", name: "Zo'Aurc", enrage: 3, special_attacks: [{name: "Planetary Destruction"}, {name: "Solar Searing Beam"}, {name: "Compression Blast"}]}
+    - {full_title: "Nezarec, Final God of Pain", name: "Nezarec", enrage: 3, special_attacks: [{name: "Overwhelming Energy"}, {name: "Overwhelming Light"}, {name: "Overwhelming Resonance"}, {name: "Null Paroxysm"}, {name: "Abyssal Cleave"}, {name: "Nezarec's Hatred"}, {name: "Abyssal Vortex"}]}
+    special_enemies:
+      shielded_cabal: "Redolence"
+      light_shield: " of Splendor"
+      dark_shield: " of Decay"
+      tormentor: "Cavum of Nezarec"
+      planet_colo: "Terrestrial Lieutenant"
+    mechanics:
+      node: "Node"
+      link_node: "Linkable Node"
+      light_node: "Node of Splendor"
+      dark_node: "Node of Decay"
+    statuses:
+      see_planets: {name: "Planetary Insight"}
+      planet_phase: {name: "Planetary Shift"}
+      move_planets: {name: "Planetary Alignment"}
+      light_field: {name: "Field of Light", time: 19}
+      dark_field: {name: "Flux of Darkness", time: 19}
+      light_refuge: {name: "Light's Refuge", time: 14}
+      dark_refuge: {name: "Darkness's Refuge", time: 14}
+      wipe_timer: {name: "Sweeping Terror", time: 34}
+      floor_timer: {name: "Imminent Expulsion", time: 120}
+      hatred: {name: "Nezarec's Hatred", time: 11}
+    items:
+        exotic: "Conditional Finality"
+        sidearm: "Mykel's Reverence"
+        auto_rifle: "Rufus's Fury"
+        trace_rifle: "Acasia's Dejection"
+        shotgun: "Nessa's Oblation"
+        linear_fusion_rifle: "Briar's Contempt"
+        heavy_grenade_launcher: "Koraxis's Distress"
+        adept_title: " (Adept)"
+  vow:
+    bosses: 
+    - {full_title: "The Caretaker", name: "Caretaker"}
+    - {full_title: "Rhulk, Disciple of the Witness", name: "Rhulk"}
+  kf:
+    bosses:
+    - {full_title: "The Warpriest", name: "Warpriest"}
+    - {full_title: "Golgoroth", name: "Golgoroth"}
+    - {full_title: "Ir Halak, Deathsinger", name: "Ir Halak"}
+    - {full_title: "Ir Anûk, Deathsinger", name: "Ir Anûk"}
+    - {full_title: "Oryx, The Taken King", name: "Oryx"}
 
 drops:
   kf:
