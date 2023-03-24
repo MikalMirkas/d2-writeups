@@ -552,7 +552,7 @@ The glyph secret chest grants the following:
 # Master Difficulty {#master}
 
 Master difficulty applies the following changes to the raid:
-- The power level of each encounter is boosted to {{site.data.destiny.power.max | plus: 20}}
+- The power level of each encounter is boosted to {{site.data.destiny.power.max | plus: 30}}
 - Chaff is enabled
 - All Disciple's Compasses gain Solar shields
 - All Wraiths gain Solar shields

@@ -654,7 +654,7 @@ If the Offering puzzle was completed, the Deepsight chest grants the following:
 
 Master difficulty applies the following changes to the raid:
 - Master difficulty scalar applied to each enemy
-- The power level of each encounter is boosted to {{site.data.destiny.power.max | plus: 20}}
+- The power level of each encounter is boosted to {{site.data.destiny.power.max | plus: 30}}
 - Chaff is enabled
 - Taken Acolytes gain Void shields
 - In the Hall of Souls, the two Taken Vandals near the portal are upgraded to ![Overload Champion]({{"assets/images/destiny/champion_icons/Overload_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Line Rifle-wielding Hobgoblins and one ![Unstoppable Champion]({{"assets/images/destiny/champion_icons/Unstoppable_Champion_icon.png" | relative_url}}){:height="12px" width="12px"} Ogre is added to each side per spawn wave

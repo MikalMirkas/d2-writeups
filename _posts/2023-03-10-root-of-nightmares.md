@@ -14,7 +14,7 @@ tags: raids
 
 - This isn't a guide, this is a mechanic overview. There's many ways to handle these mechanics - do whatever's best for your raid team.
 - Power for final encounter is {{power}} on Legend difficulty and {{site.data.destiny.power.max | plus: 30}} on Master difficulty.
-- Enemy type for the entire raid is Shadow Legion.
+- Enemy type for the entire raid is Shadow Legion Cabal, excluding the final boss.
 
 ## Ammo Generation
 The DPS checks in the raid aren't tight, but if an extra kick is needed for DPS then the following options are available:
@@ -63,7 +63,7 @@ This encounter has four sets of nodes, each set longer than the last one by one 
 
 #### **{{ site.data.destiny.raids.ron.mechanics.light_node }}** / "Light Node" / "Light Seed"
 
-{%capture explanation_light_node%}A node with a Seed of Light floating above the tip. If the node is emitting a blue aura and becomes activated, it will grant the {{ site.data.destiny.raids.ron.statuses.light_field.name }} buff to all players inside while removing that buff from any player that has it and emits a partial blue line to a node that can be linked. The {{ site.data.destiny.raids.ron.mechanics.light_node }} containing an aura is located at two node positions back from the last node linked in the chain, or the first node in the chain otherwise. If activated too rapidly(?), the node temporarily deactivates along with its next link.{%endcapture%}{{explanation_light_node}} Small swarms of Shadow Legion Legionaries appear to spawn from nearby doors whenever a node is activated (testing needed).
+{%capture explanation_light_node%}A node with a Seed of Light floating above the tip. If the node is emitting a blue aura and becomes activated, it will grant the {{ site.data.destiny.raids.ron.statuses.light_field.name }} buff to all players inside while removing that buff from any player that has it and emits a partial blue line to a node that can be linked. The {{ site.data.destiny.raids.ron.mechanics.light_node }} containing an aura is located at two node positions back from the last node linked in the chain, or the first node in the chain otherwise. If activated by someone with {{ site.data.destiny.raids.ron.statuses.light_field.name }}, the node chain deactivates for 15 seconds (testing needed).{%endcapture%}{{explanation_light_node}} Small swarms of Legionaries appear to spawn from nearby doors whenever a node is activated (testing needed).
 
 #### **{{ site.data.destiny.raids.ron.mechanics.link_node }}**
 
@@ -107,7 +107,7 @@ One of the following:
 # Path to {{ site.data.destiny.raids.ron.encounters[1].area }}
 
 ## Mechanics
-### Launch Pads
+### Jump Pads
 The easiest way to kill your flawless run if you're a Warlock. They are activated by damaging a Pyramid Shard in front of it and will launch whatever's in its path. As with all physics-related nonsense in Destiny, it is tied to both angle of approach, momentum and FPS. It can and will launch you into an unrecoverable freefall without Grapple, when hit with sufficient momentum.
 
 ## Hidden Chest
@@ -127,8 +127,8 @@ The objective of the encounter is to grow each floor's node chains.
 - Kill all {{ site.data.destiny.raids.ron.special_enemies.shielded_cabal }}s by using that side's buff
 
 ## Mechanics
-### Launch Pads
-Same as before. There are three on each side that launch across the floor, as well as a fourth one that launches to the next floor that appears when the floor is completed, excluding the final floor.
+### Jump Pads
+Same as before. There are three on each side that launch across the map, as well as a fourth one that launches to the next floor that appears when the floor is completed, excluding the final floor.
 
 ### Nodes / "Pots"
 Identical to the first encounter. {{explanation_node}}
@@ -137,13 +137,16 @@ Identical to the first encounter. {{explanation_node}}
 
 This encounter has two chains of nodes per floor, one Light and one Dark. Each node chain is six nodes long and every successive node changes sides - they are completely static and never change order. Upon completing 4 nodes of a side's color, a {% include destiny/champions.md champ_type='barrier' enemy='Minigun Colossus' style='width=10px' name='true' %} will spawn at the door closest to that side's final node. Upon completing all 12 nodes on a floor, {{ site.data.destiny.raids.ron.statuses.floor_timer.name }} will be removed from all players and print the text ```Your ascent is blocked by interlopers```, spawning several {{ site.data.destiny.raids.ron.special_enemies.shielded_cabal }}s.
 
+##### **Encounter Softlock**
+There is a presumed bug with the encounter currently that if only one side's nodes are completed and their aura is activated, it will cause the aura on the other side to not spawn on their second to last node.
+
 #### **{{ site.data.destiny.raids.ron.mechanics.light_node }}** / "Light Node" / "Light Seed"
 
 Identical to the first encounter. {{explanation_light_node}} Small swarms of Shadow Legion Legionaries appear to spawn from nearby doors whenever a node is activated (testing needed).
 
 #### **{{ site.data.destiny.raids.ron.mechanics.dark_node }}** / "Dark Node" / "Dark Seed"
 
-Mechanically similar to {{ site.data.destiny.raids.ron.mechanics.light_node }}, but Dark-themed instead of Light-themed. {%capture explanation_dark_node%}A node with a Seed of Darkness floating above the tip. If the node is emitting an orange aura and is activated, it will grant the {{ site.data.destiny.raids.ron.statuses.dark_field.name }} buff to all players inside while removing that buff from any player that has it and emits a partial orange line to a node that can be linked. containing an aura is located at two node positions back from the last node linked in the chain, or the first node in the chain otherwise. If activated too rapidly(?), the node temporarily deactivates along with its next link.{%endcapture%}{{explanation_dark_node}}
+Mechanically similar to {{ site.data.destiny.raids.ron.mechanics.light_node }}, but Dark-themed instead of Light-themed. {%capture explanation_dark_node%}A node with a Seed of Darkness floating above the tip. If the node is emitting an orange aura and is activated, it will grant the {{ site.data.destiny.raids.ron.statuses.dark_field.name }} buff to all players inside while removing that buff from any player that has it and emits a partial orange line to a node that can be linked. containing an aura is located at two node positions back from the last node linked in the chain, or the first node in the chain otherwise. If activated by someone with {{ site.data.destiny.raids.ron.statuses.dark_field.name }}, the node chain deactivates for 15 seconds (testing needed).{%endcapture%}{{explanation_dark_node}}
 
 #### **{{ site.data.destiny.raids.ron.mechanics.link_node }}**
 
@@ -164,7 +167,7 @@ Mechanically similar to {{ site.data.destiny.raids.ron.statuses.light_field.name
 
 ### Special Enemies
 #### **{{ site.data.destiny.raids.ron.special_enemies.shielded_cabal }} of Splendor / Decay**
-Shadow Cabal enemies that are immune to all damage from players without the matching Field. They spawn periodically, with position changing depending on how many nodes have been completed on the side they spawn on.
+Also referred to as Sunblighted enemies. Shadow Cabal enemies that are immune to all damage from players without the matching Field. They spawn periodically, with position changing depending on how many nodes have been completed on the side they spawn on.
 - Exclusively minor Centurions passively(?) spawn until a side has been completed
 - A Psion, boss Centurion and Legionary spawn on each side when a floor's nodes have been completed.
 
@@ -208,7 +211,7 @@ Same as normal.
 ### Statuses
 
 #### **{{ site.data.destiny.raids.ron.statuses.dark_refuge.name }}**
-{%capture explanation_dark_refuge%}Lasts {{ site.data.destiny.raids.ron.statuses.dark_refuge.time }} seconds. Provides immunity to Overwhelming Resonance. Continously applied to any players standing on or somewhat above an activated {{ site.data.destiny.raids.ron.mechanics.dark_node }}. Activation lifetime is roughly 8 seconds and the plate will glow orange while activated. The node activates when a player interacts with the node while in possession of a {{ site.data.destiny.raids.ron.statuses.light_field.name }} buff. Gaining a Refuge will overwrite any active ones.{%endcapture%}{{explanation_dark_refuge}}
+{%capture explanation_dark_refuge%}Lasts {{ site.data.destiny.raids.ron.statuses.dark_refuge.time }} seconds. Provides immunity to Overwhelming Energy. Continously applied to any players standing on or somewhat above an activated {{ site.data.destiny.raids.ron.mechanics.dark_node }}. Activation lifetime is roughly 8 seconds and the plate will glow orange while activated. The node activates when a player interacts with the node while in possession of a {{ site.data.destiny.raids.ron.statuses.light_field.name }} buff. Gaining a Refuge will overwrite any active ones.{%endcapture%}{{explanation_dark_refuge}}
 
 ## Hidden Chest
 The second hidden chest behind a closed door on top of the Pyramid, after the first group door. The door is openable by hitting a hidden switch located below the right side of the Pyramid.
@@ -218,7 +221,7 @@ As a reminder, there's a red chest node in this zone.
 ---
 
 # {{ site.data.destiny.raids.ron.encounters[2].objective }} {#{{ site.data.destiny.raids.ron.encounters[2].area | downcase | url_encode}}}
-Caretaker 2: Electric Boogaloo. [Encounter map can be found here.](https://i.imgur.com/nIhkjxF.jpeg) I recommend not using those callouts as internally inconsistent callouts are bad.
+Caretaker 2: Electric Boogaloo. [Encounter map can be found here.](https://i.imgur.com/nIhkjxF.jpeg) I recommend not using those callouts as internally inconsistent callouts are bad. I recommend left/mid/right as it works for every set of callouts and is directionally absolute.
 
 ## Objective
 The objective of the encounter is to defeat {{ site.data.destiny.raids.ron.bosses[0].full_title }}.
@@ -270,16 +273,16 @@ Lasts for 7 seconds. Allows {{ site.data.destiny.raids.ron.bosses[0].name }} to 
 Spawns as part of the progressive enemy spawns. One spawns on each side, with a Solar shield. When a side's Centurion dies, they spawn a {{ site.data.destiny.raids.ron.special_enemies.planet_colo}} on their side's planet plates.
 
 #### **{{ site.data.destiny.raids.ron.special_enemies.planet_colo}}**
-A miniboss Minigun Colossus. Spawns in sets of two when their side's Honored Centurion dies.
+A miniboss Minigun Colossus. Spawns on each plate after the Centurion dies, respective of the side that it spawned from.
 
 #### **{{ site.data.destiny.raids.ron.bosses[0].full_title }}**
-Boss. Has the Incendior moveset, in addition to the following special attacks:
+Boss. As per every Destiny raid boss, he's immune to all damage until damage phase. Has a health gate per plate which requires additional testing to determine how it works. Has the Incendior moveset and hitboxes, in addition to the following special attacks:
 
 ##### **{{ site.data.destiny.raids.ron.bosses[0].special_attacks[0].name }}**
 Wipe attack. Cast upon running out of time in the plate phases, inputting the wrong planets in the Inner Plate Phase or after resolving damage phase {{ site.data.destiny.raids.ron.bosses[0].enrage }} times. Presumably also cast during Final Stand if the DPS check fails.
 
 ##### **{{ site.data.destiny.raids.ron.bosses[0].special_attacks[1].name }}**
-Cast upon switching alignment during the damage phase (```The Explicator shifts focus```). Creeps from the boss towards the first activated plate corresponding to his alignment or, presumably, the center plate otherwise. After being cast 3 times, damage phase ends and the Outer Plate Phase starts.
+Cast upon taking enough damage during damage phase or presumably taking more than 7 seconds to trigger his health gate. Upon cast, he switches alignment - (```The Explicator shifts focus```). Creeps from the boss towards the first activated plate corresponding to his alignment or, presumably, the center plate otherwise. After being cast 3 times, damage phase ends and the Outer Plate Phase starts.
 
 ## Weekly Challenge: Crossfire
 Challenge currently unavailable.
@@ -336,11 +339,11 @@ Same as normal. {{explanation_link_node}}
 
 ### Statuses
 
+#### **{{ site.data.destiny.raids.ron.statuses.dark_refuge.name }}**
+Same as before, but provides immunity to Overwhelming Resonance now instead of Overwhelming Energy. {{explanation_dark_refuge | replace: "Energy", "Resonance" }}
+
 #### **{{ site.data.destiny.raids.ron.statuses.light_refuge.name }}**
 Functionally identical to {{ site.data.destiny.raids.ron.statuses.dark_refuge.name }}, but Light-flavoured instead of Dark. Lasts {{ site.data.destiny.raids.ron.statuses.light_refuge.time }} seconds. Provides immunity to Overwhelming Light. Continously applied to any players standing on or somewhat above an activated {{ site.data.destiny.raids.ron.mechanics.light_node }}. Activation lifetime is roughly 8 seconds and the plate will glow blue while activated. The node activates when a player interacts with the node while in possession of a {{ site.data.destiny.raids.ron.statuses.dark_field.name }} buff. Gaining a Refuge will overwrite any active ones.
-
-#### **{{ site.data.destiny.raids.ron.statuses.dark_refuge.name }}**
-Same as before. {{explanation_dark_refuge}}
 
 #### **{{ site.data.destiny.raids.ron.statuses.hatred.name }}**
 Has two variants depending on boss state. Further explained in the {{site.data.destiny.raids.ron.bosses[1].special_attacks[5].name}} section.
@@ -397,7 +400,24 @@ The node red chest grants the following:
 
 ---
 
+# Master Difficulty {#master}
+
+Master difficulty applies the following changes to the raid:
+- Master difficulty scalar applied to each enemy
+- The power level of each encounter is boosted
+- Chaff is enabled
+- More details to come
+
+## Reward Adjustments
+
+All encounter chest rewards are overwritten with high-stat armor, specializing on a specific stat per a weekly rotation. All challenge chest rewards are overwritten with any Harrowed weapon from the raid, prioritizing those that have not yet been obtained. The elective difficulty challenge chests share a different lockout than the normal mode challenge chests.
+
+---
+
 # End {#end}
 
 ## Spoils Chest
-Weapons that have been obtained from the raid can be purchased here. The first weapon purchase per week is guaranteed Deepsight Resonance, per week on an account-wide lockout. Subsequent purchases have no chance to be Deepsighted.
+Weapons and armor that have been obtained from the raid can be purchased here. The first weapon purchase per week has guaranteed Deepsight Resonance, per week on an account-wide lockout. Subsequent purchases cannot be Deepsighted.
+
+## Special Thanks
+- [brekcut](https://www.twitch.tv/brekcut) for proofreading, recording the day1 and providing feedback.

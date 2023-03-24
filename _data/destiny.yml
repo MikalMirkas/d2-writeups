@@ -14,7 +14,7 @@ raids:
     - {name: "Macrocosm", objective: "Defeat the Explicator", area: "Macrocosm", drops: ["auto_rifle", "sidearm", "heavy_grenade_launcher", "Boots", "Class Item"]}
     - {name: "Nezarec", objective: "Defeat Nezarec", area: "Cataclysm", drops: ["auto_rifle", "trace_rifle", "Headpiece", "Class Item"]}
     bosses:
-    - {full_title: "Zo'Aurc, Explicator of Planets", name: "Zo'Aurc", enrage: 3, special_attacks: [{name: "Planetary Destruction"}, {name: "Solar Searing Beam"}, {name: "Compression Blast"}]}
+    - {full_title: "Zo'Aurc, Explicator of Planets", name: "Zo'Aurc", enrage: 3, special_attacks: [{name: "Planetary Destruction"}, {name: "Solar Flare Whirlwind"}, {name: "Compression Blast"}]}
     - {full_title: "Nezarec, Final God of Pain", name: "Nezarec", enrage: 3, special_attacks: [{name: "Overwhelming Energy"}, {name: "Overwhelming Light"}, {name: "Overwhelming Resonance"}, {name: "Null Paroxysm"}, {name: "Abyssal Cleave"}, {name: "Nezarec's Hatred"}, {name: "Abyssal Vortex"}]}
     special_enemies:
       shielded_cabal: "Redolence"
