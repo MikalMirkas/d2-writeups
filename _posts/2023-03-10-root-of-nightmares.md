@@ -89,7 +89,7 @@ During each phase, two shielded elite Psions spawn with the killfeed line ```An 
 A recurring Tormentor boss, spawned after Psions die (log line: ```Pain calls forth a Tormentor```). Killing them extends the {{ site.data.destiny.raids.ron.statuses.wipe_timer.name }} timer by 34 seconds denoted with the killfeed line ```His hatred is momentarily delayed...```.
 
 ## Weekly Challenge: Illuminated Torment
-Challenge currently unavailable.
+Challenge currently unavailable. Available March 28th, 2023.
 
 ## Triumph Challenge: Psionic Surge
 Each set of Psions must be killed within 1 second of each other.
@@ -172,7 +172,7 @@ Also referred to as Sunblighted enemies. Shadow Cabal enemies that are immune to
 - A Psion, boss Centurion and Legionary spawn on each side when a floor's nodes have been completed.
 
 ## Weekly Challenge: Crossfire
-Challenge currently unavailable.
+Challenge details unknown until April 4th, 2023.
 
 ## Triumph Challenge: Shields Up
 No {{ site.data.destiny.raids.ron.special_enemies.shielded_cabal }}s can be killed while {{ site.data.destiny.raids.ron.statuses.floor_timer.name }} is active.
@@ -236,7 +236,7 @@ The objective of the encounter is to defeat {{ site.data.destiny.raids.ron.bosse
 ## Mechanics
 
 ### Enrage Timer
-There is a hidden timer to reach damage phase, which is roughly 3 minutes (testing required). Failure to comply with this timer will result in the boss casting {{ site.data.destiny.raids.ron.bosses[0].special_attacks[0].name }}, wiping the raid.
+There is a hidden timer to reach damage phase, which is roughly 3 minutes (testing required), which is roughly enough time for 3 iterations of {{ site.data.destiny.raids.ron.statuses.planet_phase.name }}. It can be seen as the Shadow Cabal logo embedded on the floor near where the boss spawns. The symbol progressively fills up with orange. When it's full, the boss will cast {{ site.data.destiny.raids.ron.bosses[0].special_attacks[0].name }}.
 
 ### Planets
 Each planet has a hidden alignment to either Light or Dark. There are 5 planets per side and planets can only be moved by swapping position with another planet. Light planets must be placed on the left side of the room and vice-versa to enter the Inner Plate Phase, which leads to damage phase. The planets have collision boxes.
@@ -284,8 +284,8 @@ Wipe attack. Cast upon running out of time in the plate phases, inputting the wr
 ##### **{{ site.data.destiny.raids.ron.bosses[0].special_attacks[1].name }}**
 Cast upon taking enough damage during damage phase or presumably taking more than 7 seconds to trigger his health gate. Upon cast, he switches alignment - (```The Explicator shifts focus```). Creeps from the boss towards the first activated plate corresponding to his alignment or, presumably, the center plate otherwise. After being cast 3 times, damage phase ends and the Outer Plate Phase starts.
 
-## Weekly Challenge: Crossfire
-Challenge currently unavailable.
+## Weekly Challenge: Cosmic Equilibrium
+Challenge details unknown until April 11th, 2023 (when GMs drop).
 
 ## Triumph Challenge: Singular Orbit
 A player cannot gain {{ site.data.destiny.raids.ron.statuses.see_planets.name }} twice per damage phase.
@@ -375,8 +375,8 @@ Always used before the channel for {{site.data.destiny.raids.ron.bosses[1].speci
 ##### **Dark Harvest**
 Not used. Being extremely close to {{ site.data.destiny.raids.ron.bosses[1].name }} after {{ site.data.destiny.raids.ron.bosses[1].special_attacks[3].name }} can break his AI due to this attack not being present in his moveset.
 
-## Weekly Challenge: Cosmic Equilibrium
-Challenge currently unavailable.
+## Weekly Challenge: All Hands
+Challenge details unknown until April 18th, 2023.
 
 ## Triumph Challenge: Synchronicity
 If a node chain is finished, an accompanying node chain must be completed within 5 seconds of each other.
