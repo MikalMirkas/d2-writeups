@@ -14,7 +14,7 @@ tags: raids
 
 - This isn't a guide, this is a mechanic overview. There's many ways to handle these mechanics - do whatever's best for your raid team.
 - Power for final encounter is {{power}} on Legend difficulty and {{site.data.destiny.power.max | plus: 30}} on Master difficulty.
-- Enemy type for the entire raid is Shadow Legion Cabal, excluding the final boss.
+- Enemy type for the entire raid is Shadow Legion Cabal. Final boss might be counted as Shadow Legion, but I haven't tested it.
 
 ## Ammo Generation
 The DPS checks in the raid aren't tight, but if an extra kick is needed for DPS then the following options are available:
@@ -32,7 +32,7 @@ Before the first large dropdown after a couple of small packs of Cabal, there is
 
 ## Locations
 The three rooms are as follows:
-- In the pyramid leading to the first encounter, continue to the right instead of ascending the root.
+- In the ship leading to the first encounter, continue to the right instead of ascending the root.
 - Inside the broken ship found at a left fork during the climb to the third encounter.
 - At the end of the right-side branching path before the final encounter.
 
@@ -55,15 +55,15 @@ The objective of the encounter is to complete all four node chains.
 ## Mechanics
 ### Nodes / "Pots"
 
-Nodes are the primary raid mechanic for most encounters. **Node functionality is expanded per encounter.** Descriptions within will be encounter-specific. {%capture explanation_node%}All nodes in any encounter contain a ridged plate and pointed tip. Nodes have several different states, each one can be identified by a glowing aura and/or a floating object above the tip. The nodes give hitmarkers from either a non-ranged melee attack on the plate or weapon usage on the floating object. Can be activated by attacking the node under certain conditions and requires the player who activated it to be on or be slightly above the plate.{%endcapture%}
+Nodes are the primary raid mechanic for most encounters. **Node functionality is expanded per encounter.** Descriptions within will be encounter-specific. {%capture explanation_node%}All nodes in any encounter contain a ridged plate and pointed tip. Nodes have several different states, each one can be identified by a glowing aura and/or a floating object above the tip. The nodes give hitmarkers from either a non-ranged melee attack on the plate or weapon usage on the floating object. Can be activated by attacking the node under certain conditions and requires the player who activated it to be within roughly melee distance of the tip.{%endcapture%}
 
 #### **Node Chains** / Node Sets
 
-This encounter has four sets of nodes, each set longer than the last one by one node. Initial node chain is five nodes long. Upon completing the node chain, {{ site.data.destiny.raids.ron.statuses.wipe_timer.name }} will be removed from all players, denoted with the killfeed line ```His hatred halts...```. When a new node chain starts, the debuff comes back with the kill log: ```His hatred blooms once more...```.
+This encounter has four sets of nodes, each set longer than the last one by one node. Initial node chain is five nodes long. Upon completing the node chain, {{ site.data.destiny.raids.ron.statuses.wipe_timer.name }} will be removed from all players, denoted with the killfeed line ```His hatred halts...```. When a new node chain starts, the debuff comes back with the kill log: ```His hatred blooms once more...```. When a chain is finished, a couple sets of enemies will spawn, including a Centurion.
 
 #### **{{ site.data.destiny.raids.ron.mechanics.light_node }}** / "Light Node" / "Light Seed"
 
-{%capture explanation_light_node%}A node with a Seed of Light floating above the tip. If the node is emitting a blue aura and becomes activated, it will grant the {{ site.data.destiny.raids.ron.statuses.light_field.name }} buff to all players inside while removing that buff from any player that has it and emits a partial blue line to a node that can be linked. The {{ site.data.destiny.raids.ron.mechanics.light_node }} containing an aura is located at two node positions back from the last node linked in the chain, or the first node in the chain otherwise. If activated by someone with {{ site.data.destiny.raids.ron.statuses.light_field.name }}, the node chain deactivates for 15 seconds (testing needed).{%endcapture%}{{explanation_light_node}} Small swarms of Legionaries appear to spawn from nearby doors whenever a node is activated (testing needed).
+{%capture explanation_light_node%}A node with a Seed of Light floating above the tip. If the node is emitting a blue aura and becomes activated, it will grant the {{ site.data.destiny.raids.ron.statuses.light_field.name }} buff to all players inside while removing that buff from any player that has it and emits a partial blue line to a node that can be linked. The {{ site.data.destiny.raids.ron.mechanics.light_node }} containing an aura is located at two node positions back from the last node linked in the chain, or the first node in the chain otherwise. If activated by someone who shot the last {{ site.data.destiny.raids.ron.mechanics.light_node }} with an aura and currently has {{ site.data.destiny.raids.ron.statuses.light_field.name }} before activating the next {{ site.data.destiny.raids.ron.mechanics.link_node }} in its chain, the node chain becomes disrupted for roughly 15 seconds with the text ```A node of splendor has been disrupted```.{%endcapture%}{{explanation_light_node}} Small swarms of Legionaries appear to spawn from nearby doors whenever a node is activated (testing needed).
 
 #### **{{ site.data.destiny.raids.ron.mechanics.link_node }}**
 
@@ -88,19 +88,25 @@ During each phase, two shielded elite Psions spawn with the killfeed line ```An 
 
 A recurring Tormentor boss, spawned after Psions die (log line: ```Pain calls forth a Tormentor```). Killing them extends the {{ site.data.destiny.raids.ron.statuses.wipe_timer.name }} timer by 34 seconds denoted with the killfeed line ```His hatred is momentarily delayed...```.
 
-## Weekly Challenge: Illuminated Torment
-Challenge currently unavailable. Available March 28th, 2023.
+## Challenge: Illuminated Torment
+Any time a {{ site.data.destiny.raids.ron.special_enemies.tormentor }} is slain, the final blow must be from a player with {{ site.data.destiny.raids.ron.statuses.light_field.name }}.
 
-## Triumph Challenge: Psionic Surge
+## Encounter Triumph: Psionic Surge
 Each set of Psions must be killed within 1 second of each other.
+
+## Master Differences
+- Each Centurion from the node chain resolution spawn wave is upgraded to a {% include destiny/champions.md champ_type='barrier' enemy='Railgun Colossus' style='width=10px' name='true' %}.
 
 ## Rewards
 One of the following:
-- {{ site.data.destiny.raids.ron.items.auto_rifle }}
-- {{ site.data.destiny.raids.ron.items.shotgun }}
-- {{ site.data.destiny.raids.ron.items.heavy_grenade_launcher }}
+- {{ site.data.destiny.raids.ron.items.auto_rifle }} (Legend only)
+- {{ site.data.destiny.raids.ron.items.shotgun }} (Legend only)
+- {{ site.data.destiny.raids.ron.items.heavy_grenade_launcher }} (Legend only)
 - Headpiece
 - Arms
+
+If the challenge has been completed on Master:
+- {{ site.data.destiny.raids.ron.items.sidearm }} {{ site.data.destiny.raids.ron.items.adept_title }}
 
 ---
 
@@ -134,35 +140,29 @@ Same as before. There are three on each side that launch across the map, as well
 Identical to the first encounter. {{explanation_node}}
 
 #### **Node Chains** / Node Sets
-
 This encounter has two chains of nodes per floor, one Light and one Dark. Each node chain is six nodes long and every successive node changes sides - they are completely static and never change order. Upon completing 4 nodes of a side's color, a {% include destiny/champions.md champ_type='barrier' enemy='Minigun Colossus' style='width=10px' name='true' %} will spawn at the door closest to that side's final node. Upon completing all 12 nodes on a floor, {{ site.data.destiny.raids.ron.statuses.floor_timer.name }} will be removed from all players and print the text ```Your ascent is blocked by interlopers```, spawning several {{ site.data.destiny.raids.ron.special_enemies.shielded_cabal }}s.
 
 ##### **Encounter Softlock**
 There is a presumed bug with the encounter currently that if only one side's nodes are completed and their aura is activated, it will cause the aura on the other side to not spawn on their second to last node.
 
 #### **{{ site.data.destiny.raids.ron.mechanics.light_node }}** / "Light Node" / "Light Seed"
-
 Identical to the first encounter. {{explanation_light_node}} Small swarms of Shadow Legion Legionaries appear to spawn from nearby doors whenever a node is activated (testing needed).
 
 #### **{{ site.data.destiny.raids.ron.mechanics.dark_node }}** / "Dark Node" / "Dark Seed"
-
-Mechanically similar to {{ site.data.destiny.raids.ron.mechanics.light_node }}, but Dark-themed instead of Light-themed. {%capture explanation_dark_node%}A node with a Seed of Darkness floating above the tip. If the node is emitting an orange aura and is activated, it will grant the {{ site.data.destiny.raids.ron.statuses.dark_field.name }} buff to all players inside while removing that buff from any player that has it and emits a partial orange line to a node that can be linked. containing an aura is located at two node positions back from the last node linked in the chain, or the first node in the chain otherwise. If activated by someone with {{ site.data.destiny.raids.ron.statuses.dark_field.name }}, the node chain deactivates for 15 seconds (testing needed).{%endcapture%}{{explanation_dark_node}}
+Mechanically similar to {{ site.data.destiny.raids.ron.mechanics.light_node }}, but Dark-themed instead of Light-themed. {%capture explanation_dark_node%}A node with a Seed of Darkness floating above the tip. If the node is emitting an orange aura and is activated, it will grant the {{ site.data.destiny.raids.ron.statuses.dark_field.name }} buff to all players inside while removing that buff from any player that has it and emits a partial orange line to a node that can be linked. containing an aura is located at two node positions back from the last node linked in the chain, or the first node in the chain otherwise. If activated by someone who shot the last {{ site.data.destiny.raids.ron.mechanics.dark_node }} with an aura and currently has {{ site.data.destiny.raids.ron.statuses.dark_field.name }} before activating the next {{ site.data.destiny.raids.ron.mechanics.link_node }} in its chain, the node chain becomes disrupted for roughly 15 seconds with the text ```A node of decay has been disrupted```.{%endcapture%}{{explanation_dark_node}}
 
 #### **{{ site.data.destiny.raids.ron.mechanics.link_node }}**
-
 Identical to the first encounter, but supports {{ site.data.destiny.raids.ron.statuses.dark_field.name }} now. {%capture explanation_link_node%}A node with a floating ball of black liquid above the tip, with a disjointed partial line to the most recently activated aura node in its chain. If activated by a player with the buff that matches the theme of the line, it will transform into a node matching the buff's theme and consume the buff.{%endcapture%}{{explanation_link_node}}
 
 ### Statuses
 
 #### **{{ site.data.destiny.raids.ron.statuses.floor_timer.name }}**
-
 Lasts {{ site.data.destiny.raids.ron.statuses.floor_timer.time }} seconds. Gained when a phase starts. A phase starts either when a Field buff is gained for the first time on a new floor, or after roughly 10 seconds when the following text is printed in the kill log: ```Energy travels upwards, beckoning you```. When the timer times out, the raid wipes after a short delay. Removed upon the floor's nodes being completed.
 
 #### **{{ site.data.destiny.raids.ron.statuses.light_field.name }}**
 Same as the first encounter. {{description_light_field}}
 
 #### **{{ site.data.destiny.raids.ron.statuses.dark_field.name }}**
-
 Mechanically similar to {{ site.data.destiny.raids.ron.statuses.light_field.name }}. Dark-themed instead of Light-themed. {% capture description_dark_field %}Lasts {{ site.data.destiny.raids.ron.statuses.dark_field.time }} seconds. Gained from being on a {{ site.data.destiny.raids.ron.mechanics.dark_node }} when it activates. Consumed when extending the node chain by activating a {{ site.data.destiny.raids.ron.mechanics.link_node | downcase}} when it is emitting an orange line.{%endcapture%}{{description_dark_field}}
 
 ### Special Enemies
@@ -171,23 +171,25 @@ Also referred to as Sunblighted enemies. Shadow Cabal enemies that are immune to
 - Exclusively minor Centurions passively(?) spawn until a side has been completed
 - A Psion, boss Centurion and Legionary spawn on each side when a floor's nodes have been completed.
 
-## Weekly Challenge: Crossfire
+## Challenge: Crossfire
 Challenge details unknown until April 4th, 2023.
 
-## Triumph Challenge: Shields Up
+## Encounter Triumph: Shields Up
 No {{ site.data.destiny.raids.ron.special_enemies.shielded_cabal }}s can be killed while {{ site.data.destiny.raids.ron.statuses.floor_timer.name }} is active.
+
+## Master Differences
+- Unknown. Supposedly an {% include destiny/champions.md champ_type='unstop' enemy='Incendior' style='width=10px' name='true' %} spawns periodically.
 
 ## Rewards
 One of the following:
-- {{ site.data.destiny.raids.ron.items.sidearm }}
-- {{ site.data.destiny.raids.ron.items.shotgun }}
-- {{ site.data.destiny.raids.ron.items.heavy_grenade_launcher }}
+- {{ site.data.destiny.raids.ron.items.sidearm }} (Legend only)
+- {{ site.data.destiny.raids.ron.items.shotgun }} (Legend only)
+- {{ site.data.destiny.raids.ron.items.heavy_grenade_launcher }} (Legend only)
 - Arms
 
 ---
 
 # Path to {{ site.data.destiny.raids.ron.encounters[2].area }}
-
 To keep this section brief, all mechanic rehashes will be omitted.
 
 ## Objective
@@ -203,7 +205,7 @@ Reach the end of the Overwhelming Energy gauntlet.
 ### Nodes / "Pots"
 
 #### **{{ site.data.destiny.raids.ron.mechanics.light_node }}** / "Light Node" / "Light Seed"
-Same as normal, but every node has an aura.
+Same as normal, but every node has an aura. Nodes cannot be disrupted.
 
 #### **{{ site.data.destiny.raids.ron.mechanics.dark_node }}** / "Dark Node" / "Dark Seed"
 Same as normal.
@@ -216,7 +218,7 @@ Same as normal.
 ## Hidden Chest
 The second hidden chest behind a closed door on top of the Pyramid, after the first group door. The door is openable by hitting a hidden switch located below the right side of the Pyramid.
 
-As a reminder, there's a red chest node in this zone.
+As a reminder, there's a red chest node in this zone before the first group door.
 
 ---
 
@@ -284,24 +286,27 @@ Wipe attack. Cast upon running out of time in the plate phases, inputting the wr
 ##### **{{ site.data.destiny.raids.ron.bosses[0].special_attacks[1].name }}**
 Cast upon taking enough damage during damage phase or presumably taking more than 7 seconds to trigger his health gate. Upon cast, he switches alignment - (```The Explicator shifts focus```). Creeps from the boss towards the first activated plate corresponding to his alignment or, presumably, the center plate otherwise. After being cast 3 times, damage phase ends and the Outer Plate Phase starts.
 
-## Weekly Challenge: Cosmic Equilibrium
+## Challenge: Cosmic Equilibrium
 Challenge details unknown until April 11th, 2023 (when GMs drop).
 
-## Triumph Challenge: Singular Orbit
+## Encounter Triumph: Singular Orbit
 A player cannot gain {{ site.data.destiny.raids.ron.statuses.see_planets.name }} twice per damage phase.
+
+## Master Differences
+- Each {{ site.data.destiny.raids.ron.special_enemies.planet_colo}} is upgraded to a {% include destiny/champions.md champ_type='barrier' enemy='Railgun Colossus' style='width=10px' name='true' %}.
 
 ## Rewards
 One of the following:
-- {{ site.data.destiny.raids.ron.items.auto_rifle }}
-- {{ site.data.destiny.raids.ron.items.sidearm }}
-- {{ site.data.destiny.raids.ron.items.heavy_grenade_launcher }}
+- {{ site.data.destiny.raids.ron.items.auto_rifle }} (Legend only)
+- {{ site.data.destiny.raids.ron.items.sidearm }} (Legend only)
+- {{ site.data.destiny.raids.ron.items.heavy_grenade_launcher }} (Legend only)
 - Boots
 - Class Item
 
 ---
 
 # Path to {{ site.data.destiny.raids.ron.encounters[3].area }}
-As a reminder, there's a red chest node before starting the next encounter.
+As a reminder, there's a red chest node before starting the next encounter located on the final fork before Nezarec.
 
 ---
 
@@ -375,20 +380,23 @@ Always used before the channel for {{site.data.destiny.raids.ron.bosses[1].speci
 ##### **Dark Harvest**
 Not used. Being extremely close to {{ site.data.destiny.raids.ron.bosses[1].name }} after {{ site.data.destiny.raids.ron.bosses[1].special_attacks[3].name }} can break his AI due to this attack not being present in his moveset.
 
-## Weekly Challenge: All Hands
+## Challenge: All Hands
 Challenge details unknown until April 18th, 2023.
 
-## Triumph Challenge: Synchronicity
+## Encounter Triumph: Synchronicity
 If a node chain is finished, an accompanying node chain must be completed within 5 seconds of each other.
+
+## Master Differences
+- Each Honored Colossus is upgraded to a {% include destiny/champions.md champ_type='barrier' enemy='Railgun Colossus' style='width=10px' name='true' %}.
 
 ## Rewards
 One of the following:
-- {{ site.data.destiny.raids.ron.items.sidearm }}
-- {{ site.data.destiny.raids.ron.items.auto_rifle }}
-- {{ site.data.destiny.raids.ron.items.trace_rifle }}
-- {{ site.data.destiny.raids.ron.items.shotgun }}
-- {{ site.data.destiny.raids.ron.items.linear_fusion_rifle }}
-- {{ site.data.destiny.raids.ron.items.heavy_grenade_launcher }}
+- {{ site.data.destiny.raids.ron.items.sidearm }} (Legend only)
+- {{ site.data.destiny.raids.ron.items.auto_rifle }} (Legend only)
+- {{ site.data.destiny.raids.ron.items.trace_rifle }} (Legend only)
+- {{ site.data.destiny.raids.ron.items.shotgun }} (Legend only)
+- {{ site.data.destiny.raids.ron.items.linear_fusion_rifle }} (Legend only)
+- {{ site.data.destiny.raids.ron.items.heavy_grenade_launcher }} (Legend only)
 - Headpiece
 - Class Item
 
@@ -403,14 +411,12 @@ The node red chest grants the following:
 # Master Difficulty {#master}
 
 Master difficulty applies the following changes to the raid:
-- Master difficulty scalar applied to each enemy
-- The power level of each encounter is boosted
-- Chaff is enabled
-- More details to come
+- Master difficulty modifiers become applied
+- Each encounter gets additional champions
 
 ## Reward Adjustments
 
-All encounter chest rewards are overwritten with high-stat armor, specializing on a specific stat per a weekly rotation. All challenge chest rewards are overwritten with any Harrowed weapon from the raid, prioritizing those that have not yet been obtained. The elective difficulty challenge chests share a different lockout than the normal mode challenge chests.
+All encounter chest rewards are overwritten with high-stat armor, specializing on a specific stat per a weekly rotation. All challenge chest rewards are overwritten with encounter-specific Adept weapons from the raid. The elective difficulty challenge chests share a different lockout than the normal mode challenge chests.
 
 ---
 
